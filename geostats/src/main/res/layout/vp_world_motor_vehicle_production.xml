@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/MotorVehicleProduction"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/Total"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/China"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/USA"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Japan"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Germany1"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/SouthKorea2"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/India"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Brazil"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Mexico"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Thailand"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Canada"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/MotorVehiclesProductionWorld10"/>
+		    </TableRow>
+		</TableLayout>
+		<TextView
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/GermanyAd1"/>
+		<TextView
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/SouthCoreaAd2"/>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

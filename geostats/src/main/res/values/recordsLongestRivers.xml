@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- LONGEST RIVERS WORLD -->
+    <string name="LongestRiversWorld01">@string/LongestRiversSAmericaNew01</string>
+	<string name="LongestRiversWorld02">@string/LongestRiversAfrica01</string>
+	<string name="LongestRiversWorld03">@string/LongestRiversAsia01</string>
+	<string name="LongestRiversWorld04">@string/LongestRiversNAmerica01</string>
+	<string name="LongestRiversWorld05">@string/LongestRiversAsia02</string>
+	<string name="LongestRiversWorld06">@string/LongestRiversAsia03</string>
+	<string name="LongestRiversWorld07">@string/LongestRiversAsia04</string>
+	<string name="LongestRiversWorld08">@string/LongestRiversAfrica02</string>
+	<string name="LongestRiversWorld09">@string/LongestRiversSAmerica02</string>
+	<string name="LongestRiversWorld10">@string/LongestRiversAsia05</string>
+	<string name="LongestRiversWorld11">@string/LongestRiversAsia06</string>
+	<string name="LongestRiversWorld12">@string/LongestRiversAsia07</string>
+	<string name="LongestRiversWorld13">@string/LongestRiversAsia08</string>
+	<string name="LongestRiversWorld14">@string/LongestRiversNAmerica02</string>
+	<string name="LongestRiversWorld15">@string/LongestRiversAfrica03</string>
+	<string name="LongestRiversWorld16">@string/LongestRiversNAmerica03</string>
+	<string name="LongestRiversWorld17">@string/LongestRiversNAmerica04</string>
+	<string name="LongestRiversWorld18">@string/LongestRiversEurope01</string>
+	<string name="LongestRiversWorld19">@string/LongestRiversAustralia01</string>
+	<string name="LongestRiversWorld20">@string/LongestRiversAsia09</string>
+	
+	<!-- LONGEST RIVERS EUROPE -->
+	<string name="LongestRiversEurope01">3.688</string>
+	<string name="LongestRiversEurope02">2.850</string>
+	<string name="LongestRiversEurope03">2.285</string>
+	<string name="LongestRiversEurope04">2.028</string>
+	<string name="LongestRiversEurope05">1.931</string>
+	
+	<!-- LONGEST RIVERS ASIA -->
+	<string name="LongestRiversAsia01">6.380</string>
+	<string name="LongestRiversAsia02">5.568</string>
+	<string name="LongestRiversAsia03">5.550</string>
+	<string name="LongestRiversAsia04">5.464</string>
+	<string name="LongestRiversAsia05">4.444</string> <!-- WIKI -->
+	<string name="LongestRiversAsia06">4.440</string>
+	<string name="LongestRiversAsia07">4.425</string>
+	<string name="LongestRiversAsia08">4.400</string> <!-- WIKI -->
+	<string name="LongestRiversAsia09">3.596</string> <!-- WIKI -->
+	
+	<!-- LONGEST RIVERS AFRICA -->
+	<string name="LongestRiversAfrica01">6.695</string>
+	<string name="LongestRiversAfrica02">4.667</string>
+	<string name="LongestRiversAfrica03">4.184</string>
+	<string name="LongestRiversAfrica04">2.736</string>
+	<string name="LongestRiversAfrica05">2.490</string>
+	
+	<!-- LONGEST RIVERS NORTH AMERICA -->
+	<string name="LongestRiversNAmerica01">5.969</string>
+	<string name="LongestRiversNAmerica02">4.241</string>
+	<string name="LongestRiversNAmerica03">4.086</string>
+	<string name="LongestRiversNAmerica04">3.765</string>
+	<string name="LongestRiversNAmerica05">3.185</string>
+	
+	<!-- LONGEST RIVERS SOUTH AMERICA -->
+	<string name="LongestRiversSAmericaNew01">7.062</string>
+	<string name="LongestRiversSAmerica01">6.516</string>
+	<string name="LongestRiversSAmerica02">4.500</string>
+	<string name="LongestRiversSAmerica03">3.239</string> <!-- WIKI -->
+	<string name="LongestRiversSAmerica04">3.218</string>
+	<string name="LongestRiversSAmerica05">3.200</string>
+	
+	
+	<!-- LONGEST RIVERS AUSTRALIA -->
+	<string name="LongestRiversAustralia01">3.672</string>
+	<string name="LongestRiversAustralia02">2.844</string>
+	<string name="LongestRiversAustralia03">2.375</string>
+	<string name="LongestRiversAustralia04">1.485</string>
+	<string name="LongestRiversAustralia05">1.339</string>
+</resources>

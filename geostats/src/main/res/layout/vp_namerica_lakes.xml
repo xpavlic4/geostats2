@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+	    
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+        <TableRow style="@style/TableRow.Span">
+	        <TextView
+	            android:layout_span="2"
+	          	style="@style/TextViewTitle"
+	            android:text="@string/LargestLakes"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalSqKm"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LakeSuperior"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestLakesNAmerica01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LakeHuron"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestLakesNAmerica02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LakeMichigan"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestLakesNAmerica03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/GreatBearLake"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestLakesNAmerica04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/GreatSlaveLake"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestLakesNAmerica05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="2"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

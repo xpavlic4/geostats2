@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AthensGreece">Athens, Greece, 10 July 1977</string>
+    <string name="UstShchugerRussia">Ust-Shchuger, Russia, 31 December 1978</string>
+    <string name="TiratZviPalestine">Tirat Zvi, British Mandate of Palestine, 21 June 1942</string>
+    <string name="VerkhoyanskRussia">Verkhoyansk, Siberia, Russia, 5 February 1892</string>
+    <string name="KebiliTunisia">Kebili, Tunisia, 7 July 1931</string>
+    <string name="IfraneMorocco">Ifrane, Morocco, 11 February 1935</string>
+    <string name="DeathValleyUSA">Death Valley, USA, 10 July 1913</string>
+    <string name="SnagCanada">Snag, Yukon, Canada, 3 February 1947</string>
+    <string name="RivadaviaArgentina">Rivadavia, Salta Province, Argentina, 11 December 1905</string>
+    <string name="SarmientoArgentina">Sarmiento, Argentina, 1 June 1907</string>
+    <string name="OodnadattaAustralia">Oodnadatta, South Australia, Australia, 2 January 1960</string>
+    <string name="CharlotteAustralia">Charlotte Pass, New South Wales, Australia, 29 June 1994</string>
+    <string name="VandaStation">Vanda Station, 5 January 1974</string>
+    <string name="VostokStation">Vostok Station, 21 July 1983</string>
+
+</resources>

@@ -1,0 +1,127 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+		<TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Moscow"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope01"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope01Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Paris"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope02"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope02Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       	<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/London"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope03"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope03Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/EssenDusseldorf"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope04"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope04Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Madrid"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope05"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope05Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Milan"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope06"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope06Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/SaintPetersburg"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope07"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope07Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Barcelona"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope08"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope08Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+ 			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Berlin"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope09"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope09Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Roma"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope10"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasEurope10Density"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

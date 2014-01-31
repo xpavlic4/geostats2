@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="HighestShadeTemp">Highest shade temperature</string>
+	<string name="HottestPlace">Hottest place - Annual mean</string>
+	<string name="DriestPlace">Driest place - Annual mean</string>
+	<string name="MostSunshine">Most sunshine - Annual mean</string>
+	<string name="LeastSunshine">Least Sunshine</string>
+	<string name="LowestScreenTemp">Lowest Screen Temperature</string>
+	<string name="ColdestPlace">Coldest place - Annual mean</string>
+	<string name="WettestPlace">Wettest place - Annual mean</string>
+	<string name="MostRainyDays">Most rainy days</string>
+	<string name="WindiestPlace">Windiest place</string>
+	<string name="HighestSurfaceWindSpeedHighAltitude">Highest surface wind speed - High altitude</string>
+	<string name="HighestSurfaceWindSpeedLowAltitude">Highest surface wind speed - Low altitude</string>
+	<string name="HighestSurfaceWindSpeedTornado">Highest surface wind speed - Tornado</string>
+	<string name="GreatestSnowfall">Greatest snowfall</string>
+	<string name="HeaviestHailstones">Heaviest hailstones</string>
+	<string name="ThunderDaysAverage">Thunder -days average</string>
+	<string name="HighestBarometricPressure">Highest barometric pressure</string>
+	<string name="LowestBarometricPressure">Lowest barometric pressure</string>
+	
+</resources>

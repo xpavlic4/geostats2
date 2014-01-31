@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/MajorOceanicTrenches"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/DepthM"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/MarianaTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/MarianaTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/TongaTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/TongaTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/KurilKamchatkaTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/KurilKamchatkaTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/PhilippineTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/PhilippineTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/KermadecTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/KermadecTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/IzuBoninTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/IzuBoninTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/JapanTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/PacificOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/JapanTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/PuertoRicoTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/AtlanticOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/PuertoRicoTrenchRecord"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/PeruChileTrench"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/AtlanticOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/PeruChileTrenchRecord"/>
+		    </TableRow>
+
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

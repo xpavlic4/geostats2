@@ -1,0 +1,104 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
+    
+    <TableLayout style="@style/TableLayout"
+        android:layout_below="@+id/chartNo"
+        android:stretchColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/TopicName"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Value"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/LargestPopulation"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/Moscow"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/LargestPopulationEurope"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/SmallestPopulation"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/VaticanCity"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/SmallestPopulationEurope"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/MostNortherly"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/Reykjavik"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/MostNortherlyEurope"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/MostSoutherly"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/Valletta"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/MostSoutherlyEurope"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/Highest"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/AndorraLaVella"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/HighestCapitalEurope"/>
+	    </TableRow>
+
+	</TableLayout>
+</merge>

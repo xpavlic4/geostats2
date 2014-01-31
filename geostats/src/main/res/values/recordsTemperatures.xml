@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TempHighestEurope">48</string>
+    <string name="TempLowestEurope">-58,1</string>
+    <string name="TempHighestAsia">54</string>
+    <string name="TempLowestAsia">-67,8</string>
+    <string name="TempHighestAfrica">55</string>
+    <string name="TempLowestAfrica">-24</string>
+    <string name="TempHighestNAmerica">56,7</string>
+    <string name="TempLowestNAmerica">-63</string>
+    <string name="TempHighestSAmerica">48,9</string>
+    <string name="TempLowestSAmerica">-32,8</string>
+	<string name="TempHighestAustralia">50,7</string>
+    <string name="TempLowestAustralia">-23</string>
+	<string name="TempHighestAntarctida">15</string>
+    <string name="TempLowestAntarctida">-89,2</string>
+</resources>

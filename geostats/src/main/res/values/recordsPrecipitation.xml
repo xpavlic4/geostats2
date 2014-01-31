@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PrepGreatestEurope">4648,2</string>
+    <string name="PrepLeastEurope">162,6</string>
+    <string name="PrepGreatestAsia">11872</string>
+    <string name="PrepLeastAsia">45,7</string>
+    <string name="PrepGreatestAfrica">10287</string>
+    <string name="PrepLeastAfrica">2,5</string>
+    <string name="PrepGreatestNAmerica">7010,4</string>
+    <string name="PrepLeastNAmerica">30,5</string>
+    <string name="PrepGreatestSAmerica">8991,6</string>
+    <string name="PrepLeastSAmerica">0,8</string>
+	<string name="PrepGreatestAustralia">8034</string>
+    <string name="PrepLeastAustralia">102,9</string>
+	<string name="PrepGreatestAntarctida">800,1</string>
+    <string name="PrepLeastAntarctida">2</string>
+</resources>
+

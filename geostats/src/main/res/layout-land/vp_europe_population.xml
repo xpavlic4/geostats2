@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+	<TableLayout style="@style/TableLayout"
+	    android:shrinkColumns="0">
+	    
+		<TableRow style="@style/TableRow">
+	     <TextView 
+	       	style="@style/TableTextView"
+	         android:text="@string/Population"/>
+	     <TextView 
+	         style="@style/TableTextView.GravityRight"
+	         android:text="@string/PopulationRecordEurope"/>
+		 </TableRow>
+		 <TableRow style="@style/TableRow">
+		     <TextView 
+		       	style="@style/TableTextView"
+		         android:text="@string/PercentOfPopulation"/>
+		     <TextView 
+		         style="@style/TableTextView.GravityRight"
+		         android:text="@string/PercentOfPopulationRecordEurope"/>
+		 </TableRow>
+		 <TableRow style="@style/TableRow">
+		     <TextView 
+		       	style="@style/TableTextView"
+		         android:text="@string/DensitySqKm"/>
+		     <TextView 
+		         style="@style/TableTextView.GravityRight"
+		         android:text="@string/DensitySqKmRecordEurope"/>
+		 </TableRow>
+		 <TableRow style="@style/TableRow.Span">
+		     <Button 
+		      style="@style/TableTextView"
+		      android:text="@string/MostPopulatedCountries"
+		      android:layout_span="2"
+		      android:id="@+id/btDialog3"/>
+		 </TableRow>
+		 <TableRow style="@style/TableRow.Span">
+		     <Button 
+		      style="@style/TableTextView"
+		      android:text="@string/MostPopulatedEUCountries"
+		      android:layout_span="2"
+		      android:id="@+id/btDialog4"/>
+		 </TableRow>
+	</TableLayout>
+</ScrollView>

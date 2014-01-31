@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CrkvicaBosniaHercegovina">Crkvica, Bosnia - Hercegovina</string>
+    <string name="AstrakhanRussia">Astrakhan, Russia</string>
+    <string name="MawsynramIndia">Mawsynram, India</string>
+    <string name="AdenYemen">Aden, Yemen</string>
+    <string name="DebundschaCameroon">Debundscha, Cameroon</string>
+    <string name="WadiHalfaSudan">Wadi Halfa, Sudan</string>
+    <string name="HendersonLakeCanada">Henderson Lake, BC, Canada</string>
+    <string name="BataguesMexico">Batagues, Mexico</string>
+    <string name="QuibdoColombia">Quibdo, Colombia</string>
+    <string name="AricaChile">Arica, Chile</string>
+    <string name="BellendenKerQueensland">Bellenden Ker, Queensland</string>
+    <string name="TroudaninnaSouthAustralia">Troudaninna, South Australia</string>
+    <string name="EastWestAntarctica">along the coast of East and West Antarctica, and over the Antarctic Peninsula</string>
+    <string name="AmundsenScottSouthPoleStation">Amundsen-Scott South Pole Station</string>
+    
+</resources>

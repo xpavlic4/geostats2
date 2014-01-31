@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Greenland">Greenland</string>
+	<string name="NewGuinea">New Guinea</string>
+	<string name="Borneo">Borneo</string>
+	<string name="Madagarcar">Madagarcar</string>
+	<string name="BaffinIsland">Baffin Island</string>
+	<string name="Sumatra">Sumatra</string>
+	<string name="Honshu">Honshu</string>
+	<string name="GreatBritain">Great Britain</string>
+	<string name="VictoriaIsland">Victoria Island</string>
+	<string name="EllesmereIsland">Ellesmere Island</string>
+	<string name="Celebes">Celebes</string>
+	<string name="SouthIsland">South Island, New Zealand</string>
+	<string name="Java">Java</string>
+	<string name="NorthIsland">North Island, New Zealand</string>
+	<string name="Newfoundland">Newfoundland</string>
+	<string name="Cuba">Cuba</string>
+	<string name="Luzon">Luzon</string>
+	<string name="Mindanao">Mindanao</string>
+	<string name="Ireland">Ireland</string>
+    <string name="Iceland">Iceland</string>
+    <string name="Spitsbergen">Spitsbergen</string>
+    <string name="OstrovSevernyy">Ostrov Severnyy</string>
+	<string name="IslaGrandeDeTierraDelFuego">Isla Grande de Tierra del Fuego</string>
+	<string name="IslaDeChiloe">Isla de Chiloé</string>
+	<string name="EastFalkland">East Falkland</string>
+	<string name="WestFalkland">West Falkland</string>
+	<string name="SouthIslandNewZealand">South Island, New Zealand</string>
+	<string name="NorthIslandNewZealand">North Island, New Zealand</string>
+	<string name="Tasmania">Tasmania</string>
+	
+	
+</resources>

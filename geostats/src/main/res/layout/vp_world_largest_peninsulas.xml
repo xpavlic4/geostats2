@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/LargestPeninsulas"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalSqKm"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/ArabianPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/IndianSubcontinent"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/SoutheastPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Labrador"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/SomaliPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/ScandinavianPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/IberianPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/BalkanPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/AnatolianPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/TaymyrPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld10"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/KamchatkaPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld11"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/AntarcticPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld12"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MalayPeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld13"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/YorkePeninsula"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestPeninsulasWorld14"/>
+		    </TableRow>
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

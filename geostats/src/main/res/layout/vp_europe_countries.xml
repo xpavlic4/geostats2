@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+    	<TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/NumberOfCountries"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/NumberOfCountriesRecordEurope"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+	        <Button 
+		        style="@style/TableTextView"
+		        android:text="@string/LargestCountries"
+		        android:layout_span="2"
+		        android:id="@+id/btDialog"/>
+	    </TableRow>
+	     <TableRow style="@style/TableRow.Span">
+	        <Button 
+		        style="@style/TableTextView"
+		        android:text="@string/LargestEUCountries"
+		        android:layout_span="2"
+		        android:id="@+id/btDialog2"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

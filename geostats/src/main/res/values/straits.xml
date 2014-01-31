@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- STRAITS OF ATLANTIC OCEAN -->
+    <string name="StraitOfGibraltar">Strait of Gibraltar</string>
+    <string name="Bosporus">Bosporus</string>
+    <string name="Dardanelles">Dardanelles</string>
+    <string name="LaManche">La Manche</string>
+    <string name="Skagerrak">Skagerrak</string>
+    <string name="Kattegat">Kattegat</string>
+    
+    <!-- STRAITS OF INDIAN OCEAN -->
+    <string name="StraitOfMalacca">Strait of Malacca</string>
+    <string name="StraitOfHormuz">Strait of Hormuz</string>
+    
+    <!-- STRAITS OF ARCTIC OCEAN -->
+    <string name="ProlivVilkitskogo">Proliv Vil\'kitskogo</string>
+    <string name="ProvivKarskiyeVorota">Proviv Karskiye Vorota</string>
+    <string name="DavisStrait">Davis Strait</string>
+    
+    <!-- STRAITS OF PACIFIC OCEAN -->
+    <string name="StraitOfMagellan">Strait of Magellan</string>
+    <string name="BaringStrait">Baring Strait</string>
+    <string name="TorresStrait">Torres Strait</string>
+    
+</resources>

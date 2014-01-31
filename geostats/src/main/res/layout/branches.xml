@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    style="@style/FrameLayoutBody"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btPhyG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PhysicalGeography"/>
+    <Button 
+        android:id="@+id/btPolUrbG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PoliticalUrbanGeography"/>
+    <Button 
+        android:id="@+id/btEconG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EconomicGeography"/>
+
+</LinearLayout>

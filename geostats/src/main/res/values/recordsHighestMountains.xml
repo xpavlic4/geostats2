@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HIGHEST MOUNTAINS WORLD -->
+    <string name="HighestMountainsWorld01">@string/HighestMountainsAsia01</string>
+	<string name="HighestMountainsWorld02">@string/HighestMountainsAsia02</string>
+	<string name="HighestMountainsWorld03">@string/HighestMountainsAsia03</string>
+	<string name="HighestMountainsWorld04">@string/HighestMountainsAsia04</string>
+	<string name="HighestMountainsWorld05">@string/HighestMountainsAsia05</string>
+	<string name="HighestMountainsWorld06">@string/HighestMountainsAsia06</string>
+	<string name="HighestMountainsWorld07">@string/HighestMountainsAsia07</string>
+	<string name="HighestMountainsWorld08">@string/HighestMountainsAsia08</string>
+	<string name="HighestMountainsWorld09">@string/HighestMountainsAsia09</string>
+	<string name="HighestMountainsWorld10">@string/HighestMountainsAsia10</string>
+	<string name="HighestMountainsWorld11">@string/HighestMountainsAsia11</string>
+	<string name="HighestMountainsWorld12">@string/HighestMountainsAsia12</string>
+	<string name="HighestMountainsWorld13">@string/HighestMountainsAsia13</string>
+	<string name="HighestMountainsWorld14">@string/HighestMountainsAsia14</string>
+	<string name="HighestMountainsWorld15">@string/HighestMountainsAsia15</string>
+	<string name="HighestMountainsWorld16">@string/HighestMountainsAsia16</string>
+	<string name="HighestMountainsWorld17">@string/HighestMountainsAsia17</string>
+	<string name="HighestMountainsWorld18">@string/HighestMountainsAsia18</string>
+	<string name="HighestMountainsWorld19">@string/HighestMountainsAsia19</string>
+	<string name="HighestMountainsWorld20">@string/HighestMountainsAsia20</string>
+	
+	<!-- HIGHEST MOUNTAINS EUROPE - Kuma Manych Depression (KMD) http://www.bielefeldt.de/4000e.php?Sorts=height&Aufab=descending&Liste=UIAA -->
+	<string name="HighestMountainsEuropeKMD01">4.810</string>
+	<string name="HighestMountainsEuropeKMD02">4.748</string>
+	<string name="HighestMountainsEuropeKMD03">4.634</string>
+	<string name="HighestMountainsEuropeKMD04">4.609</string>
+	<string name="HighestMountainsEuropeKMD05">4.563</string>
+	
+	<!-- HIGHEST MOUNTAINS EUROPE - Caucasus crest (CC) -->
+	<string name="HighestMountainsEuropeCC01">5.642</string>
+	<string name="HighestMountainsEuropeCC02">5.204</string>
+	<string name="HighestMountainsEuropeCC03">5.201</string>
+	<string name="HighestMountainsEuropeCC04">5.047</string>
+	<string name="HighestMountainsEuropeCC05">4.810</string>
+	
+	<!-- HIGHEST MOUNTAINS ASIA -->
+	<string name="HighestMountainsAsia01">8.848</string>
+	<string name="HighestMountainsAsia02">8.611</string>
+	<string name="HighestMountainsAsia03">8.586</string>
+	<string name="HighestMountainsAsia04">8.516</string>
+	<string name="HighestMountainsAsia05">8.485</string>
+	<string name="HighestMountainsAsia06">8.188</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia07">8.167</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia08">8.163</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia09">8.125</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia10">8.091</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia11">8.080</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia12">8.051</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia13">8.034</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia14">8.027</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia15">7.952</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia16">7.946</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia17">7.937</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia18">7.932</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia19">7.893</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia20">7.885</string> <!-- WIKI -->
+	
+	<!-- HIGHEST MOUNTAINS AFRICA -->
+	<string name="HighestMountainsAfrica01">5.892</string>
+	<string name="HighestMountainsAfrica02">5.199</string>
+	<string name="HighestMountainsAfrica03">5.110</string>
+	<string name="HighestMountainsAfrica04">4.565</string>
+	<string name="HighestMountainsAfrica05">4.533</string>
+	
+	<!-- HIGHEST MOUNTAINS NORTH AMERICA -->
+	<string name="HighestMountainsNAmerica01">6.194</string>
+	<string name="HighestMountainsNAmerica02">5.959</string>
+	<string name="HighestMountainsNAmerica03">5.610</string>
+	<string name="HighestMountainsNAmerica04">5.489</string>
+	<string name="HighestMountainsNAmerica05">5.452</string>
+	
+	<!-- HIGHEST MOUNTAINS SOUTH AMERICA -->
+	<string name="HighestMountainsSAmerica01">6.959</string>
+	<string name="HighestMountainsSAmerica02">6.908</string>
+	<string name="HighestMountainsSAmerica03">6.872</string>
+	<string name="HighestMountainsSAmerica04">6.858</string>
+	<string name="HighestMountainsSAmerica05">6.800</string>
+	
+	<!-- HIGHEST MOUNTAINS AUSTRALIA - Indo-Australian Plate (AP) -->
+	<string name="HighestMountainsAustraliaAP01">5.030</string>
+	<string name="HighestMountainsAustraliaAP02">4.730</string>
+	<string name="HighestMountainsAustraliaAP03">4.700</string>
+	<string name="HighestMountainsAustraliaAP04">4.595</string>
+	<string name="HighestMountainsAustraliaAP05">4.509</string>
+	
+	<!-- HIGHEST MOUNTAINS AUSTRALIA - Australian Continent (AC) http://www.ga.gov.au/education/geoscience-basics/landforms/highest-mountains.html -->
+	<string name="HighestMountainsAustraliaAC01">2.228</string>
+	<string name="HighestMountainsAustraliaAC02">2.209</string>
+	<string name="HighestMountainsAustraliaAC03">2.195</string>
+	<string name="HighestMountainsAustraliaAC04">2.190</string>
+	<string name="HighestMountainsAustraliaAC05">2.180</string>
+	
+	<!-- HIGHEST MOUNTAINS ANTARCTICA -->
+	<string name="HighestMountainsAntarctica01">4.897</string>
+	<string name="HighestMountainsAntarctica02">4.852</string>
+	<string name="HighestMountainsAntarctica03">4.528</string>
+	<string name="HighestMountainsAntarctica04">4.351</string>
+	<string name="HighestMountainsAntarctica05">4.190</string>
+</resources>

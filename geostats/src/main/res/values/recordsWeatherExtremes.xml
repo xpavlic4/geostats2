@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="HighestShadeTempRecord">57.8°C / 136°F Al ´Aziziyah, Libya (13 September 1922)</string>
+	<string name="HottestPlaceRecord">34.4°C / 93.9°F Dalol, Ethiopia</string>
+	<string name="DriestPlaceRecord">0.1 mm/0.004 inches Atacama Desert, Chile</string>
+	<string name="MostSunshineRecord">90% Yuma, Arizona, USA (over 4000 hours)</string>
+	<string name="LeastSunshineRecord">Nil for 182 days each year, South Pole</string>
+	<string name="LowestScreenTempRecord">-82.2°C / -128.6°F Vostok Station, Antarctica (21 July 1983)</string>
+	<string name="ColdestPlaceRecord">-56.6°C / -69.9°F Plateau Station, Antarctica</string>
+	<string name="WettestPlaceRecord">11 873 mm/467.4 inches, Meghalaya, India</string>
+	<string name="MostRainyDaysRecord">Up to 350 per year Mount Waialeale, Hawaii, USA</string>
+	<string name="WindiestPlaceRecord">322 km/200 miles per hour in gales, Commonwealth Bay, Antarctica</string>
+	<string name="HighestSurfaceWindSpeedHighAltitudeRecord">373 km/231 miles per hour Mount Washington, New Hampshire, USA (12 April 1934)</string>
+	<string name="HighestSurfaceWindSpeedLowAltitudeRecord">333 km/207 miles per hour Thule (Qaanaaq), Greenland (8 March 1972)</string>
+	<string name="HighestSurfaceWindSpeedTornadoRecord">512 km/318 miles per hour Oklahoma City, Oklahoma, USA (3 May 1999)</string>
+	<string name="GreatestSnowfallRecord">31 102 mm/224.5 inches Mount Rainier, Washington, USA (19 February 1971 &#8211; 18 February 1972)</string>
+	<string name="HeaviestHailstonesRecord">1 kg/2.21 lb Gopalganj, Bangladesh (14 April 1986)</string>
+	<string name="ThunderDaysAverageRecord">251 days per year Tororo, Uganda</string>
+	<string name="HighestBarometricPressureRecord">1083.8 mb Agata, Siberia, Rus. Fed. (31 December 1968)</string>
+	<string name="LowestBarometricPressureRecord">870 mb 483 km/300 miles west of Guam, Pacific ocean (12 October 1979)</string>
+</resources>

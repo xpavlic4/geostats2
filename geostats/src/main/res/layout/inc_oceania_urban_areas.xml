@@ -1,0 +1,127 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+		<TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Sydney"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia01"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia01Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Melbourne"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia02"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia02Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       	<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Brisbane"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia03"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia03Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Perth"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia04"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia04Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Auckland"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia05"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia05Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Adelaide"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia06"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia06Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/GoldCoast"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia07"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia07Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Canberra"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia08"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia08Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+ 			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Wellington"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia09"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia09Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Christchurch"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia10"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAustralia10Density"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

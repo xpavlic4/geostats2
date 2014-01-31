@@ -1,0 +1,56 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+   		    android:layout_below="@+id/chartNo"
+	       android:shrinkColumns="0">
+	       
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalM"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MontBlanc"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeKMD01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MontBlancCourmayeur"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeKMD02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Dufourspitze"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeKMD03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Nordend"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeKMD04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Zumsteinspitze"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeKMD05"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- http://www.ngdc.noaa.gov/mgg/global/etopo1_ocean_volumes.html -->
+    <string name="TotalAreaRecordAtlanticO">85.133.000</string>
+    <string name="VolumeRecordAtlanticO">23.3%</string>
+    <string name="DeepestPointRecordAtlanticO">@string/PuertoRicoTrenchRecord</string>
+    <string name="AverageDepthRecordAtlanticO">3.646</string>
+    
+    <string name="TotalAreaRecordPacificO">161.760.000</string>
+    <string name="VolumeRecordPacificO">49.4%</string>
+    <string name="DeepestPointRecordPacificO">@string/MarianaTrenchRecord</string>
+    <string name="AverageDepthRecordPacificO">4.080</string>
+    
+    <string name="TotalAreaRecordIndianO">70.560.000</string>
+    <string name="VolumeRecordIndianO">19.8%</string>
+    <string name="DeepestPointRecordIndianO">@string/JavaTrenchRecord</string>
+    <string name="AverageDepthRecordIndianO">3.741</string>
+    
+    <string name="TotalAreaRecordArcticO">15.558.000</string>
+    <string name="VolumeRecordArcticO">1.4</string>
+    <string name="DeepestPointRecordArcticO">@string/LitkeDeepEurasianBasinRecord</string>
+    <string name="AverageDepthRecordArcticO">1.205</string>
+    
+   	<string name="TotalAreaRecordSouthernO">21.960.000</string>
+    <string name="VolumeRecordSouthernO">5.4</string>
+    <string name="DeepestPointRecordSouthernO">@string/SouthSandwichTrenchRecord</string> 
+    <string name="AverageDepthRecordSouthernO">3.270</string>
+</resources>

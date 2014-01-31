@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+	<TableLayout style="@style/TableLayout"
+          android:shrinkColumns="0">
+        <TableRow style="@style/TableRow.Span">
+	        <TextView
+	            android:layout_span="2"
+	          	style="@style/TextViewTitle"
+	            android:text="@string/WeatherRecords"/>
+	    	</TableRow>
+       <TableRow
+       	style="@style/TableRow.Span">
+       <TextView 
+           style="@style/TableTextView.Bold"
+           android:layout_span="2"
+           android:text="@string/HighestTemp"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/AthensGreece"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/TempHighestEurope"/>
+	    </TableRow>
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/LowestTemp"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/UstShchugerRussia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/TempLowestEurope"/>
+	    </TableRow>
+	    <TableRow
+	       	style="@style/TableRow.Span">
+	       <TextView 
+	           style="@style/TableTextView.Bold"
+	           android:layout_span="2"
+	           android:text="@string/GreatestPrec"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/CrkvicaBosniaHercegovina"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/PrepGreatestEurope"/>
+	    </TableRow>
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/LeastPrec"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/AstrakhanRussia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/PrepLeastEurope"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="2"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

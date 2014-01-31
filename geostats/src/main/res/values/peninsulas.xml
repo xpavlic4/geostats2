@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ArabianPeninsula">Arabian peninsula</string>
+	<string name="IndianSubcontinent">Indian subcontinent</string>
+	<string name="SoutheastPeninsula">Southeast peninsula</string>
+	<string name="Labrador">Labrador</string>
+	<string name="SomaliPeninsula">Somali peninsula</string>
+	<string name="ScandinavianPeninsula">Scandinavian peninsula</string>
+	<string name="IberianPeninsula">Iberian peninsula</string>
+	<string name="BalkanPeninsula">Balkan peninsula</string>
+	<string name="AnatolianPeninsula">Anatolian peninsula</string>
+	<string name="TaymyrPeninsula">Taymyr peninsula</string>
+	<string name="KamchatkaPeninsula">Kamchatka peninsula</string>
+	<string name="AntarcticPeninsula">Antarctic peninsula</string>
+	<string name="MalayPeninsula">Malay peninsula</string>
+	<string name="YorkePeninsula">Yorke peninsula</string>
+	
+</resources>

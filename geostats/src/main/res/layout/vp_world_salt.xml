@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/SaltProduction"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TonnesMetric"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/China"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/USA"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan.Italic"
+				            android:text="@string/RockSalt"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/India"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan.Italic"
+				            android:text="@string/SeaSalt"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/USA"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan.Italic"
+				            android:text="@string/SaltBrine"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Canada"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan.Italic"
+				            android:text="@string/RockSalt"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Australia"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Chile"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Mexico"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Germany"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan.Italic"
+				            android:text="@string/RockSalt"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld10"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/USA"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan.Italic"
+				            android:text="@string/EvaporatedSalt"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Netherlands"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld11"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/UnitedKingdom"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/SaltProductionWorld12"/>
+		    </TableRow>
+		    
+
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

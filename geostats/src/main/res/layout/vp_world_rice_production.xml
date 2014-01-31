@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/RiceProduction"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/ThousandTonnes"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/China"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/India"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Indonesia"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Bangladesh"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Vietnam"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Thailand"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Myanmar"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Philippines"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Brazil"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/USA"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/RiceProductionWorld10"/>
+		    </TableRow>
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

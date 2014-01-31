@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="CaspianSea">Caspian Sea</string>
+	<string name="LakeSuperior">Lake Superior</string>
+	<string name="LakeVictoria">Lake Victoria</string>
+	<string name="LakeHuron">Lake Huron</string>
+	<string name="LakeMichigan">Lake Michigan</string>
+	<string name="LakeTanganyika">Lake Tanganyika</string>
+	<string name="GreatBearLake">"Great Bear Lake"</string>
+	<string name="LakeBaikal">Lake Baikal (Ozero Baykal)</string>
+	<string name="LakeNyasa">Lake Nyasa (Lake Malawi)</string>
+	<string name="GreatSlaveLake">Great Slave Lake</string>
+	<string name="LakeErie">Lake Erie</string>
+	<string name="Winnipeg">Winnipeg</string>
+	<string name="Ontario">Ontario</string>
+	<string name="LakeLadoga">Lake Ladoga (Ladozhskoye Ozero)</string>
+	<string name="LakeBalkhash">Lake Balkhash (Ozero Balkash)</string>
+	<string name="AralSea">Aral Sea (Araľskoye More)</string>
+	<string name="Ysykkol">Ysyk-Köl</string>
+	<string name="LakeVostok">Lake Vostok</string>
+	<string name="LakeOnega">Lake Onega (Onezhskoye Ozero)</string>
+	<string name="LakeEyre">Lake Eyre</string>
+	<string name="LakeVolta">Lake Volta</string>
+	<string name="Vanern">Vänern</string>
+	<string name="RybinskoyeVodokhranilishche">Rybinskoye Vodokhranilishche</string>
+	<string name="LakeAssal">Lake Assal</string>
+	<string name="LakeTurkana">Lake Turkana</string>
+	<string name="LakeTiticaca">Lake Titicaca</string>
+	<string name="LakeTorrens">Lake Torrens</string>
+	<string name="OHigginsSanMartin">O\'Higgins-San Martin</string>
+	<string name="CraterLake">Crater Lake</string>
+	<string name="LakeMatano">Lake Matano</string>
+	<string name="GeneralCarreraLake">General Carrera Lake</string>
+	<string name="Hornindalsvatnet">Hornindalsvatnet</string>
+	<string name="QuesnelLake">Quesnel Lake</string>
+	<string name="LakeToba">Lake Toba</string>
+	<string name="SarezLake">Sarez Lake</string>
+	<string name="LakeTahoe">Lake Tahoe</string>
+	<string name="ArgentinoLake">Argentino Lake</string>
+	<string name="LakeKivu">Lake Kivu</string>
+	<string name="Mjosa">Mjøsa</string>
+	<string name="LakeChelan">Lake Chelan</string>
+	
+</resources>

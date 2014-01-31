@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- source: GEOGRAFICKE TABULKY -->
+
+<resources>
+    <string name="LargestPeninsulasWorld01">2.780.000</string>
+	<string name="LargestPeninsulasWorld02">2.088.000</string>
+	<string name="LargestPeninsulasWorld03">2.000.000</string>
+	<string name="LargestPeninsulasWorld04">1.320.000</string>
+	<string name="LargestPeninsulasWorld05">850.000</string>
+	<string name="LargestPeninsulasWorld06">774.000</string>
+	<string name="LargestPeninsulasWorld07">581.000</string>
+	<string name="LargestPeninsulasWorld08">505.000</string>
+	<string name="LargestPeninsulasWorld09">500.000</string>
+	<string name="LargestPeninsulasWorld10">400.000</string>
+	<string name="LargestPeninsulasWorld11">370.000</string>
+	<string name="LargestPeninsulasWorld12">300.000</string>
+	<string name="LargestPeninsulasWorld13">227.000</string>
+	<string name="LargestPeninsulasWorld14">210.000</string>
+	
+</resources>

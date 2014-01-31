@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- LARGEST LAKES WORLD -->
+    <string name="LargestLakesWorld01">@string/LargestLakesEurope01</string>
+	<string name="LargestLakesWorld02">@string/LargestLakesNAmerica01</string>
+	<string name="LargestLakesWorld03">@string/LargestLakesAfrica01</string>
+	<string name="LargestLakesWorld04">@string/LargestLakesNAmerica02</string>
+	<string name="LargestLakesWorld05">@string/LargestLakesNAmerica03</string>
+	<string name="LargestLakesWorld06">@string/LargestLakesAfrica02</string>
+	<string name="LargestLakesWorld07">@string/LargestLakesNAmerica04</string>
+	<string name="LargestLakesWorld08">@string/LargestLakesAsia02</string>
+	<string name="LargestLakesWorld09">@string/LargestLakesAfrica03</string>
+	<string name="LargestLakesWorld10">@string/LargestLakesNAmerica05</string>
+	<string name="LargestLakesWorld11">@string/LargestLakesNAmerica06</string>
+	<string name="LargestLakesWorld12">@string/LargestLakesNAmerica07</string>
+	<string name="LargestLakesWorld13">@string/LargestLakesNAmerica08</string>
+	<string name="LargestLakesWorld14">@string/LargestLakesEurope02</string>
+	<string name="LargestLakesWorld15">@string/LargestLakesAsia03</string>
+	<string name="LargestLakesWorld16">@string/LargestLakesAsia04</string>
+	<string name="LargestLakesWorld17">@string/LargestLakesAntarctica01</string>
+	<string name="LargestLakesWorld18">@string/LargestLakesEurope03</string>
+	<string name="LargestLakesWorld19">@string/LargestLakesAustralia01</string>
+	<string name="LargestLakesWorld20">@string/LargestLakesAfrica04</string>
+	
+	<!-- LARGEST LAKES EUROPE -->
+	<string name="LargestLakesEurope01">371.000</string>
+	<string name="LargestLakesEurope02">18.390</string>
+	<string name="LargestLakesEurope03">9.600</string>
+	<string name="LargestLakesEurope04">5.585</string>
+	<string name="LargestLakesEurope05">5.180</string>
+	
+	<!-- LARGEST LAKES ASIA -->
+	<string name="LargestLakesAsia01">371.000</string>
+	<string name="LargestLakesAsia02">30.500</string>
+	<string name="LargestLakesAsia03">17.400</string>
+	<string name="LargestLakesAsia04">17.158</string>
+	<string name="LargestLakesAsia05">6.200</string>
+	
+	<!-- LARGEST LAKES AFRICA -->
+	<string name="LargestLakesAfrica01">68.870</string>
+	<string name="LargestLakesAfrica02">32.600</string>
+	<string name="LargestLakesAfrica03">29.500</string>
+	<string name="LargestLakesAfrica04">8.482</string>
+	<string name="LargestLakesAfrica05">6.500</string>
+	
+	<!-- LARGEST LAKES NORTH AMERICA -->
+	<string name="LargestLakesNAmerica01">82.100</string>
+	<string name="LargestLakesNAmerica02">59.600</string>
+	<string name="LargestLakesNAmerica03">57.800</string>
+	<string name="LargestLakesNAmerica04">31.328</string>
+	<string name="LargestLakesNAmerica05">28.568</string>
+	<string name="LargestLakesNAmerica06">25.700</string>
+	<string name="LargestLakesNAmerica07">23.553</string> <!-- WIKI -->
+	<string name="LargestLakesNAmerica08">19.477</string> <!-- WIKI -->
+	
+	<!-- LARGEST LAKES SOUTH AMERICA -->
+	<string name="LargestLakesSAmerica01">8.340</string>
+	
+	<!-- LARGEST LAKES AUSTRALIA -->
+	<string name="LargestLakesAustralia01">8.900</string>
+	<string name="LargestLakesAustralia02">5.780</string>
+	
+	<!-- LARGEST LAKES ANTARCTICA -->
+	<string name="LargestLakesAntarctica01">15.690</string> <!-- WIKI -->
+	
+	
+	<!-- source: http://geology.com/records/deepest-lake.shtml -->
+	
+	<!-- DEEPEST LAKES WORLD -->
+    <string name="DeepestLakesWorld01">1.637</string>
+	<string name="DeepestLakesWorld02">1.470</string>
+	<string name="DeepestLakesWorld03">1.025</string>
+	<string name="DeepestLakesWorld04">900</string>
+	<string name="DeepestLakesWorld05">836</string>
+	<string name="DeepestLakesWorld06">706</string>
+	<string name="DeepestLakesWorld07">668</string>
+	<string name="DeepestLakesWorld08">614</string>
+	<string name="DeepestLakesWorld09">594</string>
+	<string name="DeepestLakesWorld10">590</string>
+	<string name="DeepestLakesWorld11">586</string>
+	<string name="DeepestLakesWorld12">514</string>
+	<string name="DeepestLakesWorld13">506</string>
+	<string name="DeepestLakesWorld14">505</string>
+	<string name="DeepestLakesWorld15">505</string>
+	<string name="DeepestLakesWorld16">501</string>
+	<string name="DeepestLakesWorld17">500</string>
+	<string name="DeepestLakesWorld18">480</string>
+	<string name="DeepestLakesWorld19">468</string>
+	<string name="DeepestLakesWorld20">453</string>
+	
+</resources>

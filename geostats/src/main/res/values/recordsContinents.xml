@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TotalLandAreaRecordEurope">9.908.599</string>
+    <string name="PopulationRecordEurope">739.2 million</string>
+    <string name="LandAreaRecordEurope">6.8%</string> <!-- WIKI -->
+    <string name="SurfaceRecordEurope">2%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordEurope">50</string> <!-- WIKI -->
+	<string name="PercentOfPopulationRecordEurope">11%</string> <!-- WIKI -->
+    <string name="DensitySqKmRecordEurope">32.1</string> <!-- UN -->
+    <string name="HighestPointRecordEurope">@string/HighestMountainsEuropeKMD01</string>
+    <string name="HighestPointRecord1Europe">@string/HighestMountainsEuropeCC01</string> <!-- WIKI -->
+    <string name="LowestPointRecordEurope">-28</string> <!-- WIKI -->
+    <string name="ShorelineRecordEurope">37.200</string> <!-- GEOGRAFICKE TABULKY -->
+    
+    <string name="TotalLandAreaRecordAsia">45.036.492</string>
+    <string name="PopulationRecordAsia">4.164.252.000</string>
+    <string name="LandAreaRecordAsia">29.5%</string> <!-- WIKI -->
+    <string name="SurfaceRecordAsia">8.7%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordAsia">49</string> <!-- WIKI -->
+	<string name="PercentOfPopulationRecordAsia">60%</string> <!-- WIKI -->
+    <string name="DensitySqKmRecordAsia">130.5</string> <!-- UN -->
+    <string name="HighestPointRecordAsia">@string/HighestMountainsWorld01</string>
+    <string name="LowestPointRecordAsia">-424</string> <!-- WIKI -->
+    <string name="ShorelineRecordAsia">70.600</string> <!-- GEOGRAFICKE TABULKY -->
+   
+    <string name="TotalLandAreaRecordAfrica">30.343.578</string>
+    <string name="PopulationRecordAfrica">1.032.532.974</string>
+    <string name="LandAreaRecordAfrica">20.4%</string> <!-- WIKI -->
+    <string name="SurfaceRecordAfrica">2.9%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordAfrica">54</string> <!-- WIKI -->
+	<string name="PercentOfPopulationRecordAfrica">15%</string> <!-- WIKI -->
+    <string name="DensitySqKmRecordAfrica">34%</string> <!-- UN -->
+    <string name="HighestPointRecordAfrica">@string/HighestMountainsAfrica01</string>
+    <string name="LowestPointRecordAfrica">-155</string> <!-- WIKI -->
+    <string name="ShorelineRecordAfrica">30.500</string> <!-- GEOGRAFICKE TABULKY -->
+    
+    <string name="TotalLandAreaRecordNAmerica">24.680.331</string>
+    <string name="PopulationRecordNAmerica">528.720.588</string>
+    <string name="LandAreaRecordNAmerica">16.5%</string> <!-- WIKI -->
+    <string name="SurfaceRecordNAmerica">4.8%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordNAmerica">23</string> <!-- WIKI -->
+	<string name="PercentOfPopulationRecordNAmerica">8%</string> <!-- WIKI -->
+    <string name="DensitySqKmRecordNAmerica">29%</string> <!-- UN -->
+    <string name="HighestPointRecordNAmerica">@string/HighestMountainsNAmerica01</string>
+    <string name="LowestPointRecordNAmerica">-86</string> <!-- WIKI -->
+    <string name="ShorelineRecordNAmerica">75.500</string> <!-- GEOGRAFICKE TABULKY -->
+    
+    <string name="TotalLandAreaRecordSAmerica">17.815.420</string>
+    <string name="PopulationRecordSAmerica">387.489.196</string>
+    <string name="LandAreaRecordSAmerica">12%</string> <!-- WIKI -->
+    <string name="SurfaceRecordSAmerica">3.5%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordSAmerica">15</string> <!-- WIKI -->
+	<string name="PercentOfPopulationRecordSAmerica">6%</string> <!-- WIKI -->
+    <string name="DensitySqKmRecordSAmerica">64.7</string> <!-- UN - vypocteno medianem ze tri hodnot -->
+    <string name="HighestPointRecordSAmerica">@string/HighestMountainsSAmerica01</string>
+    <string name="LowestPointRecordSAmerica">-105</string> <!-- WIKI -->
+    <string name="ShorelineRecordSAmerica">28.700</string> <!-- GEOGRAFICKE TABULKY -->
+    
+    <string name="TotalLandAreaRecordAustralia">8.844.516</string>
+    <string name="PopulationRecordAustralia">36.000.000</string>
+    <string name="LandAreaRecordAustralia">5.9%</string> <!-- WIKI -->
+    <string name="SurfaceRecordAustralia">1.7%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordAustralia">3</string> <!-- WIKI -->
+	<string name="PercentOfPopulationRecordAustralia">0.4%</string> <!-- WIKI -->
+    <string name="DensitySqKmRecordAustralia">4.3</string> <!-- UN -->
+    <string name="HighestPointRecordAustralia">@string/HighestMountainsAustraliaAP01</string>
+    <string name="HighestPointRecord1Australia">@string/HighestMountainsAustraliaAC01</string> <!-- WIKI -->
+    <string name="LowestPointRecordAustralia">-15</string> <!-- WIKI -->
+    <string name="ShorelineRecordAustralia">19.500</string> <!-- GEOGRAFICKE TABULKY -->
+    
+    <string name="TotalLandAreaRecordAntarctica">12.093.000</string>
+    <string name="PopulationRecordAntarctica">-</string>
+    <string name="LandAreaRecordAntarctica">9.2</string> <!-- WIKI -->
+    <string name="SurfaceRecordAntarctica">2.6%</string> <!-- GEOGRAFICKE TABULKY -->
+    <string name="NumberOfCountriesRecordAntarctica">-</string>
+	<string name="PercentOfPopulationRecordAntarctica">-</string>
+    <string name="DensitySqKmRecordAntarctica">-</string>
+    <string name="HighestPointRecordAntarctica">@string/HighestMountainsAntarctica01</string>
+    <string name="LowestPointRecordAntarctica">-50</string> <!-- WIKI -->
+    <string name="ShorelineRecordAntarctica">50.000</string> <!-- GEOGRAFICKE TABULKY -->
+</resources>

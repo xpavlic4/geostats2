@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <TableLayout
+	    style="@style/TableLayout"
+	       android:shrinkColumns="0">
+	       
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Length"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Width"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/StraitOfMagellan"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/StraitOfMagellanLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/StraitOfMagellanWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/BaringStrait"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/BaringStraitLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/BaringStraitWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/TorresStrait"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/TorresStraitLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/TorresStraitWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="3"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

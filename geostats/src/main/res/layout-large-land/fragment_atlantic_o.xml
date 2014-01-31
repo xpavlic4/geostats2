@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="2"
+    android:baselineAligned="true"
+    android:orientation="horizontal" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        
+        <ImageView
+	        android:contentDescription="@string/AtlanticOcean"
+	        style="@style/ImageViewMapLandLarge"
+	        android:src="@drawable/map" />
+    
+	    <include layout="@layout/inc_atlantic_o"/>
+        
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+	    
+	    <include layout="@layout/inc_viewpager"/>
+	    
+    </LinearLayout>
+
+</LinearLayout>

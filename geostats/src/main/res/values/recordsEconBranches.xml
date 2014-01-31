@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- source: GEOGRAFICKE TABULKY  + FAO -->
+
+<resources>
+	<string name="CoalProductionWorld01">3.844.942</string>
+	<string name="CoalProductionWorld02">1.094.335</string>
+	<string name="CoalProductionWorld03">639.627</string>
+	<string name="CoalProductionWorld04">456.690</string>
+	<string name="CoalProductionWorld05">414.799</string>
+	<string name="CoalProductionWorld06">367.985</string>
+	<string name="CoalProductionWorld07">279.000</string>
+	<string name="CoalProductionWorld08">207.852</string>
+	<string name="CoalProductionWorld09">152.628</string>
+	<string name="CoalProductionWorld10">128.606</string>
+	
+	<string name="OilProductionWorld01">11.545</string>
+	<string name="OilProductionWorld02">10.396</string>
+	<string name="OilProductionWorld03">11.124</string>
+	<string name="OilProductionWorld04">4.416</string>
+	<string name="OilProductionWorld05">3.538</string>
+	<string name="OilProductionWorld06">3.868</string>
+	<string name="OilProductionWorld07">3.213</string>
+	<string name="OilProductionWorld08">2.936</string>
+	<string name="OilProductionWorld09">2.796</string>
+	<string name="OilProductionWorld10">2.651</string>
+	
+	<string name="NaturalGasProductionWorld01">684</string>
+	<string name="NaturalGasProductionWorld02">659</string>
+	<string name="NaturalGasProductionWorld03">158</string>
+	<string name="NaturalGasProductionWorld04">154</string>
+	<string name="NaturalGasProductionWorld05">120</string>
+	<string name="NaturalGasProductionWorld06">105</string>
+	<string name="NaturalGasProductionWorld07">103</string>
+	<string name="NaturalGasProductionWorld08">87</string>
+	<string name="NaturalGasProductionWorld09">80</string>
+	<string name="NaturalGasProductionWorld10">78</string>
+	
+	<string name="ElectricityProductionWorld01">4.926</string>
+	<string name="ElectricityProductionWorld02">4.295</string>
+	<string name="ElectricityProductionWorld03">1.087</string>
+	<string name="ElectricityProductionWorld04">1.064</string>
+	<string name="ElectricityProductionWorld05">1.057</string>
+	<string name="ElectricityProductionWorld06">646</string>
+	<string name="ElectricityProductionWorld07">623</string>
+	<string name="ElectricityProductionWorld08">561</string>
+	<string name="ElectricityProductionWorld09">559</string>
+	<string name="ElectricityProductionWorld10">526</string>
+	
+	<string name="SteelProductionWorld01">717</string>
+	<string name="SteelProductionWorld02">106</string>
+	<string name="SteelProductionWorld03">89</string>
+	<string name="SteelProductionWorld04">78</string>
+	<string name="SteelProductionWorld05">70</string>
+	<string name="SteelProductionWorld06">69</string>
+	<string name="SteelProductionWorld07">43</string>
+	<string name="SteelProductionWorld08">36</string>
+	<string name="SteelProductionWorld09">35</string>
+	<string name="SteelProductionWorld10">33</string>
+	
+	<string name="MotorVehiclesProductionWorld01">19.271.808</string>
+	<string name="MotorVehiclesProductionWorld02">10.328.884</string>
+	<string name="MotorVehiclesProductionWorld03">9.942.711</string>
+	<string name="MotorVehiclesProductionWorld04">5.649.269</string>
+	<string name="MotorVehiclesProductionWorld05">4.557.738</string>
+	<string name="MotorVehiclesProductionWorld06">4.145.194</string>
+	<string name="MotorVehiclesProductionWorld07">3.342.617</string>
+	<string name="MotorVehiclesProductionWorld08">3.001.974</string>
+	<string name="MotorVehiclesProductionWorld09">2.483.043</string>
+	<string name="MotorVehiclesProductionWorld10">2.463.732</string>
+	
+	<string name="GermanyAd1">(1) Cars and LCV. Official car figures include Belgian GM assembly.</string>	
+	<string name="SouthCoreaAd2">(2) Official figures take account of Swedish manufacturers world production; in this report, we only use the vehicles produced in Sweden, and the vehicles for which Volvo Trucks does not specify the country of production..</string>
+	
+	<string name="WheatProductionWorld01">115.181</string>
+	<string name="WheatProductionWorld02">80.804</string>
+	<string name="WheatProductionWorld03">60.062</string>
+	<string name="WheatProductionWorld04">41.508</string>
+	<string name="WheatProductionWorld05">40.787</string>
+	<string name="WheatProductionWorld06">24.107</string>
+	<string name="WheatProductionWorld07">23.311</string>
+	<string name="WheatProductionWorld08">23.167</string>
+	<string name="WheatProductionWorld09">22.138</string>
+	<string name="WheatProductionWorld10">19.674</string>
+	
+	<string name="RiceProductionWorld01">197.212</string>
+	<string name="RiceProductionWorld02">143.963</string>
+	<string name="RiceProductionWorld03">66.469</string>
+	<string name="RiceProductionWorld04">50.061</string>
+	<string name="RiceProductionWorld05">40.006</string>
+	<string name="RiceProductionWorld06">35.584</string>
+	<string name="RiceProductionWorld07">32.580</string>
+	<string name="RiceProductionWorld08">15.772</string>
+	<string name="RiceProductionWorld09">11.236</string>
+	<string name="RiceProductionWorld10">11.027</string>
+	
+	<string name="MeatProductionWorld01">80.926.442</string>
+	<string name="MeatProductionWorld02">23.630.145</string>
+	<string name="MeatProductionWorld03">8.220.452</string>
+	<string name="MeatProductionWorld04">7.213.812</string>
+	<string name="MeatProductionWorld05">6.179.680</string>
+	<string name="MeatProductionWorld06">5.828.325</string>
+	<string name="MeatProductionWorld07">5.745.124</string>
+	<string name="MeatProductionWorld08">5.339.262</string>
+	<string name="MeatProductionWorld09">5.296.507</string>
+	<string name="MeatProductionWorld10">4.697.889</string>
+	
+	<string name="BeefBuffaloProductionWorld01">12.045.800</string>
+	<string name="BeefBuffaloProductionWorld02">9.115.000</string>
+	<string name="BeefBuffaloProductionWorld03">6.544.743</string>
+	<string name="BeefBuffaloProductionWorld04">2.630.160</string>
+	<string name="BeefBuffaloProductionWorld05">2.565.680</string>
+	<string name="BeefBuffaloProductionWorld06">2.108.290</string>
+	<string name="BeefBuffaloProductionWorld07">1.744.740</string>
+	<string name="BeefBuffaloProductionWorld08">1.727.310</string>
+	<string name="BeefBuffaloProductionWorld09">1.530.070</string>
+	<string name="BeefBuffaloProductionWorld10">1.485.000</string>
+	
+	<string name="PigProductionWorld01">51.545.464</string>
+	<string name="PigProductionWorld02">10.185.600</string>
+	<string name="PigProductionWorld03">5.488.370</string>
+	<string name="PigProductionWorld04">3.368.920</string>
+	<string name="PigProductionWorld05">3.195.000</string>
+	<string name="PigProductionWorld06">3.036.360</string>
+	<string name="PigProductionWorld07">2.330.810</string>
+	<string name="PigProductionWorld08">2.190.970</string>
+	<string name="PigProductionWorld09">1.925.930</string>
+	<string name="PigProductionWorld10">1.894.800</string>
+	
+	<string name="SheepGoatProductionWorld01">3.991.694</string>
+	<string name="SheepGoatProductionWorld02">875.700</string>
+	<string name="SheepGoatProductionWorld03">476.000</string>
+	<string name="SheepGoatProductionWorld04">472.147</string>
+	<string name="SheepGoatProductionWorld05">458.155</string>
+	<string name="SheepGoatProductionWorld06">434.000</string>
+	<string name="SheepGoatProductionWorld07">273.900</string>
+	<string name="SheepGoatProductionWorld08">229.850</string>
+	<string name="SheepGoatProductionWorld09">228.500</string>
+	<string name="SheepGoatProductionWorld10">195.000</string>
+	
+	<string name="MilkProductionWorld01">116.904.000</string>
+	<string name="MilkProductionWorld02">87.474.400</string>
+	<string name="MilkProductionWorld03">41.150.084</string>
+	<string name="MilkProductionWorld04">35.491.000</string>
+	<string name="MilkProductionWorld05">31.841.333</string>
+	<string name="MilkProductionWorld06">30.863.649</string>
+	<string name="MilkProductionWorld07">29.628.900</string>
+	<string name="MilkProductionWorld08">24.288.064</string>
+	<string name="MilkProductionWorld09">17.010.500</string>
+	<string name="MilkProductionWorld10">13.543.630</string>
+	
+	<string name="FishProductionWorld01">16.270.351</string>
+	<string name="FishProductionWorld02">5.380.266</string>
+	<string name="FishProductionWorld03">4.694.968</string>
+	<string name="FishProductionWorld04">4.369.540</string>
+	<string name="FishProductionWorld05">4.261.091</string>
+	<string name="FishProductionWorld06">4.069.624</string>
+	<string name="FishProductionWorld07">4.044.185</string>
+	<string name="FishProductionWorld08">3.063.210</string>
+	<string name="FishProductionWorld09">2.679.736</string>
+	<string name="FishProductionWorld10">2.675.292</string>
+	
+	<string name="RoundwoodProductionWorld01">331.968.549</string>
+	<string name="RoundwoodProductionWorld02">324.432.676</string>
+	<string name="RoundwoodProductionWorld03">288.372.761</string>
+	<string name="RoundwoodProductionWorld04">284.019.040</string>
+	<string name="RoundwoodProductionWorld05">197.000.000</string>
+	<string name="RoundwoodProductionWorld06">145.066.000</string>
+	<string name="RoundwoodProductionWorld07">117.993.552</string>
+	<string name="RoundwoodProductionWorld08">105.544.380</string>
+	<string name="RoundwoodProductionWorld09">82.327.602</string>
+	<string name="RoundwoodProductionWorld10">73.017.551</string>
+	
+	<string name="GNIWorld01">86.440</string>
+	<string name="GNIWorld02">64.260</string>
+	<string name="GNIWorld03">61.460</string>
+	<string name="GNIWorld04">59.380</string>
+	<string name="GNIWorld05">52.570</string>
+	<string name="GNIWorld06">52.350</string>
+	<string name="GNIWorld07">48.820</string>
+	<string name="GNIWorld08">47.890</string>
+	<string name="GNIWorld09">43.140</string>
+	<string name="GNIWorld10">42.200</string>
+	
+	
+	<!-- source: British Geological Survey -->
+	
+	<string name="GoldProductionWorld01">360.960</string>
+	<string name="GoldProductionWorld02">258.000</string>
+	<string name="GoldProductionWorld03">234.000</string>
+	<string name="GoldProductionWorld04">185.263</string>
+	<string name="GoldProductionWorld05">180.184</string>
+	<string name="GoldProductionWorld06">164.008</string>
+	<string name="GoldProductionWorld07">100.379</string>
+	<string name="GoldProductionWorld08">90.959</string>
+	<string name="GoldProductionWorld09">88.649</string>
+	<string name="GoldProductionWorld10">75.240</string>
+	
+	<string name="SilverProductionWorld01">4.777.710</string>
+	<string name="SilverProductionWorld02">3.414.010</string>
+	<string name="SilverProductionWorld03">3.231.626</string>
+	<string name="SilverProductionWorld04">1.725.000</string>
+	<string name="SilverProductionWorld05">1.291.272</string>
+	<string name="SilverProductionWorld06">1.215.586</string>
+	<string name="SilverProductionWorld07">1.167.000</string>
+	<string name="SilverProductionWorld08">1.134.000</string>
+	<string name="SilverProductionWorld09">1.120.000</string>
+	<string name="SilverProductionWorld10">702.000</string>
+	
+	<string name="DiamondProductionWorld01">35.139.800</string>
+	<string name="DiamondProductionWorld02">22.903.000</string>
+	<string name="DiamondProductionWorld03">19.249.057</string>
+	<string name="DiamondProductionWorld04">10.795.000</string>
+	<string name="DiamondProductionWorld05">8.502.648</string>
+	<string name="DiamondProductionWorld06">8.328.519</string>
+	<string name="DiamondProductionWorld07">7.562.000</string>
+	<string name="DiamondProductionWorld08">7.046.644</string>
+	<string name="DiamondProductionWorld09">1.229.000</string>
+	<string name="DiamondProductionWorld10">1.100.000</string>
+	
+	<string name="IronOreProductionWorld01">1.326.942.000</string>
+	<string name="IronOreProductionWorld02">488.105.000</string>
+	<string name="IronOreProductionWorld03">460.400.000</string>
+	<string name="IronOreProductionWorld04">168.534.000</string>
+	<string name="IronOreProductionWorld05">104.000.000</string>
+	<string name="IronOreProductionWorld06">80.900.000</string>
+	<string name="IronOreProductionWorld07">58.056.897</string>
+	<string name="IronOreProductionWorld08">54.000.000</string>
+	<string name="IronOreProductionWorld09">51.742.000</string>
+	<string name="IronOreProductionWorld10">48.134.131</string>
+	
+	<string name="AluminiumProductionWorld01">18.061.700</string>
+	<string name="AluminiumProductionWorld02">3.992.000</string>
+	<string name="AluminiumProductionWorld03">2.987.964</string>
+	<string name="AluminiumProductionWorld04">1.990.000</string>
+	<string name="AluminiumProductionWorld05">1.982.000</string>
+	<string name="AluminiumProductionWorld06">1.945.000</string>
+	<string name="AluminiumProductionWorld07">1.750.000</string>
+	<string name="AluminiumProductionWorld08">1.660.000</string>
+	<string name="AluminiumProductionWorld09">1.440.400</string>
+	<string name="AluminiumProductionWorld10">881.310</string>
+	
+	<string name="CopperProductionWorld01">5.262.800</string>
+	<string name="CopperProductionWorld02">1.299.300</string>
+	<string name="CopperProductionWorld03">1.235.198</string>
+	<string name="CopperProductionWorld04">1.120.000</string>
+	<string name="CopperProductionWorld05">960.000</string>
+	<string name="CopperProductionWorld06">739.759</string>
+	<string name="CopperProductionWorld07">713.100</string>
+	<string name="CopperProductionWorld08">566.124</string>
+	<string name="CopperProductionWorld09">542.700</string>
+	<string name="CopperProductionWorld10">480.000</string>
+	
+	<string name="SaltProductionWorld01">64.294.000</string>
+	<string name="SaltProductionWorld02">19.360.000</string>
+	<string name="SaltProductionWorld03">16.720.000</string>
+	<string name="SaltProductionWorld04">7.920.000</string>
+	<string name="SaltProductionWorld05">18.188.300</string>
+	<string name="SaltProductionWorld06">11.629.830</string>
+	<string name="SaltProductionWorld07">11.403.000</string>
+	<string name="SaltProductionWorld08">9.966.038</string>
+	<string name="SaltProductionWorld09">9.361.454</string>
+	<string name="SaltProductionWorld10">8.765.168</string>
+	<string name="SaltProductionWorld11">6.866.000</string>
+	<string name="SaltProductionWorld12">6.700.000</string>
+	
+	<string name="RockSalt">Rock salt</string>
+	<string name="SaltBrine">Salt in brine</string>
+	<string name="EvaporatedSalt">Evaporated salt</string>
+	<string name="SeaSalt">Sea salt</string>
+
+	<string name="MercuryProductionWorld01">1.493.000</string>
+	<string name="MercuryProductionWorld02">250.000</string>
+	<string name="MercuryProductionWorld03">120.300</string>
+	<string name="MercuryProductionWorld04">100.000</string>
+	<string name="MercuryProductionWorld05">50.000</string>
+	<string name="MercuryProductionWorld06">20.000</string>
+	<string name="MercuryProductionWorld07">15.000</string>
+	<string name="MercuryProductionWorld08">15.000</string>
+	<string name="MercuryProductionWorld09">10.000</string>
+	<string name="MercuryProductionWorld10">5.000</string>
+	
+	<string name="NickelProductionWorld01">319.354</string>
+	<string name="NickelProductionWorld02">270.000</string>
+	<string name="NickelProductionWorld03">226.300</string>
+	<string name="NickelProductionWorld04">219.612</string>
+	<string name="NickelProductionWorld05">215.000</string>
+	<string name="NickelProductionWorld06">131.050</string>
+	<string name="NickelProductionWorld07">89.800</string>
+	<string name="NickelProductionWorld08">74.000</string>
+	<string name="NickelProductionWorld09">66.000</string>
+	<string name="NickelProductionWorld10">43.321</string>
+	
+	<string name="ZincProductionWorld01">4.308.300</string>
+	<string name="ZincProductionWorld02">1.516.000</string>
+	<string name="ZincProductionWorld03">1.255.899</string>
+	<string name="ZincProductionWorld04">769.000</string>
+	<string name="ZincProductionWorld05">713.416</string>
+	<string name="ZincProductionWorld06">631.859</string>
+	<string name="ZincProductionWorld07">611.577</string>
+	<string name="ZincProductionWorld08">465.000</string>
+	<string name="ZincProductionWorld09">427.129</string>
+	<string name="ZincProductionWorld10">344.000</string>
+	
+	<string name="UraniumProductionWorld01">19.451</string>
+	<string name="UraniumProductionWorld02">8.923</string>
+	<string name="UraniumProductionWorld03">5.886</string>
+	<string name="UraniumProductionWorld04">4.159</string>
+	<string name="UraniumProductionWorld05">3.262</string>
+	<string name="UraniumProductionWorld06">3.000</string>
+	<string name="UraniumProductionWorld07">2.993</string>
+	<string name="UraniumProductionWorld08">1.537</string>
+	<string name="UraniumProductionWorld09">1.500</string>
+	<string name="UraniumProductionWorld10">998</string>
+	
+	<string name="UraniumProductionWorldAdd">Excluding uranium production from decommissioning operations in France, Germany and Spain</string>
+	
+	<string name="KaolinProductionWorld01">5.480.000</string>
+	<string name="KaolinProductionWorld02">4.898.516</string>
+	<string name="KaolinProductionWorld03">3.000.000</string>
+	<string name="KaolinProductionWorld04">2.200.000</string>
+	<string name="KaolinProductionWorld05">1.500.000</string>
+	<string name="KaolinProductionWorld06">1.051.772</string>
+	<string name="KaolinProductionWorld07">660.000</string>
+	<string name="KaolinProductionWorld08">650.000</string>
+	<string name="KaolinProductionWorld09">650.000</string>
+	<string name="KaolinProductionWorld10">442.550</string>
+	
+</resources>

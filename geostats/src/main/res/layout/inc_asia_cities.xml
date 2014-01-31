@@ -1,0 +1,129 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/SourceYear"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Shanghai"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2002"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Mumbai"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2007"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Beijing"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2002"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Dehli"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2007"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Seoul"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2007"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Chongqing"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2002"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia06"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Jakarta"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia07"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Karachi"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2000"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia08"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Tokyo"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia09"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Istanbul"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2010"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAsia10"/>
+	    </TableRow>
+	</TableLayout>
+</merge>
