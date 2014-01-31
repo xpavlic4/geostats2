@@ -7,10 +7,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.internal.view.menu.ActionMenuView;
-import android.support.v7.internal.view.menu.MenuView;
-import android.support.v7.internal.widget.ActionBarView;
-import android.view.Menu;
 import android.view.MenuItem;
 
 public class Oceans extends ActionBarActivity{
@@ -50,12 +46,6 @@ public class Oceans extends ActionBarActivity{
         actionbar.addTab(Frag3Tab);
         actionbar.addTab(Frag4Tab);
         actionbar.addTab(Frag5Tab);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_oceans, menu);
-        return true;
     }
 
     @Override

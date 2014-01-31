@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 public class Main extends Activity implements android.view.View.OnClickListener {
 
-    Button btWorld, btContinents, btOceans, btBranches, btExit;
+    Button btWorld, btContinents, btOceans, btBranches;
     ImageButton btInfoRef;
 
     @Override
@@ -25,14 +25,12 @@ public class Main extends Activity implements android.view.View.OnClickListener 
         btContinents = (Button) findViewById(R.id.btContinents);
         btOceans = (Button) findViewById(R.id.btOceans);
         btBranches = (Button) findViewById(R.id.btBranches);
-        btExit = (Button) findViewById(R.id.btExit);
         btInfoRef = (ImageButton) findViewById(R.id.btInfoRef);
 
         btWorld.setOnClickListener(this);
         btContinents.setOnClickListener(this);
         btOceans.setOnClickListener(this);
         btBranches.setOnClickListener(this);
-        btExit.setOnClickListener(this);
         btInfoRef.setOnClickListener(this);
 
     }
@@ -72,11 +70,6 @@ public class Main extends Activity implements android.view.View.OnClickListener 
                 startActivity(i);
                 break;
 
-            case R.id.btExit:
-                finish();
-                break;
-
-
         }
     }
 
@@ -103,9 +96,6 @@ public class Main extends Activity implements android.view.View.OnClickListener 
                 startActivity(b);
                 break;
 
-            case R.id.iExit:
-                finish();
-                break;
         }
         return false;
     }
