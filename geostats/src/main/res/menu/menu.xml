@@ -12,12 +12,5 @@
         android:numericShortcut="2"
         android:icon="@drawable/abc_ic_voice_search"
         android:id="@+id/iRefs"/>
-    
-    <item 
-        android:title="@string/Exit"
-        android:numericShortcut="3"
-        android:alphabeticShortcut="q"
-        android:icon="@drawable/abc_ic_clear"
-        android:id="@+id/iExit"/>
 
 </menu>
