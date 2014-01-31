@@ -1,13 +1,11 @@
 package com.geo.geostats;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.view.Menu;
 import android.view.MenuItem;
 
 public class Continents extends ActionBarActivity{
@@ -58,12 +56,6 @@ public class Continents extends ActionBarActivity{
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_continents, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -71,10 +63,6 @@ public class Continents extends ActionBarActivity{
         int id = item.getItemId();
         if (id == R.id.home) {
             NavUtils.navigateUpFromSameTask(this);
-            return true;
-        }else if (id == R.id.menu_oceans) {
-            Intent i = new Intent("com.geo.geostats.OCEANS");
-            startActivity(i);
             return true;
         }
         return super.onOptionsItemSelected(item);
