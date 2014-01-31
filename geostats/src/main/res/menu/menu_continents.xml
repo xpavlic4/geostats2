@@ -3,6 +3,6 @@
 		android:id="@+id/menu_oceans"
 		android:title="@string/Oceans"
 		android:orderInCategory="1"
-		android:showAsAction="always"/>
+		android:showAsAction="ifRoom"/>
 
 </menu>
