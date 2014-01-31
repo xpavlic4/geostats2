@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Amazon">Amazon</string>
+	<string name="Nile">Nile</string>
+	<string name="Yangtze">Yangtze (Chang Jiang)</string>
+	<string name="MississippiMissouri">Mississippi-Missouri</string>
+	<string name="ObIrtysh">Ob-Irtysh</string>
+	<string name="YeniseyAngaraSelenga">Yenisey-Angara-Selenga</string>
+	<string name="YellowRiver">Yellow (Huang He)</string>
+	<string name="CongoRiver">Congo</string>
+	<string name="RiodelaPlataParana">Río de la Plata-Paraná</string>
+	<string name="AmurArgun">Amur-Argun</string>
+	<string name="Irtysh">Irtysh</string>
+	<string name="Mekong">Mekong</string>
+	<string name="Lena">Lena</string>
+	<string name="MackenziePeaceFinlay">Mackenzie-Peace-Finlay</string>
+	<string name="Niger">Niger</string>
+	<string name="Missouri">Missouri</string>
+	<string name="Mississippi">Mississippi</string>
+	<string name="Volga">Volga</string>
+	<string name="MurrayDarling">Murray-Darling</string>
+	<string name="ShattalArabEuphrates">Shatt al-Arab - Euphrates</string>
+	<string name="Danube">Danube</string>
+	<string name="Dnieper">Dnieper</string>
+	<string name="Kama">Kama</string>
+	<string name="Don">Don</string>
+	<string name="Zambezi">Zambezi</string>
+	<string name="WebiShabeelle">Webi Shabeelle</string>
+	<string name="Yukon">Yukon</string>
+	<string name="Purus">Purus</string>
+	<string name="MadeiraMamore">Madeira - Mamore</string>
+	<string name="Madeira">Madeira</string>
+	<string name="SaoFrancisco">Sao Francisco</string>
+	<string name="Darling">Darling</string>
+	<string name="Murray">Murray</string>
+	<string name="Murrumbidgee">Murrumbidgee</string>
+	<string name="Lachlan">Lachlan</string>
+	
+	
+</resources>

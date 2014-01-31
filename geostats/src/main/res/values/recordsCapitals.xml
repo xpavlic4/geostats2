@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="LargestPopulationEurope">@string/LargestUrbanAreasEurope01</string>
+    <string name="SmallestPopulationEurope">800</string>
+    <string name="MostNortherlyEurope">64\° 39\' N</string>
+    <string name="MostSoutherlyEurope">35\° 54\' S</string>
+    <string name="HighestCapitalEurope">1.029 m</string>
+    
+    <string name="LargestPopulationAsia">@string/LargestUrbanAreasAsia01</string>
+    <string name="SmallestPopulationAsia">516</string>
+    <string name="MostNortherlyAsia">51\° 10\' N</string>
+    <string name="MostSoutherlyAsia">8\° 35\' S</string>
+    <string name="HighestCapitalAsia">2.423 m</string>
+    
+    <string name="LargestPopulationAfrica">@string/LargestUrbanAreasAfrica01</string>
+    <string name="SmallestPopulationAfrica">25.500</string>
+    <string name="MostNortherlyAfrica">26\° 46\' N</string>
+    <string name="MostSoutherlyAfrica">33\° 57\' S</string>
+    <string name="HighestCapitalAfrica">2.408 m</string>
+    
+    <string name="LargestPopulationNAmerica">@string/LargestUrbanAreasNAmerica02</string>
+    <string name="SmallestPopulationNAmerica">13600</string>
+    <string name="MostNortherlyNAmerica">64\° 11\' N</string>
+    <string name="MostSoutherlyNAmerica">8\° 56\' S</string>
+    <string name="HighestCapitalNAmerica">2.300 m</string>
+    
+    <string name="LargestPopulationSAmerica">@string/LargestUrbanAreasSAmerica02</string>
+    <string name="SmallestPopulationSAmerica">284000</string>
+    <string name="MostNortherlySAmerica">10\° 28\' N</string>
+    <string name="MostSoutherlySAmerica">51\° 43\' S</string>
+    <string name="HighestCapitalSAmerica">3.630 m</string>
+    
+    <string name="LargestPopulationAustralia">@string/LargestUrbanAreasAustralia08</string>
+    <string name="SmallestPopulationAustralia">516</string>
+    <string name="MostNortherlyAustralia">7\° 07\' N</string>
+    <string name="MostSoutherlyAustralia">41\° 18\' S</string>
+    <string name="HighestCapitalAustralia">581 m</string>
+    
+</resources>

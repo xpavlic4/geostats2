@@ -1,0 +1,145 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <color name="colorFFF">#FFF</color>
+    <color name="colorCCC">#CCC</color>
+    <color name="colorDarkGrey">#616161</color>
+    <color name="color000">#000</color>
+
+    <style name="FullScreen" parent="Theme.AppCompat">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PageIndicatorDefaults" parent="@style/Theme.AppCompat">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+
+    <style name="RelativeLayoutBody">
+        <item name="android:background">@color/colorFFF</item>
+    </style>
+    <style name="FrameLayoutBody">
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TableLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorCCC</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:stretchColumns">0</item>
+    </style>
+    <style name="TableLayout.Shrink">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:shrinkColumns">0</item>
+        <item name="android:stretchColumns">1</item>
+    </style>
+    <style name="TableRow">
+        <item name="android:background">@color/colorCCC</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:paddingRight">1dp</item>
+    </style>
+    <style name="TableRow.Span">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+    <style name="TableTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">@color/colorFFF</item>
+    </style>
+    <style name="TableTextView.Italic">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+    <style name="TableTextView.PadddingBottom0">
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+    <style name="TableTextView.PadddingBottom0.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TableTextView.RowSpan">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+    <style name="TableTextView.RowSpan.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TableTextView.Head">
+        <item name="android:background">@color/colorCCC</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+    <style name="TableTextView.GravityRight">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="TableTextView.GravityRight.RowSpan">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+    <style name="TableTextView.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ScrollView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <style name="TextViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:background">#000</item>
+        <item name="android:textColor">@color/colorFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ViewDivider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/colorFFF</item>
+    </style>
+    <style name="DialogContinents" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#ff0000</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogChartNo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="ButCloseDialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/navigation_cancel</item>
+    </style>
+    <style name="ImageViewMapLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="ImageViewMapLarge">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="ImageViewMapLandLarge">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+</resources>

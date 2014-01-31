@@ -1,0 +1,127 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Cairo"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica01"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica01Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Lagos"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica02"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica02Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       	<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Kinshasa"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica03"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica03Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/JohannesburgEastRand"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica04"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica04Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Luanda"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica05"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica05Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Khartoum"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica06"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica06Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Alexandria"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica07"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica07Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Abidjan"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica08"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica08Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+ 			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Nairobi"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica09"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica09Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Accra"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica10"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasAfrica10Density"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

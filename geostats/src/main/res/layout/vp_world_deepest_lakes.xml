@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/DeepestLakes"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/NameLocation"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalM"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeBaikal"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Russia"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeTanganyika"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/TanzaniaDRCongoZambia"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		         <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/CaspianSea"/>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeVostok"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Antarctica"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/OHigginsSanMartin"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/ChileArgentinaBorder"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeNyasa"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/MalawiMozambiqueTanzania"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Ysykkol"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Kyrgyzstan"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/GreatSlaveLake"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Canada"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/CraterLake"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/USA"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeMatano"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Indonesia"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld10"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/GeneralCarreraLake"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/ChileArgentinaBorder"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld11"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Hornindalsvatnet"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Norway"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld12"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/QuesnelLake"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Canada"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld13"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeToba"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Indonesia"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld14"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/SarezLake"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Tajikistan"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld15"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeTahoe"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/USA"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld16"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/ArgentinoLake"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Argentina"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld17"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeKivu"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/DRCongoRwanda"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld18"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Mjosa"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Norway"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld19"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/LakeChelan"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/USA"/>
+		   			</TableRow>
+		        </TableLayout>
+			    <TextView 
+		          	style="@style/TableTextView.GravityRight"
+		            android:layout_span="2"
+		            android:text="@string/DeepestLakesWorld20"/>
+		    </TableRow>
+
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

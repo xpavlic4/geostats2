@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="MarianaTrench">Mariana Trench</string>
+	<string name="TongaTrench">Tonga Trench</string>
+	<string name="KurilKamchatkaTrench">Kuril–Kamchatka Trench</string>
+	<string name="PhilippineTrench">Philippine Trench</string>
+	<string name="KermadecTrench">Kermadec Trench</string>
+	<string name="IzuBoninTrench">Izu-Bonin Trench (Izu-Ogasawara Trench)</string>
+	<string name="JapanTrench">Japan Trench</string>
+	<string name="PuertoRicoTrench">Puerto Rico Trench</string>
+	<string name="PeruChileTrench">Peru-Chile Trench or Atacama Trench</string>
+	<string name="JavaTrench">Java Trench</string>
+	<string name="LitkeDeepEurasianBasin">Litke Deep, Eurasian Basin</string>
+	<string name="SouthSandwichTrench">South Sandwich Trench</string>
+	<string name="ChallengerDeep">Challenger Deep</string>
+	<string name="MilwaukeeDeep">Milwaukee Deep</string>
+	<string name="LitkeDeep">Litke Deep</string>
+	<string name="EurasianBasin">Eurasian Basin</string>
+	
+	
+    
+</resources>

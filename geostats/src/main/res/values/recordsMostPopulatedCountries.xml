@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MOST POPULATED COUNTRIES WORLD -->
+	<string name="MostPopulatedCountriesWorld01">@string/MostPopulatedCountriesAsia01</string>
+	<string name="MostPopulatedCountriesWorld02">@string/MostPopulatedCountriesAsia02</string>
+	<string name="MostPopulatedCountriesWorld03">@string/MostPopulatedCountriesNAmerica01</string>
+	<string name="MostPopulatedCountriesWorld04">@string/MostPopulatedCountriesAsia03</string>
+	<string name="MostPopulatedCountriesWorld05">@string/MostPopulatedCountriesSAmerica01</string>
+	<string name="MostPopulatedCountriesWorld06">@string/MostPopulatedCountriesAsia04</string>
+	<string name="MostPopulatedCountriesWorld07">@string/MostPopulatedCountriesAfrica01</string>
+	<string name="MostPopulatedCountriesWorld08">@string/MostPopulatedCountriesAsia05</string>
+	<string name="MostPopulatedCountriesWorld09">@string/MostPopulatedCountriesEurope01</string>
+	<string name="MostPopulatedCountriesWorld10">@string/MostPopulatedCountriesAsia06</string>
+	<string name="MostPopulatedCountriesWorld11">@string/MostPopulatedCountriesNAmerica02</string>
+	<string name="MostPopulatedCountriesWorld12">@string/MostPopulatedCountriesAsia07</string>
+	<string name="MostPopulatedCountriesWorld13">@string/MostPopulatedCountriesAsia08</string>
+	<string name="MostPopulatedCountriesWorld14">@string/MostPopulatedCountriesAfrica02</string>
+	<string name="MostPopulatedCountriesWorld15">@string/MostPopulatedCountriesEurope02</string>
+	<string name="MostPopulatedCountriesWorld16">@string/MostPopulatedCountriesAfrica03</string>
+	<string name="MostPopulatedCountriesWorld17">@string/MostPopulatedCountriesAsia09</string>
+	<string name="MostPopulatedCountriesWorld18">@string/MostPopulatedCountriesAsia10</string>
+	<string name="MostPopulatedCountriesWorld19">@string/MostPopulatedCountriesAsia11</string>
+	<string name="MostPopulatedCountriesWorld20">@string/MostPopulatedCountriesEurope03</string>
+	
+	<!-- MOST POPULATED COUNTRIES EUROPE -->
+	<string name="MostPopulatedCountriesEurope01">143.616.000</string>
+	<string name="MostPopulatedCountriesEurope02">83.017.000</string>
+	<string name="MostPopulatedCountriesEurope03">63.231.000</string>
+	<string name="MostPopulatedCountriesEurope04">62.066.000</string>
+	<string name="MostPopulatedCountriesEurope05">60.509.000</string>
+	<string name="MostPopulatedCountriesEurope06">46.182.000</string>
+	<string name="MostPopulatedCountriesEurope07">46.044.000</string>
+	<string name="MostPopulatedCountriesEurope08">38.199.000</string>
+	<string name="MostPopulatedCountriesEurope09">21.861.000</string>
+	<string name="MostPopulatedCountriesEurope10">16.615.000</string>
+	<string name="MostPopulatedCountriesEUEurope09">11.111.000</string>
+	<string name="MostPopulatedCountriesEUEurope10">10.941.000</string>
+	
+	<!-- MOST POPULATED COUNTRIES ASIA -->
+	<string name="MostPopulatedCountriesAsia01">1.359.821.000</string>
+	<string name="MostPopulatedCountriesAsia02">1.205.625.000</string>
+	<string name="MostPopulatedCountriesAsia03">240.676.000</string>
+	<string name="MostPopulatedCountriesAsia04">173.114.000</string>
+	<string name="MostPopulatedCountriesAsia05">151.125.000</string>
+	<string name="MostPopulatedCountriesAsia06">127.353.000</string>
+	<string name="MostPopulatedCountriesAsia07">93.444.000</string>
+	<string name="MostPopulatedCountriesAsia08">89.047.000</string>
+	<string name="MostPopulatedCountriesAsia09">74.462.000</string>
+	<string name="MostPopulatedCountriesAsia10">72.138.000</string>
+	<string name="MostPopulatedCountriesAsia11">66.401.000</string>
+	<string name="MostPopulatedCountriesAsia12">51.931.000</string>
+	
+	<!-- MOST POPULATED COUNTRIES AFRICA -->
+	<string name="MostPopulatedCountriesAfrica01">159.685.000</string>
+	<string name="MostPopulatedCountriesAfrica02">87.095.000</string>
+	<string name="MostPopulatedCountriesAfrica03">78.076.000</string>
+	<string name="MostPopulatedCountriesAfrica04">62.191.000</string>
+	<string name="MostPopulatedCountriesAfrica05">51.452.000</string>
+	<string name="MostPopulatedCountriesAfrica06">44.973.000</string>
+	<string name="MostPopulatedCountriesAfrica07">40.909.000</string>
+	<string name="MostPopulatedCountriesAfrica08">37.063.000</string>
+	<string name="MostPopulatedCountriesAfrica09">35.652.000</string>
+	<string name="MostPopulatedCountriesAfrica10">33.987.000</string>
+	
+	<!-- MOST POPULATED COUNTRIES NORTH AMERICA -->
+	<string name="MostPopulatedCountriesNAmerica01">312.237.000</string>
+	<string name="MostPopulatedCountriesNAmerica02">117.886.000</string>
+	<string name="MostPopulatedCountriesNAmerica03">34.127.000</string>
+	<string name="MostPopulatedCountriesNAmerica04">14.342.000</string>
+	<string name="MostPopulatedCountriesNAmerica05">11.282.000</string>
+	<string name="MostPopulatedCountriesNAmerica06">10.017.000</string>
+	<string name="MostPopulatedCountriesNAmerica07">9.896.000</string>
+	<string name="MostPopulatedCountriesNAmerica08">7.621.000</string>
+	<string name="MostPopulatedCountriesNAmerica09">6.218.000</string>
+	<string name="MostPopulatedCountriesNAmerica10">5.822.000</string>
+	
+	<!-- MOST POPULATED COUNTRIES SOUTH AMERICA -->
+	<string name="MostPopulatedCountriesSAmerica01">195.210.000</string>
+	<string name="MostPopulatedCountriesSAmerica02">46.445.000</string>
+	<string name="MostPopulatedCountriesSAmerica03">40.374.000</string>
+	<string name="MostPopulatedCountriesSAmerica04">29.263.000</string>
+	<string name="MostPopulatedCountriesSAmerica05">29.043.000</string>
+	<string name="MostPopulatedCountriesSAmerica06">17.151.000</string>
+	<string name="MostPopulatedCountriesSAmerica07">15.001.000</string>
+	<string name="MostPopulatedCountriesSAmerica08">10.157.000</string>
+	<string name="MostPopulatedCountriesSAmerica09">6.460.000</string>
+	<string name="MostPopulatedCountriesSAmerica10">3.372.000</string>
+	
+	<!-- MOST POPULATED COUNTRIES AUSTRALIA -->
+	<string name="MostPopulatedCountriesAustralia01">22.404.000</string>
+	<string name="MostPopulatedCountriesAustralia02">6.859.000</string>
+	<string name="MostPopulatedCountriesAustralia03">4.368.000</string>
+	<string name="MostPopulatedCountriesAustralia04">861.000</string>
+	<string name="MostPopulatedCountriesAustralia05">526.000</string>
+	<string name="MostPopulatedCountriesAustralia06">268.000</string>
+	<string name="MostPopulatedCountriesAustralia07">246.000</string>
+	<string name="MostPopulatedCountriesAustralia08">236.000</string>
+	<string name="MostPopulatedCountriesAustralia09">186.000</string>
+	<string name="MostPopulatedCountriesAustralia10">159.000</string>
+</resources>

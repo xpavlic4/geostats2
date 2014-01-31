@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	
+	<string name="MarianaTrenchRecord">10.924</string>
+	<string name="TongaTrenchRecord">10.882</string>
+	<string name="KurilKamchatkaTrenchRecord">10.542</string>
+	<string name="PhilippineTrenchRecord">10.540</string>
+	<string name="KermadecTrenchRecord">10.047</string>
+	<string name="IzuBoninTrenchRecord">9.780</string>
+	<string name="JapanTrenchRecord">9.000</string>
+	<string name="PuertoRicoTrenchRecord">8.605</string>
+	<string name="PeruChileTrenchRecord">8.065</string>
+	<string name="JavaTrenchRecord">7.258</string>
+	<string name="LitkeDeepEurasianBasinRecord">@string/LitkeDeepEurasianBasinRecordWiki</string>
+	<string name="SouthSandwichTrenchRecord">@string/SouthSandwichTrenchRecordWiki</string>
+	
+	<!-- WIKI -->
+    <string name="MarianaTrenchRecordWiki">11.033</string>
+	<string name="TongaTrenchRecordWiki">10.882</string>
+	<string name="KurilKamchatkaTrenchRecordWiki">10.542</string>
+	<string name="PhilippineTrenchRecordWiki">10.540</string>
+	<string name="KermadecTrenchRecordWiki">10.047</string>
+	<string name="IzuBoninTrenchRecordWiki">9.780</string>
+	<string name="JapanTrenchRecordWiki">9.000</string>
+	<string name="PuertoRicoTrenchRecordWiki">8.800</string>
+	<string name="PeruChileTrenchRecordWiki">8.065</string>
+	<string name="JavaTrenchRecordWiki">7.125</string>
+	<string name="LitkeDeepEurasianBasinRecordWiki">5.450</string>
+	<string name="SouthSandwichTrenchRecordWiki">7.235</string>
+
+</resources>

@@ -1,0 +1,132 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/SourceYear"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MexicoCity"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/NewYork"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LosAngeles"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2005"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Chicago"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2002"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Toronto"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	          	android:tag="Estimated"
+	            android:text="@string/Houston"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica06"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LaHabana"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2009"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica07"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/EcatepecMorelos"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica08"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	          	android:tag="Estimated"
+	            android:text="@string/Montreal"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica09"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	          	android:tag="Estimated"
+	            android:text="@string/Irapuato"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2011"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesNAmerica10"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

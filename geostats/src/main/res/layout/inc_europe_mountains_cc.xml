@@ -1,0 +1,55 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout style="@style/TableLayout"
+    android:layout_below="@+id/chartNo"
+    android:shrinkColumns="0">
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalM"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Elbrus"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeCC01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/GoraDykhTau"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeCC02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Shkhara"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeCC03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MontBlanc"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeCC04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Dufourspitze"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsEuropeCC05"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

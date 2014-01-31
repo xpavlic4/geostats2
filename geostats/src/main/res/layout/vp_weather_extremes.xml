@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/WeatherExtremes"/>
+	    
+	    <TableLayout style="@style/TableLayout">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/NameLocation"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HighestShadeTemp"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HighestShadeTempRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HottestPlace"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HottestPlaceRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/DriestPlace"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/DriestPlaceRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/MostSunshine"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MostSunshineRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/LeastSunshine"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/LeastSunshineRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/LowestScreenTemp"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/LowestScreenTempRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/ColdestPlace"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/ColdestPlaceRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/WettestPlace"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/WettestPlaceRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/MostRainyDays"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MostRainyDaysRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/WindiestPlace"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/WindiestPlaceRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/WindiestPlace"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/WindiestPlaceRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HighestSurfaceWindSpeedHighAltitude"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HighestSurfaceWindSpeedHighAltitudeRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HighestSurfaceWindSpeedLowAltitude"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HighestSurfaceWindSpeedLowAltitudeRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HighestSurfaceWindSpeedTornado"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HighestSurfaceWindSpeedTornadoRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/GreatestSnowfall"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/GreatestSnowfallRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HeaviestHailstones"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HeaviestHailstonesRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/ThunderDaysAverage"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/ThunderDaysAverageRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/HighestBarometricPressure"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/HighestBarometricPressureRecord"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow.Span">
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		            android:text="@string/LowestBarometricPressure"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/LowestBarometricPressureRecord"/>
+		    </TableRow>
+
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

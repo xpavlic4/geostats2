@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GulfStream">Gulf Stream</string>
+    <string name="BenguelaCurrent">Benguela Current</string>
+    <string name="KuroshioCurrent">Kuroshio Current</string>
+    <string name="OyashioCurrent">Oyashio Current</string>
+    <string name="HumboldtCurrent">Humboldt Current</string>
+    <string name="MozambiqueCurrent">Mozambique Current</string>
+    <string name="LabradorCurrent">Labrador Current</string>
+</resources>

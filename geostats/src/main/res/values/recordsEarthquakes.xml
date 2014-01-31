@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- source: USGS http://earthquake.usgs.gov/earthquakes/world/10_largest_world.php -->
+
+<resources>
+    	
+ 	<string name="DeadliestEarthquakes01">255.000</string>
+	<string name="DeadliestEarthquakes02">225.000</string>
+	<string name="DeadliestEarthquakes03">222.570</string>
+	<string name="DeadliestEarthquakes04">200.000</string>
+	<string name="DeadliestEarthquakes05">200.000</string>
+	<string name="DeadliestEarthquakes06">142.807</string>
+	<string name="DeadliestEarthquakes07">110.000</string>
+	<string name="DeadliestEarthquakes08">74.648</string>
+	<string name="DeadliestEarthquakes09">70.000</string>
+	<string name="DeadliestEarthquakes10">66.794</string>
+	<string name="DeadliestEarthquakes11">60.000</string>
+	<string name="DeadliestEarthquakes12">50.000</string>
+	<string name="DeadliestEarthquakes13">35.000</string>
+	<string name="DeadliestEarthquakes14">32.700</string>
+	<string name="DeadliestEarthquakes15">30.000</string>
+	<string name="DeadliestEarthquakes16">28.000</string>
+	<string name="DeadliestEarthquakes17">26.271</string>
+	<string name="DeadliestEarthquakes18">25.000</string>
+	<string name="DeadliestEarthquakes19">22.778</string>
+	<string name="DeadliestEarthquakes20">20.000</string>
+	
+	<string name="LargestEarthquakes01">9.5</string>
+	<string name="LargestEarthquakes02">9.2</string>
+	<string name="LargestEarthquakes03">9.1</string>
+	<string name="LargestEarthquakes04">9.0</string>
+	<string name="LargestEarthquakes05">9.0</string>
+	<string name="LargestEarthquakes06">8.8</string>
+	<string name="LargestEarthquakes07">8.8</string>
+	<string name="LargestEarthquakes08">8.7</string>
+	<string name="LargestEarthquakes09">8.6</string>
+	<string name="LargestEarthquakes10">8.6</string>
+	<string name="LargestEarthquakes11">8.6</string>
+	<string name="LargestEarthquakes12">8.6</string>
+	<string name="LargestEarthquakes13">8.5</string>
+	<string name="LargestEarthquakes14">8.5</string>
+	<string name="LargestEarthquakes15">8.5</string>
+	<string name="LargestEarthquakes16">8.5</string>
+	<string name="LargestEarthquakes17">8.5</string>
+
+</resources>

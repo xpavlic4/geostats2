@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/DeadliestEarthquakes"/>
+	    
+	    <TableLayout style="@style/TableLayout.Shrink"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Year"/>
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Location"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/Deaths"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1976"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/TangshanHebeiProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2004"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Sumatra"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/IndonesiaIndianOcean"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2010"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Leogane"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Haiti"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1927"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/QinghaiProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1920"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/NingxiaProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1923"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Tokyo"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Japan"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1908"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Messina"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Italy"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2005"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/NorthwestPakistan"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Pakistan"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1932"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/GansuProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1970"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/HuanucoProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes10"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2008"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/SichuanProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes11"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1990"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Manjil"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Iran"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes12"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1915"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Abruzzo"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Italy"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes13"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1939"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Erzincan"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Turkey"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes14"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1935"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Quetta"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Pakistan"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes15"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1939"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Chillan"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Chile"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes16"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2003"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Bam"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Iran"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes17"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1988"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Spitak"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Armenia"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes18"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1976"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/CentralGuatemala"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/Guatemala"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes19"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2001"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/Gujarat"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/India"/>
+		   			</TableRow>
+		        </TableLayout>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/DeadliestEarthquakes20"/>
+		    </TableRow>
+  
+		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
+	</LinearLayout>
+</ScrollView>

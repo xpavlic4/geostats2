@@ -1,0 +1,96 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0"
+        android:layout_below="@+id/chartNo">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Country"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/China"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/India"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Indonesia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Pakistan"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Bangladesh"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Japan"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia06"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Philippines"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia07"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Vietnam"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia08"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Iran"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia09"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Turkey"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAsia10"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

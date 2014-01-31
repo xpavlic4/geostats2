@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LARGEST ISLANDS WORLD -->
+    <string name="LargestIslandsWorld01">@string/LargestIslandsNAmerica01</string>
+	<string name="LargestIslandsWorld02">@string/LargestIslandsAustralia01</string>
+	<string name="LargestIslandsWorld03">@string/LargestIslandsAsia01</string>
+	<string name="LargestIslandsWorld04">@string/LargestIslandsAfrica01</string>
+	<string name="LargestIslandsWorld05">@string/LargestIslandsNAmerica02</string>
+	<string name="LargestIslandsWorld06">@string/LargestIslandsAsia02</string>
+	<string name="LargestIslandsWorld07">@string/LargestIslandsAsia03</string>
+	<string name="LargestIslandsWorld08">@string/LargestIslandsEurope01</string>
+	<string name="LargestIslandsWorld09">@string/LargestIslandsNAmerica03</string>
+	<string name="LargestIslandsWorld10">@string/LargestIslandsNAmerica04</string>
+	<string name="LargestIslandsWorld11">@string/LargestIslandsAsia04</string>
+	<string name="LargestIslandsWorld12">@string/LargestIslandsAustralia02</string>
+	<string name="LargestIslandsWorld13">@string/LargestIslandsAsia05</string>
+	<string name="LargestIslandsWorld14">@string/LargestIslandsAustralia03</string>
+	<string name="LargestIslandsWorld15">@string/LargestIslandsNAmerica05</string>
+	<string name="LargestIslandsWorld16">@string/LargestIslandsNAmerica06</string>
+	<string name="LargestIslandsWorld17">@string/LargestIslandsAsia06</string>
+	<string name="LargestIslandsWorld18">@string/LargestIslandsEurope02</string>
+	<string name="LargestIslandsWorld19">@string/LargestIslandsAsia07</string>
+	<string name="LargestIslandsWorld20">@string/LargestIslandsEurope03</string>
+	
+	<!-- LARGEST ISLANDS EUROPE -->
+	<string name="LargestIslandsEurope01">218.476</string>
+	<string name="LargestIslandsEurope02">102.820</string>
+	<string name="LargestIslandsEurope03">83.045</string>
+	<string name="LargestIslandsEurope04">47.079</string>
+	<string name="LargestIslandsEurope05">37.814</string>
+	
+	<!-- LARGEST ISLANDS ASIA -->
+	<string name="LargestIslandsAsia01">745.561</string>
+	<string name="LargestIslandsAsia02">473.606</string>
+	<string name="LargestIslandsAsia03">227.414</string>
+	<string name="LargestIslandsAsia04">189.216</string>
+	<string name="LargestIslandsAsia05">132.188</string>
+	<string name="LargestIslandsAsia06">109.964</string> <!-- islands.unep -->
+	<string name="LargestIslandsAsia07">97.530</string> <!-- islands.unep -->
+	
+	<!-- LARGEST ISLANDS AFRICA -->
+	<string name="LargestIslandsAfrica01">587.040</string>
+	
+	<!-- LARGEST ISLANDS NORTH AMERICA -->
+	<string name="LargestIslandsNAmerica01">2.175.600</string>
+	<string name="LargestIslandsNAmerica02">507.451</string>
+	<string name="LargestIslandsNAmerica03">217.291</string>
+	<string name="LargestIslandsNAmerica04">196.236</string>
+	<string name="LargestIslandsNAmerica05">115.220</string>
+	<string name="LargestIslandsNAmerica06">110.860</string>
+	
+	<!-- LARGEST ISLANDS SOUTH AMERICA -->
+	<string name="LargestIslandsSAmerica01">47.000</string>
+	<string name="LargestIslandsSAmerica02">8.394</string>
+	<string name="LargestIslandsSAmerica03">6.760</string>
+	<string name="LargestIslandsSAmerica04">5.413</string>
+	
+	<!-- LARGEST ISLANDS AUSTRALIA -->
+	<string name="LargestIslandsAustralia01">808.510</string>
+	<string name="LargestIslandsAustralia02">151.215</string>
+	<string name="LargestIslandsAustralia03">115.777</string>
+	<string name="LargestIslandsAustralia04">67.800</string>
+	
+</resources>

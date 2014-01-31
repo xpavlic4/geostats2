@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="SouthChinaSea">South China Sea</string>
+	<string name="CaribbeanSea">Caribbean Sea</string>
+	<string name="MediterraneanSea">Mediterranean Sea</string>
+	<string name="BeringSea">Bering Sea</string>
+	<string name="SeaofOkhotsk">Sea of Okhotsk</string>
+	<string name="DeadSea">Dead Sea</string>
+	<string name="EastChinaSeaandYellowSea">East China Sea and Yellow Sea</string>
+	<string name="SeaOfJapan">Sea of Japan (East Sea)</string>
+	<string name="RedSea">Red Sea</string>
+	<string name="NorthSea">North Sea</string>
+	<string name="BlackSea">Black Sea</string>
+	<string name="BalticSea">Baltic Sea</string>
+	<string name="BarentsSea">Barents Sea</string>
+	<string name="EastSiberianSea">East Siberian Sea</string>
+	<string name="KaraSea">Kara Sea</string>
+	<string name="LaptevSea">Laptev Sea</string>
+	<string name="ChukchiSea">Chukchi Sea</string>
+	
+</resources>

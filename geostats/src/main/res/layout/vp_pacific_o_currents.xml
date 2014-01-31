@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <TableLayout
+	    style="@style/TableLayout"
+	       android:shrinkColumns="0">
+	     
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/NameFlowRate"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Width"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/SpeedCmS"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+            <TextView 
+                style="@style/TableTextView.Bold"
+                android:layout_span="3"
+                android:text="@string/KuroshioCurrent"/>
+        </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/KuroshioCurrentFlowRate"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/KuroshioCurrentWidth"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/KuroshioCurrentSpeed"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+            <TextView 
+                style="@style/TableTextView.Bold"
+                android:layout_span="3"
+                android:text="@string/OyashioCurrent"/>
+        </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/OyashioCurrentFlowRate"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/OyashioCurrentWidth"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/OyashioCurrentSpeed"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+            <TextView 
+                style="@style/TableTextView.Bold"
+                android:layout_span="3"
+                android:text="@string/HumboldtCurrent"/>
+        </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/HumboldtCurrentFlowRate"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HumboldtCurrentWidth"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HumboldtCurrentSpeed"/>
+	    </TableRow>
+		<TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="3"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

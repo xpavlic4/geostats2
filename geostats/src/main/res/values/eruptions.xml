@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Eyjafjallajokull">Eyjafjallajökull</string>
+	<string name="Nyiragongo">Nyiragongo</string>
+	<string name="MonteEtna">Monte Etna</string>
+	<string name="Hekla">Hekla</string>
+	<string name="SoufriereHills">Soufriere Hills</string>
+	<string name="Rabaul">Rabaul</string>
+	<string name="VolcanLlaima">Volcán Llaima</string>
+	<string name="VolcanGaleras">Volcán Galeras</string>
+	<string name="Mayon">Mayon</string>
+	<string name="UnzenDake">Unzen-dake</string>
+	<string name="MtPinatubo">Mt Pinatubo</string>
+	<string name="NevadoDeRuiz">Nevado de Ruiz</string>
+	<string name="OYama">Ö-yama</string>
+	<string name="Kilauea">Kilauea</string>
+	<string name="GunungGalunggung">Gunung Galunggung</string>
+	<string name="ElChichonal">El Chichónal</string>
+	<string name="MtStHelens">Mt St Helens</string>
+    
+</resources>

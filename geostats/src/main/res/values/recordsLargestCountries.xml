@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LARGEST COUNTRIES WORLD -->
+	<string name="LargestCountriesWorld01">@string/LargestCountriesEurope01</string>
+	<string name="LargestCountriesWorld02">@string/LargestCountriesNAmerica01</string>
+	<string name="LargestCountriesWorld03">@string/LargestCountriesNAmerica02</string>
+	<string name="LargestCountriesWorld04">@string/LargestCountriesAsia02</string>
+	<string name="LargestCountriesWorld05">@string/LargestCountriesSAmerica01</string>
+	<string name="LargestCountriesWorld06">@string/LargestCountriesAustralia01</string>
+	<string name="LargestCountriesWorld07">@string/LargestCountriesAsia03</string>
+	<string name="LargestCountriesWorld08">@string/LargestCountriesSAmerica02</string>
+	<string name="LargestCountriesWorld09">@string/LargestCountriesAsia04</string>
+	<string name="LargestCountriesWorld10">@string/LargestCountriesAfrica01</string>
+	<string name="LargestCountriesWorld11">@string/LargestCountriesAfrica02</string>
+	<string name="LargestCountriesWorld12">@string/LargestCountriesAsia05</string>
+	<string name="LargestCountriesWorld13">@string/LargestCountriesNAmerica03</string>
+	<string name="LargestCountriesWorld14">@string/LargestCountriesAsia06</string>
+	<string name="LargestCountriesWorld15">@string/LargestCountriesAfrica03</string>
+	<string name="LargestCountriesWorld16">@string/LargestCountriesAfrica04</string>
+	<string name="LargestCountriesWorld17">@string/LargestCountriesAsia07</string>
+	<string name="LargestCountriesWorld18">@string/LargestCountriesAsia08</string>
+	<string name="LargestCountriesWorld19">@string/LargestCountriesSAmerica03</string>
+	<string name="LargestCountriesWorld20">@string/LargestCountriesAfrica05</string>
+	
+	<!-- LARGEST COUNTRIES EUROPE -->
+	<string name="LargestCountriesEurope01">17.075.400</string>   
+	<string name="LargestCountriesEurope02">603.700</string>
+	<string name="LargestCountriesEurope03">543.965</string>
+	<string name="LargestCountriesEurope04">504.782</string>
+	<string name="LargestCountriesEurope05">449.964</string>
+	<string name="LargestCountriesEurope06">357.022</string>
+	<string name="LargestCountriesEurope07">338.145</string>
+	<string name="LargestCountriesEurope08">323.878</string>
+	<string name="LargestCountriesEurope09">312.683</string>
+	<string name="LargestCountriesEurope10">301.245</string>
+	<string name="LargestCountriesEUEurope08">243.610</string> <!-- WDI -->
+	<string name="LargestCountriesEUEurope09">238.390</string> <!-- WDI -->
+	<string name="LargestCountriesEUEurope10">131.960</string> <!-- WDI -->
+	
+	<!-- LARGEST COUNTRIES ASIA -->
+	<string name="LargestCountriesAsia01">17.075.400</string>   
+	<string name="LargestCountriesAsia02">9.584.492</string>   
+	<string name="LargestCountriesAsia03">3.064.989</string>   
+	<string name="LargestCountriesAsia04">2.717.300</string>   
+	<string name="LargestCountriesAsia05">2.200.000</string>   
+	<string name="LargestCountriesAsia06">1.919.445</string>   
+	<string name="LargestCountriesAsia07">1.648.000</string>   
+	<string name="LargestCountriesAsia08">1.565.000</string>   
+	<string name="LargestCountriesAsia09">803.940</string> 
+	<string name="LargestCountriesAsia10">779.452</string> 
+	
+	<!-- LARGEST COUNTRIES AFRICA -->
+	<string name="LargestCountriesAfrica01">2.381.741</string>   
+	<string name="LargestCountriesAfrica02">2.345.410</string>   
+	<string name="LargestCountriesAfrica03">1.861.484</string>   
+	<string name="LargestCountriesAfrica04">1.759.540</string>   
+	<string name="LargestCountriesAfrica05">1.284.000</string>   
+	<string name="LargestCountriesAfrica06">1.267.000</string>   
+	<string name="LargestCountriesAfrica07">1.246.000</string>   
+	<string name="LargestCountriesAfrica08">1.240.140</string>   
+	<string name="LargestCountriesAfrica09">1.219.090</string>   
+	<string name="LargestCountriesAfrica10">1.133.880</string>
+	
+	<!-- LARGEST COUNTRIES NORTH AMERICA -->
+	<string name="LargestCountriesNAmerica01">9.984.670</string>   
+	<string name="LargestCountriesNAmerica02">9.826.635</string>   
+	<string name="LargestCountriesNAmerica03">1.972.545</string>   
+	<string name="LargestCountriesNAmerica04">130.000</string> 
+	<string name="LargestCountriesNAmerica05">112.088</string> 
+	<string name="LargestCountriesNAmerica06">110.860</string> 
+	<string name="LargestCountriesNAmerica07">108.890</string> 
+	<string name="LargestCountriesNAmerica08">77.082</string>
+	<string name="LargestCountriesNAmerica09">51.100</string>
+	<string name="LargestCountriesNAmerica10">48.442</string>
+	
+	<!-- LARGEST COUNTRIES SOUTH AMERICA -->
+	<string name="LargestCountriesSAmerica01">8.514.879</string>   
+	<string name="LargestCountriesSAmerica02">2.766.889</string>   
+	<string name="LargestCountriesSAmerica03">1.285.216</string>   
+	<string name="LargestCountriesSAmerica04">1.141.748</string>   
+	<string name="LargestCountriesSAmerica05">1.098.581</string>   
+	<string name="LargestCountriesSAmerica06">912.050</string> 
+	<string name="LargestCountriesSAmerica07">756.945</string> 
+	<string name="LargestCountriesSAmerica08">406.752</string> 
+	<string name="LargestCountriesSAmerica09">272.045</string> 
+	<string name="LargestCountriesSAmerica10">214.969</string> 
+	
+	<!-- LARGEST COUNTRIES AUSTRALIA -->
+	<string name="LargestCountriesAustralia01">7.692.024</string>
+	<string name="LargestCountriesAustralia02">462.840</string>
+	<string name="LargestCountriesAustralia03">270.534</string>
+	<string name="LargestCountriesAustralia04">28.370</string>
+	<string name="LargestCountriesAustralia05">18.330</string>
+	<string name="LargestCountriesAustralia06">12.190</string>
+	<string name="LargestCountriesAustralia07">2.831</string>
+	<string name="LargestCountriesAustralia08">748</string>
+	<string name="LargestCountriesAustralia09">717</string>
+	<string name="LargestCountriesAustralia10">701</string>
+</resources>

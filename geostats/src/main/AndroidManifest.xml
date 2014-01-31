@@ -1,0 +1,113 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geo.geostats">
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat"
+        android:icon="@drawable/ic_launcher">
+        <activity
+            android:name="com.geo.geostats.Intro"
+            android:theme="@style/FullScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.geo.geostats.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Continents"
+            android:theme="@style/Theme.PageIndicatorDefaults"
+            android:label="@string/app_name"
+            android:parentActivityName="com.geo.geostats.Main">
+            <intent-filter>
+                <action android:name="com.geo.geostats.CONTINENTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Main" />
+        </activity>
+        <activity android:name=".Oceans"
+            android:theme="@style/Theme.PageIndicatorDefaults"
+            android:label="@string/app_name"
+            android:parentActivityName="com.geo.geostats.Main">
+            <intent-filter>
+                <action android:name="com.geo.geostats.OCEANS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Main" />
+        </activity>
+        <activity android:name=".Indicators"
+            android:label="@string/app_name"
+            android:parentActivityName="com.geo.geostats.Main">
+            <intent-filter>
+                <action android:name="com.geo.geostats.INDICATORS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Main" />
+        </activity>
+        <activity android:name=".Branches"
+            android:label="@string/app_name"
+            android:parentActivityName="com.geo.geostats.Main">
+            <intent-filter>
+                <action android:name="com.geo.geostats.BRANCHES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Main" />
+        </activity>
+        <activity android:name=".BranchesFragmentManager"
+            android:label="@string/app_name"
+            android:parentActivityName="com.geo.geostats.Branches">
+            <intent-filter>
+                <action android:name="com.geo.geostats.BRANCHES_FM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Branches" />
+        </activity>
+        <activity android:name=".About"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/About"
+            android:parentActivityName="com.geo.geostats.Main">
+            <intent-filter>
+                <action android:name="com.geo.geostats.ABOUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Main" />
+        </activity>
+        <activity android:name=".InfoReferences"
+            android:theme="@style/Theme.PageIndicatorDefaults"
+            android:label="@string/app_name"
+            android:parentActivityName="com.geo.geostats.Main">
+            <intent-filter>
+                <action android:name="com.geo.geostats.INFO_REFERENCES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.geo.geostats.Main" />
+        </activity>
+    </application>
+
+</manifest>

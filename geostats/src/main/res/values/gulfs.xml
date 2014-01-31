@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- GULFS OF ATLANTIC OCEAN -->
+    <string name="GulfOfMexico">Gulf of Mexico</string>
+    <string name="GulfOfGuinea">Gulf of Guinea</string>
+    <string name="HudsonBay">Hudson Bay</string>
+    
+    <!-- GULFS OF INDIAN OCEAN -->
+    <string name="BayOfBengal">Bay of Bengal</string>
+    <string name="GreatAustralianBight">Great Australian Bight</string>
+    <string name="TheGulf">The Gulf</string>
+    
+    <!-- GULFS OF PACIFIC OCEAN -->
+    <string name="GulfOfAlaska">Gulf of Alaska</string>
+    <string name="GulfOfCalifornia">Gulf of California</string>
+    
+</resources>

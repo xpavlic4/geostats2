@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <TableLayout
+	    style="@style/TableLayout"
+	       android:shrinkColumns="0">
+	       
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Length"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Width"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/StraitOfGibraltar"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/StraitOfGibraltarLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/StraitOfGibraltarWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Bosporus"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/BosporusLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/BosporusWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Dardanelles"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/DardanellesLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/DardanellesWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LaManche"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LaMancheLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LaMancheWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Skagerrak"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/SkagerrakLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/SkagerrakWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Kattegat"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/KattegatLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/KattegatWidth"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="3"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

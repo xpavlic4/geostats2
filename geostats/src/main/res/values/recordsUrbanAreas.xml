@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- demographia.com -->
+    
+    <!-- LARGEST URBAN AREAS WORLD -->
+    <string name="LargestUrbanAreasWorld01">@string/LargestUrbanAreasAsia01</string>
+	<string name="LargestUrbanAreasWorld02">@string/LargestUrbanAreasAsia02</string>
+	<string name="LargestUrbanAreasWorld03">@string/LargestUrbanAreasAsia03</string>
+	<string name="LargestUrbanAreasWorld04">@string/LargestUrbanAreasAsia04</string>
+	<string name="LargestUrbanAreasWorld05">@string/LargestUrbanAreasAsia05</string>
+	<string name="LargestUrbanAreasWorld06">@string/LargestUrbanAreasAsia06</string>
+	<string name="LargestUrbanAreasWorld07">@string/LargestUrbanAreasAsia07</string>
+	<string name="LargestUrbanAreasWorld08">@string/LargestUrbanAreasNAmerica01</string>
+	<string name="LargestUrbanAreasWorld09">@string/LargestUrbanAreasSAmerica01</string>
+	<string name="LargestUrbanAreasWorld10">@string/LargestUrbanAreasNAmerica02</string>
+	<string name="LargestUrbanAreasWorld11">@string/LargestUrbanAreasAsia08</string>
+	<string name="LargestUrbanAreasWorld12">@string/LargestUrbanAreasAsia09</string>
+	<string name="LargestUrbanAreasWorld13">@string/LargestUrbanAreasAsia10</string>
+	<string name="LargestUrbanAreasWorld14">@string/LargestUrbanAreasAsia11</string>
+	<string name="LargestUrbanAreasWorld15">@string/LargestUrbanAreasEurope01</string>
+	<string name="LargestUrbanAreasWorld16">@string/LargestUrbanAreasAfrica01</string>
+	<string name="LargestUrbanAreasWorld17">@string/LargestUrbanAreasNAmerica03</string>
+	<string name="LargestUrbanAreasWorld18">@string/LargestUrbanAreasAsia12</string>
+	<string name="LargestUrbanAreasWorld19">@string/LargestUrbanAreasAsia13</string>
+	<string name="LargestUrbanAreasWorld20">@string/LargestUrbanAreasAsia14</string>
+	
+    <string name="LargestUrbanAreasWorld01Density">@string/LargestUrbanAreasAsia01Density</string>
+	<string name="LargestUrbanAreasWorld02Density">@string/LargestUrbanAreasAsia02Density</string>
+	<string name="LargestUrbanAreasWorld03Density">@string/LargestUrbanAreasAsia03Density</string>
+	<string name="LargestUrbanAreasWorld04Density">@string/LargestUrbanAreasAsia04Density</string>
+	<string name="LargestUrbanAreasWorld05Density">@string/LargestUrbanAreasAsia05Density</string>
+	<string name="LargestUrbanAreasWorld06Density">@string/LargestUrbanAreasAsia06Density</string>
+	<string name="LargestUrbanAreasWorld07Density">@string/LargestUrbanAreasAsia07Density</string>
+	<string name="LargestUrbanAreasWorld08Density">@string/LargestUrbanAreasNAmerica01Density</string>
+	<string name="LargestUrbanAreasWorld09Density">@string/LargestUrbanAreasSAmerica01Density</string>
+	<string name="LargestUrbanAreasWorld10Density">@string/LargestUrbanAreasNAmerica02Density</string>
+	<string name="LargestUrbanAreasWorld11Density">@string/LargestUrbanAreasAsia08Density</string>
+	<string name="LargestUrbanAreasWorld12Density">@string/LargestUrbanAreasAsia09Density</string>
+	<string name="LargestUrbanAreasWorld13Density">@string/LargestUrbanAreasAsia10Density</string>
+	<string name="LargestUrbanAreasWorld14Density">@string/LargestUrbanAreasAsia11Density</string>
+	<string name="LargestUrbanAreasWorld15Density">@string/LargestUrbanAreasEurope01Density</string>
+	<string name="LargestUrbanAreasWorld16Density">@string/LargestUrbanAreasAfrica01Density</string>
+	<string name="LargestUrbanAreasWorld17Density">@string/LargestUrbanAreasNAmerica03Density</string>
+	<string name="LargestUrbanAreasWorld18Density">@string/LargestUrbanAreasAsia12Density</string>
+	<string name="LargestUrbanAreasWorld19Density">@string/LargestUrbanAreasAsia13Density</string>
+	<string name="LargestUrbanAreasWorld20Density">@string/LargestUrbanAreasAsia14Density</string>
+	
+	<!-- LARGEST URBAN AREAS EUROPE -->
+	<string name="LargestUrbanAreasEurope01">15.788.000</string>
+	<string name="LargestUrbanAreasEurope02">10.869.000</string>
+	<string name="LargestUrbanAreasEurope03">9.576.000</string>
+	<string name="LargestUrbanAreasEurope04">7.312.000</string>
+	<string name="LargestUrbanAreasEurope05">6.087.000</string>
+	<string name="LargestUrbanAreasEurope06">5.248.000</string>
+	<string name="LargestUrbanAreasEurope07">4.899.000</string>
+	<string name="LargestUrbanAreasEurope08">4.604.000</string>
+	<string name="LargestUrbanAreasEurope09">3.956.000</string>
+	<string name="LargestUrbanAreasEurope10">3.798.000</string>
+	<string name="LargestUrbanAreasEurope01Density">9.300</string>
+	<string name="LargestUrbanAreasEurope02Density">9.900</string>
+	<string name="LargestUrbanAreasEurope03Density">15.300</string>
+	<string name="LargestUrbanAreasEurope04Density">7.200</string>
+	<string name="LargestUrbanAreasEurope05Density">11.900</string>
+	<string name="LargestUrbanAreasEurope06Density">7.200</string>
+	<string name="LargestUrbanAreasEurope07Density">10.700</string>
+	<string name="LargestUrbanAreasEurope08Density">11.100</string>
+	<string name="LargestUrbanAreasEurope09Density">7.600</string>
+	<string name="LargestUrbanAreasEurope10Density">8.800</string>
+	
+	<!-- LARGEST URBAN AREAS ASIA -->
+	<string name="LargestUrbanAreasAsia01">37.239.000</string>
+	<string name="LargestUrbanAreasAsia02">26.746.000</string>
+	<string name="LargestUrbanAreasAsia03">22.868.000</string>
+	<string name="LargestUrbanAreasAsia04">22.826.000</string>
+	<string name="LargestUrbanAreasAsia05">21.766.000</string>
+	<string name="LargestUrbanAreasAsia06">21.241.000</string>
+	<string name="LargestUrbanAreasAsia07">20.877.000</string>
+	<string name="LargestUrbanAreasAsia08">18.241.000</string>
+	<string name="LargestUrbanAreasAsia09">17.681.000</string>
+	<string name="LargestUrbanAreasAsia10">17.307.000</string>
+	<string name="LargestUrbanAreasAsia11">17.175.000</string>
+	<string name="LargestUrbanAreasAsia12">14.630.000</string>
+	<string name="LargestUrbanAreasAsia13">14.544.000</string>
+	<string name="LargestUrbanAreasAsia14">14.399.000</string>
+	<string name="LargestUrbanAreasAsia01Density">11.300</string>
+	<string name="LargestUrbanAreasAsia02Density">24.900</string>
+	<string name="LargestUrbanAreasAsia03Density">27.400</string>
+	<string name="LargestUrbanAreasAsia04Density">30.400</string>
+	<string name="LargestUrbanAreasAsia05Density">16.100</string>
+	<string name="LargestUrbanAreasAsia06Density">38.300</string>
+	<string name="LargestUrbanAreasAsia07Density">67.300</string>
+	<string name="LargestUrbanAreasAsia08Density">13.500</string>
+	<string name="LargestUrbanAreasAsia09Density">14.400</string>
+	<string name="LargestUrbanAreasAsia10Density">82.000</string>
+	<string name="LargestUrbanAreasAsia11Density">13.900</string>
+	<string name="LargestUrbanAreasAsia12Density">31.500</string>
+	<string name="LargestUrbanAreasAsia13Density">16.200</string>
+	<string name="LargestUrbanAreasAsia14Density">115.200</string>
+	
+	<!-- LARGEST URBAN AREAS AFRICA -->
+	<string name="LargestUrbanAreasAfrica01">15.071.000</string>
+	<string name="LargestUrbanAreasAfrica02">12.090.000</string>
+	<string name="LargestUrbanAreasAfrica03">9.387.000</string>
+	<string name="LargestUrbanAreasAfrica04">7.426.000</string> 
+	<string name="LargestUrbanAreasAfrica05">5.425.000</string> 
+	<string name="LargestUrbanAreasAfrica06">4.919.000</string> 
+	<string name="LargestUrbanAreasAfrica07">4.603.000</string> 
+	<string name="LargestUrbanAreasAfrica08">4.603.000</string> 
+	<string name="LargestUrbanAreasAfrica09">4.457.000</string> 
+	<string name="LargestUrbanAreasAfrica10">3.933.000</string>
+	<string name="LargestUrbanAreasAfrica01Density">23.500</string>
+	<string name="LargestUrbanAreasAfrica02Density">34.500</string>
+	<string name="LargestUrbanAreasAfrica03Density">41.700</string>
+	<string name="LargestUrbanAreasAfrica04Density">7.100</string> 
+	<string name="LargestUrbanAreasAfrica05Density">18.300</string> 
+	<string name="LargestUrbanAreasAfrica06Density">13.700</string> 
+	<string name="LargestUrbanAreasAfrica07Density">40.700</string> 
+	<string name="LargestUrbanAreasAfrica08Density">36.800</string> 
+	<string name="LargestUrbanAreasAfrica09Density">20.700</string> 
+	<string name="LargestUrbanAreasAfrica10Density">10.800</string>
+	
+	<!-- LARGEST URBAN AREAS NORTH AMERICA -->
+	<string name="LargestUrbanAreasNAmerica01">20.673.000</string>
+	<string name="LargestUrbanAreasNAmerica02">20.032.000</string>
+	<string name="LargestUrbanAreasNAmerica03">15.067.000</string>
+	<string name="LargestUrbanAreasNAmerica04">9.104.000</string>
+	<string name="LargestUrbanAreasNAmerica05">6.184.000</string>
+	<string name="LargestUrbanAreasNAmerica06">6.022.000</string>
+	<string name="LargestUrbanAreasNAmerica07">6.020.000</string>
+	<string name="LargestUrbanAreasNAmerica08">5.804.000</string>
+	<string name="LargestUrbanAreasNAmerica09">5.508.000</string>
+	<string name="LargestUrbanAreasNAmerica10">5.485.000</string>
+	<string name="LargestUrbanAreasNAmerica01Density">4.600</string>
+	<string name="LargestUrbanAreasNAmerica02Density">25.400</string>
+	<string name="LargestUrbanAreasNAmerica03Density">6.200</string>
+	<string name="LargestUrbanAreasNAmerica04Density">3.400</string>
+	<string name="LargestUrbanAreasNAmerica05Density">7.000</string>
+	<string name="LargestUrbanAreasNAmerica06Density">3.000</string>
+	<string name="LargestUrbanAreasNAmerica07Density">5.600</string>
+	<string name="LargestUrbanAreasNAmerica08Density">4.700</string>
+	<string name="LargestUrbanAreasNAmerica09Density">2.800</string>
+	<string name="LargestUrbanAreasNAmerica10Density">3.100</string>
+	
+	<!-- LARGEST URBAN AREAS SOUTH AMERICA -->
+	<string name="LargestUrbanAreasSAmerica01">20.568.000</string>
+	<string name="LargestUrbanAreasSAmerica02">13.776.000</string>
+	<string name="LargestUrbanAreasSAmerica03">11.616.000</string>
+	<string name="LargestUrbanAreasSAmerica04">9.400.000</string>
+	<string name="LargestUrbanAreasSAmerica05">9.009.000</string>
+	<string name="LargestUrbanAreasSAmerica06">6.171.000</string> 
+	<string name="LargestUrbanAreasSAmerica07">5.582.000</string> 
+	<string name="LargestUrbanAreasSAmerica08">4.075.000</string> 
+	<string name="LargestUrbanAreasSAmerica09">4.002.000</string> 
+	<string name="LargestUrbanAreasSAmerica10">3.793.000</string> 
+	<string name="LargestUrbanAreasSAmerica01Density">16.800</string>
+	<string name="LargestUrbanAreasSAmerica02Density">13.500</string>
+	<string name="LargestUrbanAreasSAmerica03Density">14.900</string>
+	<string name="LargestUrbanAreasSAmerica04Density">37.600</string>
+	<string name="LargestUrbanAreasSAmerica05Density">56.300</string>
+	<string name="LargestUrbanAreasSAmerica06Density">16.200</string> 
+	<string name="LargestUrbanAreasSAmerica07Density">13.300</string> 
+	<string name="LargestUrbanAreasSAmerica08Density">27.200</string> 
+	<string name="LargestUrbanAreasSAmerica09Density">13.300</string> 
+	<string name="LargestUrbanAreasSAmerica10Density">23.700</string> 
+	
+	<!-- LARGEST URBAN AREAS AUSTRALIA -->
+	<string name="LargestUrbanAreasAustralia01">3.956.000</string> 
+	<string name="LargestUrbanAreasAustralia02">3.761.000</string> 
+	<string name="LargestUrbanAreasAustralia03">1.912.000</string> 
+	<string name="LargestUrbanAreasAustralia04">1.657.000</string> 
+	<string name="LargestUrbanAreasAustralia05">1.310.000</string> 
+	<string name="LargestUrbanAreasAustralia06">1.120.000</string> 
+	<string name="LargestUrbanAreasAustralia07">534.000</string>
+	<string name="LargestUrbanAreasAustralia08">382.000</string>
+	<string name="LargestUrbanAreasAustralia09">350.000</string>
+	<string name="LargestUrbanAreasAustralia10">350.000</string>
+	<string name="LargestUrbanAreasAustralia01Density">5.000</string> 
+	<string name="LargestUrbanAreasAustralia02Density">3.800</string> 
+	<string name="LargestUrbanAreasAustralia03Density">2.500</string> 
+	<string name="LargestUrbanAreasAustralia04Density">2.700</string>
+	<string name="LargestUrbanAreasAustralia05Density">6.200</string>
+	<string name="LargestUrbanAreasAustralia06Density">3.400</string> 
+	<string name="LargestUrbanAreasAustralia07Density">2.300</string>
+	<string name="LargestUrbanAreasAustralia08Density">2.100</string>
+	<string name="LargestUrbanAreasAustralia09Density">4.900</string>
+	<string name="LargestUrbanAreasAustralia10Density">5.100</string>
+	
+</resources>

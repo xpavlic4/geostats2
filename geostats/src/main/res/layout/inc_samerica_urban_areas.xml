@@ -1,0 +1,127 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+		<TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/SaoPaulo"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica01"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica01Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/BuenosAires"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica02"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica02Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	       	<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/RiodeJaneiro"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica03"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica03Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Lima"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica04"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica04Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Bogota"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica05"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica05Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Santiago"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica06"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica06Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/BeloHorizonte"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica07"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica07Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Salvador"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica08"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica08Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+ 			<TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/PortoAlegre"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica09"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica09Density"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.PadddingBottom0"
+	            android:text="@string/Recife"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica10"/>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestUrbanAreasSAmerica10Density"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

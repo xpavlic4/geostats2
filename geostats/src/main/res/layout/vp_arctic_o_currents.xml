@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <TableLayout
+	    style="@style/TableLayout"
+	       android:shrinkColumns="0">
+	     
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/NameFlowRate"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Width"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/SpeedCmS"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+            <TextView 
+                style="@style/TableTextView.Bold"
+                android:layout_span="3"
+                android:text="@string/LabradorCurrent"/>
+        </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/LabradorCurrentFlowRate"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LabradorCurrentWidth"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LabradorCurrentSpeed"/>
+	    </TableRow>
+		<TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="3"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>
