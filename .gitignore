@@ -3,3 +3,6 @@
 /.idea/workspace.xml
 .DS_Store
 /viewpagerindicator/.gitignore
+/.idea
+/*.iml
+*.iml
