@@ -60,7 +60,7 @@ public class Continents extends ActionBarActivity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_continents, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
