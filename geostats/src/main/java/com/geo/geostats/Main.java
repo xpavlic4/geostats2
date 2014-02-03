@@ -3,6 +3,8 @@ package com.geo.geostats;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -10,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class Main extends Activity implements android.view.View.OnClickListener {
+public class Main extends ActionBarActivity implements android.view.View.OnClickListener {
 
     Button btWorld, btContinents, btOceans, btBranches;
     ImageButton btInfoRef;
@@ -32,6 +34,10 @@ public class Main extends Activity implements android.view.View.OnClickListener 
         btOceans.setOnClickListener(this);
         btBranches.setOnClickListener(this);
         btInfoRef.setOnClickListener(this);
+
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setLogo(getResources().getDrawable(R.drawable.logo_main));
+        actionbar.setDisplayShowTitleEnabled(false);
 
     }
 

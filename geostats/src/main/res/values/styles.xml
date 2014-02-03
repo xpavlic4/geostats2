@@ -12,6 +12,13 @@
     <color name="colorDarkGreyActionBar">#606060</color>
     <color name="colorShadow">#f3f3f3</color>
 
+    <style name="Main" parent="Theme.AppCompat">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MainLayout">
+        <item name="android:background">@drawable/bg_body_pattern</item>
+    </style>
+
     <style name="FullScreen" parent="Theme.AppCompat">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
