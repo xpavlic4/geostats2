@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">geostats</string>
+    <string name="app_name">GeoStats</string>
+    <string name="app_subname">Geographical statictical tables</string>
     <string name="app_about">Show user geographical statistics from social (demography of countries), physical (rivers, mountains, ..), meteorological (rain, hurricane, ..) areas, stats of extraction of mineral resources on Earth, ..</string>
     
     <string name="Name">Name</string>
