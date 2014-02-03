@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
 public class Continents extends ActionBarActivity{
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,11 +17,11 @@ public class Continents extends ActionBarActivity{
         
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        
+
         ActionBar actionbar = getSupportActionBar();
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionbar.setTitle(getString(R.string.Continents));
-                
+
         ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.Europe));
         ActionBar.Tab Frag2Tab = actionbar.newTab().setText(getString(R.string.Asia));
         ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.Africa));
