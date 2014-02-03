@@ -1,6 +1,5 @@
 package com.geo.geostats;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -38,6 +37,7 @@ public class Main extends ActionBarActivity implements android.view.View.OnClick
         ActionBar actionbar = getSupportActionBar();
         actionbar.setLogo(getResources().getDrawable(R.drawable.logo_main));
         actionbar.setDisplayShowTitleEnabled(false);
+
 
     }
 

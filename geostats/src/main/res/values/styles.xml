@@ -188,6 +188,12 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:scaleType">centerInside</item>
     </style>
+    <style name="MainButtons">
+        <item name="android:background">@drawable/bg_main_box</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
 
 
 </resources>

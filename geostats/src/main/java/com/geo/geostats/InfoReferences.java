@@ -28,8 +28,8 @@ public class InfoReferences extends ActionBarActivity {
 	     
 	     tv = (TextView) findViewById(R.id.tvInfoRefs);
 	     tv.setText(Html.fromHtml(ResourceHelper.readRawTextFile(this, R.raw.references)));
-         tv.setTextColor(Color.WHITE);
-	     tv.setLinkTextColor(Color.WHITE);
+         tv.setTextColor(Color.rgb(97, 97, 97));
+	     tv.setLinkTextColor(Color.rgb(97, 97, 97));
 	     Linkify.addLinks(tv, Linkify.ALL);
 	}
 	
