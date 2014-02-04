@@ -7,10 +7,17 @@
 
     <color name="colorFFF">#FFF</color>
     <color name="colorCCC">#CCC</color>
+    <color name="colorBBB">#ffbbbbbb</color>
     <color name="colorDarkGrey">#616161</color>
     <color name="color000">#000</color>
     <color name="colorDarkGreyActionBar">#606060</color>
     <color name="colorShadow">#f3f3f3</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTdBg">#f9f9f9</color>
+    <color name="colorThBg">#dfdfdf</color>
+    <color name="colorTdStroke">#e3e3e3</color>
+    <color name="colorThStroke">@color/colorTdStroke</color>
+    <color name="colorTableBg">@color/colorTdStroke</color>
 
     <style name="Main" parent="Theme.AppCompat">
         <item name="actionBarStyle">@style/MyActionBar</item>
@@ -33,7 +40,7 @@
         <item name="actionBarTabBarStyle">@style/MyActionBarTabBarStyle</item>
         <item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
         <item name="actionBarTabTextStyle">@style/MyActionBarTabTextStyle</item>
-
+        <item name="actionBarItemBackground">@drawable/bg_actionbar_tabview_pattern</item>
         <item name="homeAsUpIndicator">@drawable/my_abc_ic_ab_back_holo_light</item>
     </style>
 
@@ -44,7 +51,7 @@
         <item name="titleTextStyle">@style/TitleTextStyle</item>
     </style>
     <style name="MyActionBarTabBarStyle" parent="@style/Widget.AppCompat.ActionBar.TabBar">
-        <item name="background">@drawable/bg_actionbar_tabview2</item>
+        <item name="background">@drawable/bg_actionbar</item>
         <item name="divider">@drawable/bg_actionbar_divider</item>
         <item name="dividerPadding">0dp</item>
     </style>
@@ -72,13 +79,13 @@
     </style>
     <style name="FrameLayoutBody">
         <item name="android:padding">12dp</item>
-        <item name="android:background">@drawable/bg_content</item>
+        <item name="android:background">@drawable/bg_content2</item>
     </style>
 
     <style name="TableLayout">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@color/colorCCC</item>
+        <item name="android:background">@color/colorTableBg</item>
         <item name="android:paddingTop">1dp</item>
         <item name="android:stretchColumns">0</item>
     </style>
@@ -88,7 +95,7 @@
         <item name="android:stretchColumns">1</item>
     </style>
     <style name="TableRow">
-        <item name="android:background">@color/colorCCC</item>
+        <item name="android:background">@color/colorThBg</item>
         <item name="android:paddingBottom">1dp</item>
         <item name="android:paddingRight">1dp</item>
     </style>
@@ -103,11 +110,12 @@
         <item name="android:paddingRight">5dp</item>
         <item name="android:paddingLeft">5dp</item>
         <item name="android:paddingBottom">5dp</item>
-        <item name="android:background">@color/colorFFF</item>
+        <item name="android:background">@color/colorTdBg</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
     </style>
     <style name="TableTextView.Italic">
         <item name="android:textStyle">italic</item>
-        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textColor">@color/colorBBB</item>
     </style>
     <style name="TableTextView.PadddingBottom0">
         <item name="android:paddingBottom">2dp</item>
@@ -122,8 +130,9 @@
         <item name="android:textStyle">italic</item>
     </style>
     <style name="TableTextView.Head">
-        <item name="android:background">@color/colorCCC</item>
+        <item name="android:background">@color/colorThBg</item>
         <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="TableTextView.GravityRight">
         <item name="android:gravity">right</item>
@@ -190,8 +199,8 @@
     </style>
     <style name="MainButtons">
         <item name="android:background">@drawable/bg_main_box</item>
-        <item name="android:layout_width">120dp</item>
-        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
         <item name="android:textColor">@color/colorDarkGrey</item>
     </style>
 
