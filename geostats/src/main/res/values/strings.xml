@@ -58,7 +58,8 @@
     <string name="Channels">Channels</string>
     <string name="Area">Area (sq km)</string>
     <string name="Magnitude">Magnitude</string>
-    <string name="ViewTable">View table</string>
+    <string name="ViewTable"><u>View table</u></string>
+    <string name="BasicInfo">Basic info</string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>
@@ -152,5 +153,11 @@
     <string name="Bcm">bcm</string>
     <string name="TWh">TWh</string>
     <string name="MilTonCrudeSteel">mil. tonnes crude steel</string>
+
+    <!-- dimens not work, added here in strings - values for layout_weight for fragments -->
+    <string name="layoutWeightFragmentA">2</string>
+    <string name="layoutWeightFragmentB">8</string>
+    <string name="layoutWeightFragmentALand">1.1</string>
+    <string name="layoutWeightFragmentBLand">0.9</string>
     
 </resources>

@@ -5,7 +5,16 @@
 
     <TableLayout style="@style/TableLayout"
         android:shrinkColumns="0">
-	    <TableRow style="@style/TableRow">
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/NumberOfCountries"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/NumberOfCountriesRecordEurope"/>
+
+        </TableRow>
+        <TableRow style="@style/TableRow">
             <TextView
                 style="@style/TableTextView"
                 android:text="@string/LargestCountries"/>

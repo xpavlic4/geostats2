@@ -16,7 +16,7 @@
             android:contentDescription="@string/NAmerica"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_namerica"/>
+	    <include layout="@layout/inc_namerica_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

@@ -1,0 +1,58 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout
+       	style="@style/TableLayout"
+        android:layout_below="@+id/chartNo"
+        android:shrinkColumns="0">
+		    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/TotalArea"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/TotalAreaRecordAtlanticO"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Volume"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/VolumeRecordAtlanticO"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/AverageDepth"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/AverageDepthRecordAtlanticO"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/DeepestPoint"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TableLayout android:stretchColumns="0">
+	            <TableRow>
+			        <TextView 
+			          	style="@style/TableTextView.PadddingBottom0"
+			            android:text="@string/MilwaukeeDeep"/>
+	   			</TableRow>
+	   			<TableRow>
+			        <TextView 
+			          	style="@style/TableTextView.RowSpan"
+			            android:text="@string/PuertoRicoTrench"/>
+	   			</TableRow>
+	        </TableLayout>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:layout_span="2"
+	            android:text="@string/DeepestPointRecordAtlanticO"/>
+		</TableRow>
+	</TableLayout>
+</merge>

@@ -2,7 +2,6 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
@@ -16,14 +15,12 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.geo.geostats.Constants;
 import com.geo.viewpagerindicator.TabPageIndicator;
 
 import java.util.Locale;
 
 public class FragmentEurope extends Fragment {
 
-	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btD9O, btClose, tvChart2;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
@@ -32,14 +29,11 @@ public class FragmentEurope extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.fragment_europe, container, false);
+		View v = inflater.inflate(R.layout.fragment_continent, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
-
-		tvChart = (TextView)v.findViewById(R.id.chartNo);
-		tvChart.append(" 1");
 		
         //vp.setCurrentItem(2); skip to a particular tab
         //vp.setOffscreenPageLimit(limit);
@@ -47,8 +41,29 @@ public class FragmentEurope extends Fragment {
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
         //indicator.setCurrentItem(2); skip to a particular tab
-        
-		return v;
+
+        Button btD10O = (Button) v.findViewById(R.id.btDialog10);
+        btD10O.setOnClickListener(new OnClickListener() {
+                public void onClick(View v) {
+                    final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
+                    d.setCancelable(true);
+                    d.setContentView(R.layout.dialog_europe);
+                    d.setCanceledOnTouchOutside(true);
+                    tvChart = (TextView)d.findViewById(R.id.chartNo);
+                    tvChart.append(" 1");
+                    Button btClose = (Button) d.findViewById(R.id.btClose);
+                    btClose.setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            d.cancel();
+                        }
+                    });
+                    d.show();
+                }
+            });
+
+        return v;
+
 	}
 	private class vpAdapter extends PagerAdapter {
 
@@ -92,18 +107,18 @@ public class FragmentEurope extends Fragment {
 							
 				Button btD1O = (Button) v.findViewById(R.id.btDialog);
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
-				
+
 				if(btD1O != null){
 					btD1O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
 							
 							// OK version with AlertDialog 
-							/*AlertDialog.Builder d = new AlertDialog.Builder(F_Europe.this.getActivity());
-							LayoutInflater inflater = F_Europe.this.getActivity().getLayoutInflater();
-							d.setView(inflater.inflate(R.layout.vp_africa_countries, null))
-							.setIcon(R.drawable.content_remove)
+							/*AlertDialog.Builder d = new AlertDialog.Builder(FragmentEurope.this.getActivity());
+							LayoutInflater inflater = FragmentEurope.this.getActivity().getLayoutInflater();
+							d.setView(inflater.inflate(R.layout.dialog_europe_countries, null))
+							.setIcon(R.drawable.navigation_cancel)
 							.setMessage(R.string.MostPopulatedCountries)
-								.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+								.setPositiveButton(getString(R.string.Close), new DialogInterface.OnClickListener() {
 									
 									@Override
 									public void onClick(DialogInterface dialog, int id) {
@@ -139,9 +154,11 @@ public class FragmentEurope extends Fragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_eu_countries);
 							d.setCanceledOnTouchOutside(true);
-							
+                            tvChart = (TextView)d.findViewById(R.id.chartNo);
+                            tvChart.append(" 3");
+
 							//tvChart2 is for testing purpose, there is a button instead of textview, changed also in dialog_europe_eu_countries.xml
-							tvChart2 = (Button)d.findViewById(R.id.chartNo);
+							/*tvChart2 = (Button)d.findViewById(R.id.chartNo);
 							tvChart2.append(" 3");
 							tvChart2.setOnClickListener(new OnClickListener() {
 								
@@ -151,7 +168,7 @@ public class FragmentEurope extends Fragment {
 									startActivity(b);
 									
 								}
-							});
+							});*/
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override

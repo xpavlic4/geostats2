@@ -28,18 +28,35 @@ public class FragmentNAmerica extends Fragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.fragment_namerica, container, false);
+		View v = inflater.inflate(R.layout.fragment_continent, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
-        
-        tvChart = (TextView)v.findViewById(R.id.chartNo);
-		tvChart.append(" 37");
-		
+
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
-        
+
+        Button btD10O = (Button) v.findViewById(R.id.btDialog10);
+        btD10O.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                final Dialog d = new Dialog(FragmentNAmerica.this.getActivity(), R.style.DialogContinents);
+                d.setCancelable(true);
+                d.setContentView(R.layout.dialog_namerica);
+                d.setCanceledOnTouchOutside(true);
+                tvChart = (TextView)d.findViewById(R.id.chartNo);
+                tvChart.append(" 37");
+                Button btClose = (Button) d.findViewById(R.id.btClose);
+                btClose.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d.cancel();
+                    }
+                });
+                d.show();
+            }
+        });
+
 		return v;
 	}
 	private class vpAdapter extends PagerAdapter {
@@ -81,8 +98,32 @@ public class FragmentNAmerica extends Fragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_namerica_countries, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 38");
+
+                Button btD6O = (Button) v.findViewById(R.id.btDialog);
+
+                if(btD6O != null){
+                    btD6O.setOnClickListener(new OnClickListener() {
+                        public void onClick(View v) {
+                            final Dialog d = new Dialog(FragmentNAmerica.this.getActivity(), R.style.DialogContinents);
+                            d.setCancelable(true);
+                            d.setContentView(R.layout.dialog_namerica_countries);
+                            d.setCanceledOnTouchOutside(true);
+                            tvChart = (TextView)d.findViewById(R.id.chartNo);
+                            tvChart.append(" 38");
+                            Button btClose = (Button) d.findViewById(R.id.btClose);
+                            btClose.setOnClickListener(new OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    d.cancel();
+                                }
+                            });
+                            d.show();
+                        }
+                    });
+                }else{
+
+                }
+
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_namerica_population, null);

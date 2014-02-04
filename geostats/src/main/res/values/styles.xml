@@ -19,6 +19,8 @@
     <color name="colorThStroke">@color/colorTdStroke</color>
     <color name="colorTableBg">@color/colorTdStroke</color>
     <color name="colorScrollView">@color/colorTdBg</color>
+    <color name="colorDialogTitleBg">#3d3d3d</color>
+    <color name="colorDialogTitleText">@color/colorTdBg</color>
 
     <style name="Main" parent="Theme.AppCompat">
         <item name="actionBarStyle">@style/MyActionBar</item>
@@ -145,10 +147,10 @@
     </style>
     <style name="TableTextView.GravityRight.Button">
         <item name="android:background">@drawable/table_button</item>
-        <item name="android:textColor">@color/colorFFF</item>
         <item name="android:paddingTop">10dp</item>
         <item name="android:paddingBottom">10dp</item>
         <item name="android:gravity">center</item>
+        <item name="android:drawableBottom">@drawable/underline</item>
 
     </style>
     <style name="TableTextView.Bold">
@@ -160,6 +162,8 @@
         <item name="android:fillViewport">false</item>
         <item name="android:scrollbars">none</item>
         <item name="android:background">@color/colorScrollView</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
     </style>
     <style name="TextViewTitle">
         <item name="android:layout_width">wrap_content</item>
@@ -177,21 +181,37 @@
         <item name="android:background">@color/colorFFF</item>
     </style>
     <style name="DialogContinents" parent="@android:style/Theme.Dialog">
-        <item name="android:background">#ff0000</item>
+        <item name="android:background">@color/colorDialogTitleBg</item>
         <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@color/colorDialogTitleText</item>
     </style>
     <style name="DialogChartNo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">4dp</item>
         <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorBBB</item>
+    </style>
+    <style name="DialogTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorDialogTitleText</item>
     </style>
     <style name="ButCloseDialog">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_alignParentRight">true</item>
-        <item name="android:background">@drawable/navigation_cancel</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/dialog_close</item>
     </style>
     <style name="ImageViewMapLand">
         <item name="android:layout_width">wrap_content</item>
@@ -213,6 +233,10 @@
         <item name="android:layout_width">110dp</item>
         <item name="android:layout_height">110dp</item>
         <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+    <style name="FragmentButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
 

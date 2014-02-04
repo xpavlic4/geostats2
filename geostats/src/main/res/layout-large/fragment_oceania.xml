@@ -15,8 +15,8 @@
             android:src="@drawable/map"
             android:contentDescription="@string/Oceania"
             style="@style/ImageViewMapLarge" />
-        
-	    <include layout="@layout/inc_oceania"/>
+
+        <include layout="@layout/inc_fragment_buttons"/>
         
 	</LinearLayout>
 	<LinearLayout 

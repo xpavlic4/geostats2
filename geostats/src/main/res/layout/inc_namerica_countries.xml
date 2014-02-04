@@ -1,0 +1,96 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0"
+        android:layout_below="@+id/chartNo">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalSqKm"/>
+	    </TableRow>
+
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Canada"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica01"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/USA"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica02"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Mexico"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica03"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Nicaragua"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica04"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Honduras"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica05"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Cuba"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica06"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Guatemala"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica07"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Panama"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica08"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/CostaRica"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica09"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/DominicanRepublic"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestCountriesNAmerica10"/>
+        </TableRow>
+	</TableLayout>
+</merge>

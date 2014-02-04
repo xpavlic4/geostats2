@@ -22,7 +22,6 @@ import java.util.Locale;
 
 public class FragmentOceania extends Fragment{
 
-	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
@@ -30,18 +29,35 @@ public class FragmentOceania extends Fragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.fragment_oceania, container, false);
+		View v = inflater.inflate(R.layout.fragment_continent, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
-		
-        tvChart = (TextView)v.findViewById(R.id.chartNo);
-		tvChart.append(" 59");
         
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
-        
+
+        Button btD10O = (Button) v.findViewById(R.id.btDialog10);
+        btD10O.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
+                d.setCancelable(true);
+                d.setContentView(R.layout.dialog_oceania);
+                d.setCanceledOnTouchOutside(true);
+                tvChart = (TextView)d.findViewById(R.id.chartNo);
+                tvChart.append(" 59");
+                Button btClose = (Button) d.findViewById(R.id.btClose);
+                btClose.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d.cancel();
+                    }
+                });
+                d.show();
+            }
+        });
+
 		return v;
 	}
 	private class vpAdapter extends PagerAdapter {
@@ -83,8 +99,31 @@ public class FragmentOceania extends Fragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_oceania_countries, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 60");
+
+                Button btD7O = (Button) v.findViewById(R.id.btDialog);
+
+                if(btD7O != null){
+                    btD7O.setOnClickListener(new OnClickListener() {
+                        public void onClick(View v) {
+                            final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
+                            d.setCancelable(true);
+                            d.setContentView(R.layout.dialog_oceania_countries);
+                            d.setCanceledOnTouchOutside(true);
+                            tvChart = (TextView)d.findViewById(R.id.chartNo);
+                            tvChart.append(" 60");
+                            Button btClose = (Button) d.findViewById(R.id.btClose);
+                            btClose.setOnClickListener(new OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    d.cancel();
+                                }
+                            });
+                            d.show();
+                        }
+                    });
+                }else{
+
+                }
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_oceania_population, null);

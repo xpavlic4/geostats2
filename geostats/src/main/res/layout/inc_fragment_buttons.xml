@@ -1,0 +1,6 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<Button
+        style="@style/FragmentButtons"
+        android:text="@string/BasicInfo"
+        android:id="@+id/btDialog10"/>
+</merge>

@@ -16,7 +16,7 @@
             android:contentDescription="@string/ArcticOcean"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_arctic_o"/>
+	    <include layout="@layout/inc_arctic_o_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

@@ -27,18 +27,35 @@ public class FragmentAntarctica extends Fragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.fragment_antarctica, container, false);
+		View v = inflater.inflate(R.layout.fragment_continent, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
-        
-        tvChart = (TextView)v.findViewById(R.id.chartNo);
-		tvChart.append(" 71");
-		
+
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
-        
+
+        Button btD10O = (Button) v.findViewById(R.id.btDialog10);
+        btD10O.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                final Dialog d = new Dialog(FragmentAntarctica.this.getActivity(), R.style.DialogContinents);
+                d.setCancelable(true);
+                d.setContentView(R.layout.dialog_antarctica);
+                d.setCanceledOnTouchOutside(true);
+                tvChart = (TextView)d.findViewById(R.id.chartNo);
+                tvChart.append(" 71");
+                Button btClose = (Button) d.findViewById(R.id.btClose);
+                btClose.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d.cancel();
+                    }
+                });
+                d.show();
+            }
+        });
+
 		return v;
 	}
 	private class vpAdapter extends PagerAdapter {

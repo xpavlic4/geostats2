@@ -16,7 +16,7 @@
             android:contentDescription="@string/Antarctica"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_antarctica"/>
+	    <include layout="@layout/inc_antarctica_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

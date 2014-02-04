@@ -5,107 +5,24 @@
 
     <TableLayout style="@style/TableLayout"
         android:shrinkColumns="0">
-         <TableRow style="@style/TableRow.Span">
-	        <TextView
-	            android:layout_span="2"
-	          	style="@style/TextViewTitle"
-	            android:text="@string/LargestCountries"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.Head"
-	            android:text="@string/Country"/>
-	        <TextView 
-	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
-	    </TableRow>
-	    
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Russia"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia01"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/China"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia02"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/India"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia03"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Kazakhstan"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia04"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/SaudiArabia"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia05"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Indonesia"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia06"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Iran"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia07"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Mongolia"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia08"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Pakistan"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia09"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Turkey"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCountriesAsia10"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow.Span">
- 		   <TextView
-		        android:id="@+id/chartNo"
-		        android:layout_span="2"
-		      	style="@style/TableTextView.Italic"
-		        android:text="@string/ChartNo"/>
-	    </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/NumberOfCountries"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/NumberOfCountriesRecordAsia"/>
+
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/LargestCountries"/>
+            <Button
+                style="@style/TableTextView.GravityRight.Button"
+                android:text="@string/ViewTable"
+                android:id="@+id/btDialog"/>
+        </TableRow>
+
 	</TableLayout>
 </ScrollView>

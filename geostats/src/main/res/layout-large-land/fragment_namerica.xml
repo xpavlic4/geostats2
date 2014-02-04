@@ -16,7 +16,7 @@
 	        style="@style/ImageViewMapLandLarge"
 	        android:src="@drawable/map" />
     
-	    <include layout="@layout/inc_namerica"/>
+	    <include layout="@layout/inc_namerica_basic"/>
         
     </RelativeLayout>
 

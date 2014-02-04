@@ -16,7 +16,7 @@
             android:contentDescription="@string/PacificOcean"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_pacific_o"/>
+	    <include layout="@layout/inc_pacific_o_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 
