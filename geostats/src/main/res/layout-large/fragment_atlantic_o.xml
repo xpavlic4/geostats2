@@ -16,7 +16,7 @@
             android:contentDescription="@string/AtlanticOcean"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_atlantic_o"/>
+	    <include layout="@layout/inc_atlantic_o_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

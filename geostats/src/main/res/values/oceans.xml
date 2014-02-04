@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AtlanticOcean">Atlantic</string>
-    <string name="PacificOcean">Pacific</string>
-    <string name="IndianOcean">Indian</string>
-    <string name="ArcticOcean">Arctic</string>
-    <string name="SouthernOcean">Southern</string>
+    <string name="AtlanticOcean">Atlantic ocean</string>
+    <string name="PacificOcean">Pacific ocean</string>
+    <string name="IndianOcean">Indian ocean</string>
+    <string name="ArcticOcean">Arctic ocean</string>
+    <string name="SouthernOcean">Southern ocean</string>
+    <string name="AtlanticO">Atlantic</string>
+    <string name="PacificO">Pacific</string>
+    <string name="IndianO">Indian</string>
+    <string name="ArcticO">Arctic</string>
+    <string name="SouthernO">Southern</string>
     
 </resources>

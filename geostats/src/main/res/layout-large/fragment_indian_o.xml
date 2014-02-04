@@ -16,7 +16,7 @@
             android:contentDescription="@string/IndianOcean"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_indian_o"/>
+	    <include layout="@layout/inc_indian_o_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

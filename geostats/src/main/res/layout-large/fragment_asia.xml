@@ -16,7 +16,7 @@
             android:contentDescription="@string/Asia"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_asia"/>
+	    <include layout="@layout/inc_asia_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

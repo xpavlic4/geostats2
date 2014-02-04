@@ -1,0 +1,48 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout
+	    style="@style/TableLayout"
+        android:layout_below="@+id/chartNo"
+	    android:shrinkColumns="0">
+		    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/TotalArea"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/TotalAreaRecordIndianO"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Volume"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/VolumeRecordIndianO"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/AverageDepth"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/AverageDepthRecordIndianO"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/DeepestPoint"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/JavaTrench"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/DeepestPointRecordIndianO"/>
+	    </TableRow>
+	</TableLayout>
+</merge>

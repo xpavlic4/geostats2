@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+       <TextView
+            style="@style/DialogTitle"
+            android:text="@string/SouthernOcean"
+            android:id="@+id/dTitle"/>
+        
+        <TextView
+            style="@style/DialogChartNo"
+            android:layout_below="@+id/dTitle"
+            android:id="@+id/chartNo"
+            android:text="@string/ChartNo"/>
+        
+        <Button
+            style="@style/ButCloseDialog"
+            android:id="@+id/btClose"/>
+
+		<include layout="@layout/inc_southern_o_basic"/>
+        
+	</RelativeLayout>
+</ScrollView>

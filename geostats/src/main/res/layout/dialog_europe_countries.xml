@@ -6,18 +6,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
         
-        <TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/DialogTitle"
             android:text="@string/LargestCountries"
             android:id="@+id/dTitle"/>
-        
+
         <TextView
             style="@style/DialogChartNo"
             android:layout_below="@+id/dTitle"
             android:id="@+id/chartNo"
             android:text="@string/ChartNo"/>
-        
+
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>

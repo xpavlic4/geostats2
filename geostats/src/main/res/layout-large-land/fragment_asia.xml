@@ -16,7 +16,7 @@
 	        style="@style/ImageViewMapLandLarge"
 	        android:src="@drawable/map" />
     
-	    <include layout="@layout/inc_asia"/>
+	    <include layout="@layout/inc_asia_basic"/>
         
     </RelativeLayout>
 

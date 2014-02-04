@@ -22,11 +22,11 @@ public class Oceans extends ActionBarActivity{
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionbar.setTitle(getString(R.string.Oceans));
                 
-        ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.AtlanticOcean));
-        ActionBar.Tab Frag2Tab = actionbar.newTab().setText(getString(R.string.PacificOcean));
-        ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.IndianOcean));
-        ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.ArcticOcean));
-        ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SouthernOcean));
+        ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.AtlanticO));
+        ActionBar.Tab Frag2Tab = actionbar.newTab().setText(getString(R.string.PacificO));
+        ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.IndianO));
+        ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.ArcticO));
+        ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SouthernO));
         
         Fragment Fragment1 = new FragmentAtlanticO();
         Fragment Fragment2 = new FragmentPacificO();

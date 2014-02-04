@@ -16,7 +16,7 @@
             android:contentDescription="@string/Africa"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_africa"/>
+	    <include layout="@layout/inc_africa_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 

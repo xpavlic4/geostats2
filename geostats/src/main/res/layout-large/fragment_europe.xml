@@ -16,7 +16,7 @@
             android:contentDescription="@string/Europe"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_europe"/>
+	    <include layout="@layout/inc_europe_basic"/>
         
 	</LinearLayout>
 	<LinearLayout 
