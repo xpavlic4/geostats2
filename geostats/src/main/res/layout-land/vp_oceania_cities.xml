@@ -2,30 +2,35 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
-    
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal">
-        
-	     <Button 
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:text="@string/LargestCities"
-	        android:id="@+id/btDialog2"/>
-	    
-	    <Button 
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:text="@string/LargestUrbanAreas"
-	        android:id="@+id/btDialog3"/>
-	    
-	    <Button 
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:text="@string/Capitals"
-	        android:id="@+id/btDialog6"/>
-        
-    </LinearLayout>
-    
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/LargestCities"/>
+            <Button
+                style="@style/TableTextView.GravityRight.Button"
+                android:text="@string/ViewTable"
+                android:id="@+id/btDialog2"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/LargestUrbanAreas"/>
+            <Button
+                style="@style/TableTextView.GravityRight.Button"
+                android:text="@string/ViewTable"
+                android:id="@+id/btDialog3"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Capitals"/>
+            <Button
+                style="@style/TableTextView.GravityRight.Button"
+                android:text="@string/ViewTable"
+                android:id="@+id/btDialog6"/>
+        </TableRow>
+    </TableLayout>
+
 </ScrollView>

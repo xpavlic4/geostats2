@@ -43,18 +43,22 @@
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/LowestPointRecordEurope"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow.Span">
+	    <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/BoundaryKMD"/>
 	        <Button 
-		        style="@style/TableTextView"
-		        android:text="@string/BoundaryKMD"
-		        android:layout_span="2"
+		        style="@style/TableTextView.GravityRight.Button"
+		        android:text="@string/ViewTable"
 		        android:id="@+id/btDialog7"/>
 	    </TableRow>
-	     <TableRow style="@style/TableRow.Span">
+	     <TableRow style="@style/TableRow">
+             <TextView
+                 style="@style/TableTextView"
+                 android:text="@string/BoundaryCC"/>
 	        <Button 
-		        style="@style/TableTextView"
-		        android:text="@string/BoundaryCC"
-		        android:layout_span="2"
+		        style="@style/TableTextView.GravityRight.Button"
+		        android:text="@string/ViewTable"
 		        android:id="@+id/btDialog8"/>
 	    </TableRow>
 	</TableLayout>

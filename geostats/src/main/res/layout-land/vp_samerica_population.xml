@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
 
-    <TableLayout style="@style/TableLayout"
+   <TableLayout style="@style/TableLayout"
 	    android:shrinkColumns="0">
 	    
 		<TableRow style="@style/TableRow">
@@ -30,12 +30,14 @@
 		         style="@style/TableTextView.GravityRight"
 		         android:text="@string/DensitySqKmRecordSAmerica"/>
 		 </TableRow>
-		 <TableRow style="@style/TableRow.Span">
+		 <TableRow style="@style/TableRow">
+             <TextView
+                 style="@style/TableTextView"
+                 android:text="@string/MostPopulatedCountries"/>
 		     <Button 
-		      style="@style/TableTextView"
-		      android:text="@string/MostPopulatedCountries"
-		      android:layout_span="2"
-		      android:id="@+id/btDialog1"/>
+                  style="@style/TableTextView.GravityRight.Button"
+                  android:text="@string/ViewTable"
+                  android:id="@+id/btDialog1"/>
 		 </TableRow>
 	</TableLayout>
 </ScrollView>

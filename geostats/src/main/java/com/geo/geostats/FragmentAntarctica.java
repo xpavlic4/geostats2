@@ -1,5 +1,6 @@
 package com.geo.geostats;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -9,10 +10,10 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.geo.geostats.Constants;
 import com.geo.viewpagerindicator.TabPageIndicator;
 
 import java.util.Locale;
@@ -79,8 +80,32 @@ public class FragmentAntarctica extends Fragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_antarctica_mountains, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 72");
+
+                Button btD1O = (Button) v.findViewById(R.id.btDialog1);
+
+                if(btD1O != null){
+                    btD1O.setOnClickListener(new View.OnClickListener() {
+                        public void onClick(View v) {
+                            final Dialog d = new Dialog(FragmentAntarctica.this.getActivity(), R.style.DialogContinents);
+                            d.setCancelable(true);
+                            d.setContentView(R.layout.dialog_antarctica_mountains);
+                            d.setCanceledOnTouchOutside(true);
+                            tvChart = (TextView)d.findViewById(R.id.chartNo);
+                            tvChart.append(" 72");
+                            Button btClose = (Button) d.findViewById(R.id.btClose);
+                            btClose.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    d.cancel();
+                                }
+                            });
+                            d.show();
+                        }
+                    });
+                }else{
+
+                }
+
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_antarctica_weather, null);

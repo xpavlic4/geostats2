@@ -30,11 +30,13 @@
 		         style="@style/TableTextView.GravityRight"
 		         android:text="@string/DensitySqKmRecordAfrica"/>
 		 </TableRow>
-		 <TableRow style="@style/TableRow.Span">
+		 <TableRow style="@style/TableRow">
+             <TextView
+                 style="@style/TableTextView"
+                 android:text="@string/MostPopulatedCountries"/>
 		     <Button 
-		      style="@style/TableTextView"
-		      android:text="@string/MostPopulatedCountries"
-		      android:layout_span="2"
+		      style="@style/TableTextView.GravityRight.Button"
+		      android:text="@string/ViewTable"
 		      android:id="@+id/btDialog1"/>
 		 </TableRow>
 	</TableLayout>

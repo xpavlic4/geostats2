@@ -66,9 +66,9 @@
 	<string name="MtTwynam">Mt Twynam</string>
 	<string name="RamsHead">Rams Head</string>
 	<string name="UnnamedPeakOnEtheridgeRidge">Unnamed peak on Etheridge Ridge</string>
-    <string name="BoundaryCC">Highest mountains \n In the boundary along the Caucasus crest</string>
-    <string name="BoundaryKMD">Highest mountains \n In the boundary along the Kuma–Manych Depression</string>
-    <string name="IndoAustralianPlate">Highest mountains \n in Indo-Australian Plate</string>
-    <string name="AustralianContinent">Highest mountains \n in Australian continent</string>
+    <string name="BoundaryCC">Highest mountains (in the boundary along the Caucasus crest)</string>
+    <string name="BoundaryKMD">Highest mountains (in the boundary along the Kuma–Manych Depression)</string>
+    <string name="IndoAustralianPlate">Highest mountains (in Indo-Australian Plate)</string>
+    <string name="AustralianContinent">Highest mountains (in Australian continent)</string>
 	
 </resources>

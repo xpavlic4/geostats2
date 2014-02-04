@@ -58,6 +58,7 @@
     <string name="Channels">Channels</string>
     <string name="Area">Area (sq km)</string>
     <string name="Magnitude">Magnitude</string>
+    <string name="ViewTable">View table</string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>
