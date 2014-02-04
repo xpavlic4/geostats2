@@ -43,18 +43,22 @@
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/LowestPointRecordAustralia"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow.Span">
+	    <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/IndoAustralianPlate"/>
 	        <Button 
-		        style="@style/TableTextView"
-		        android:text="@string/IndoAustralianPlate"
-		        android:layout_span="2"
+		        style="@style/TableTextView.GravityRight.Button"
+		        android:text="@string/ViewTable"
 		        android:id="@+id/btDialog4"/>
 	    </TableRow>
-	     <TableRow style="@style/TableRow.Span">
+	     <TableRow style="@style/TableRow">
+             <TextView
+                 style="@style/TableTextView"
+                 android:text="@string/AustralianContinent"/>
 	        <Button 
-		        style="@style/TableTextView"
-		        android:text="@string/AustralianContinent"
-		        android:layout_span="2"
+		        style="@style/TableTextView.GravityRight.Button"
+		        android:text="@string/ViewTable"
 		        android:id="@+id/btDialog5"/>
 	    </TableRow>
 	</TableLayout>

@@ -15,14 +15,12 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.geo.geostats.Constants;
 import com.geo.viewpagerindicator.TabPageIndicator;
 
 import java.util.Locale;
 
 public class FragmentSAmerica extends Fragment{
 	
-	Button btD1O, btD2O, btD3O, btD4O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
@@ -194,8 +192,32 @@ public class FragmentSAmerica extends Fragment{
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_samerica_mountains, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 54");
+
+                Button btD5O = (Button) v.findViewById(R.id.btDialog1);
+
+                if(btD5O != null){
+                    btD5O.setOnClickListener(new OnClickListener() {
+                        public void onClick(View v) {
+                            final Dialog d = new Dialog(FragmentSAmerica.this.getActivity(), R.style.DialogContinents);
+                            d.setCancelable(true);
+                            d.setContentView(R.layout.dialog_samerica_mountains);
+                            d.setCanceledOnTouchOutside(true);
+                            tvChart = (TextView)d.findViewById(R.id.chartNo);
+                            tvChart.append(" 54");
+                            Button btClose = (Button) d.findViewById(R.id.btClose);
+                            btClose.setOnClickListener(new OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    d.cancel();
+                                }
+                            });
+                            d.show();
+                        }
+                    });
+                }else{
+
+                }
+
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_samerica_islands, null);

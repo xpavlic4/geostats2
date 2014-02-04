@@ -1,0 +1,55 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout style="@style/TableLayout"
+    android:layout_below="@+id/chartNo"
+    android:shrinkColumns="0">
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalM"/>
+	    </TableRow>
+
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/MtEverest"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/HighestMountainsAsia01"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/K2"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/HighestMountainsAsia02"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Kangchenjunga"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/HighestMountainsAsia03"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Lhotse"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/HighestMountainsAsia04"/>
+        </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/Makalu"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/HighestMountainsAsia05"/>
+        </TableRow>
+	</TableLayout>
+</merge>

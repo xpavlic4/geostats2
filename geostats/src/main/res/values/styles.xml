@@ -18,6 +18,7 @@
     <color name="colorTdStroke">#e3e3e3</color>
     <color name="colorThStroke">@color/colorTdStroke</color>
     <color name="colorTableBg">@color/colorTdStroke</color>
+    <color name="colorScrollView">@color/colorTdBg</color>
 
     <style name="Main" parent="Theme.AppCompat">
         <item name="actionBarStyle">@style/MyActionBar</item>
@@ -79,7 +80,7 @@
     </style>
     <style name="FrameLayoutBody">
         <item name="android:padding">12dp</item>
-        <item name="android:background">@drawable/bg_content2</item>
+        <item name="android:background">@drawable/bg_content</item>
     </style>
 
     <style name="TableLayout">
@@ -112,6 +113,7 @@
         <item name="android:paddingBottom">5dp</item>
         <item name="android:background">@color/colorTdBg</item>
         <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
     <style name="TableTextView.Italic">
         <item name="android:textStyle">italic</item>
@@ -141,14 +143,23 @@
         <item name="android:paddingTop">0dp</item>
         <item name="android:layout_marginLeft">0dp</item>
     </style>
+    <style name="TableTextView.GravityRight.Button">
+        <item name="android:background">@drawable/table_button</item>
+        <item name="android:textColor">@color/colorFFF</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
     <style name="TableTextView.Bold">
         <item name="android:textStyle">bold</item>
     </style>
     <style name="ScrollView">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
-        <item name="android:fillViewport">true</item>
+        <item name="android:fillViewport">false</item>
         <item name="android:scrollbars">none</item>
+        <item name="android:background">@color/colorScrollView</item>
     </style>
     <style name="TextViewTitle">
         <item name="android:layout_width">wrap_content</item>
