@@ -40,7 +40,7 @@
 	        <TableLayout android:stretchColumns="0">
 	            <TableRow>
 			        <TextView 
-			          	style="@style/TableTextView.PadddingBottom0"
+			          	style="@style/TableTextView.PaddingTop0.PaddingBottom0"
 			            android:text="@string/LitkeDeep"/>
 	   			</TableRow>
 	   			<TableRow>
@@ -50,7 +50,7 @@
 	   			</TableRow>
 	        </TableLayout>
 		    <TextView 
-	          	style="@style/TableTextView.GravityRight"
+	          	style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:layout_span="2"
 	            android:text="@string/DeepestPointRecordArcticO"/>
 		</TableRow>

@@ -15,7 +15,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/NewYork"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -26,7 +26,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	       <TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/MexicoCity"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -37,7 +37,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	       	<TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/LosAngeles"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -48,7 +48,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/Chicago"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -59,7 +59,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/Toronto"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -70,7 +70,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 			<TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/DallasFortWorth"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -81,7 +81,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 			<TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/SanFranciscoSanJose"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -92,7 +92,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/Miami"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -103,7 +103,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
  			<TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/Philadelphia"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
@@ -114,7 +114,7 @@
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
-	          	style="@style/TableTextView.PadddingBottom0"
+	          	style="@style/TableTextView.PaddingBottom0"
 	            android:text="@string/Houston"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"

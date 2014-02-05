@@ -14,26 +14,28 @@
 	            android:text="@string/NameFlowRate"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/Width"/>
+	            android:text="@string/WidthKm"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
 	            android:text="@string/SpeedCmS"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
+	    <TableRow style="@style/TableRow.Span">
             <TextView 
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/MozambiqueCurrent"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
+            <TableLayout android:stretchColumns="0">
+                <TextView
+                    style="@style/TableTextView.PaddingTop0"
+                    android:text="@string/MozambiqueCurrentFlowRate"/>
+            </TableLayout>
 	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/MozambiqueCurrentFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/MozambiqueCurrentWidth"/>
 	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/MozambiqueCurrentSpeed"/>
 	    </TableRow>
 		<TableRow style="@style/TableRow.Span">

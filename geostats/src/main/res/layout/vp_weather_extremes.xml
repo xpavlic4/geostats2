@@ -22,7 +22,7 @@
 		    
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HighestShadeTemp"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -32,7 +32,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HottestPlace"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -42,7 +42,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/DriestPlace"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -52,7 +52,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/MostSunshine"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -62,7 +62,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/LeastSunshine"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -72,7 +72,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/LowestScreenTemp"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -82,7 +82,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/ColdestPlace"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -92,7 +92,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/WettestPlace"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -102,7 +102,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/MostRainyDays"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -112,7 +112,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/WindiestPlace"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -122,7 +122,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/WindiestPlace"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -132,7 +132,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		            style="@style/TableTextView.PadddingBottom0.Bold"
+		            style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HighestSurfaceWindSpeedHighAltitude"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -142,7 +142,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HighestSurfaceWindSpeedLowAltitude"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -152,7 +152,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HighestSurfaceWindSpeedTornado"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -162,7 +162,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/GreatestSnowfall"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -172,7 +172,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HeaviestHailstones"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -182,7 +182,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/ThunderDaysAverage"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -192,7 +192,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/HighestBarometricPressure"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
@@ -202,7 +202,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow.Span">
 		        <TextView 
-		          	style="@style/TableTextView.PadddingBottom0.Bold"
+		          	style="@style/TableTextView.PaddingBottom0.Bold"
 		            android:text="@string/LowestBarometricPressure"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">

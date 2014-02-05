@@ -14,60 +14,66 @@
 	            android:text="@string/NameFlowRate"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/Width"/>
+	            android:text="@string/WidthKm"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
 	            android:text="@string/SpeedCmS"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
+	    <TableRow style="@style/TableRow.Span">
             <TextView 
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/KuroshioCurrent"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
+            <TableLayout android:stretchColumns="0">
+                <TextView
+                    style="@style/TableTextView.PaddingTop0"
+                    android:text="@string/KuroshioCurrentFlowRate"/>
+            </TableLayout>
 	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/KuroshioCurrentFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/KuroshioCurrentWidth"/>
 	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/KuroshioCurrentSpeed"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
-            <TextView 
+	    <TableRow style="@style/TableRow.Span">
+            <TextView
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/OyashioCurrent"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
+            <TableLayout android:stretchColumns="0">
+                <TextView
+                    style="@style/TableTextView.PaddingTop0"
+                    android:text="@string/OyashioCurrentFlowRate"/>
+            </TableLayout>
 	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/OyashioCurrentFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/OyashioCurrentWidth"/>
 	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/OyashioCurrentSpeed"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
+	    <TableRow style="@style/TableRow.Span">
             <TextView 
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/HumboldtCurrent"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
+            <TableLayout android:stretchColumns="0">
+                <TextView
+                    style="@style/TableTextView.PaddingTop0"
+                    android:text="@string/HumboldtCurrentFlowRate"/>
+            </TableLayout>
 	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/HumboldtCurrentFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/HumboldtCurrentWidth"/>
 	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/HumboldtCurrentSpeed"/>
 	    </TableRow>
 		<TableRow style="@style/TableRow.Span">
