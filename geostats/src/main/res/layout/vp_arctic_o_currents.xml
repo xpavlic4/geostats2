@@ -14,27 +14,32 @@
 	            android:text="@string/NameFlowRate"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/Width"/>
+	            android:text="@string/WidthKm"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
 	            android:text="@string/SpeedCmS"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
-            <TextView 
+        <TableRow
+            style="@style/TableRow.Span">
+            <TextView
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/LabradorCurrent"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/LabradorCurrentFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LabradorCurrentWidth"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LabradorCurrentSpeed"/>
+            <TableLayout android:stretchColumns="0">
+                <TableRow>
+                    <TextView
+                        style="@style/TableTextView.PaddingTop0"
+                        android:text="@string/LabradorCurrentFlowRate"/>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                style="@style/TableTextView.GravityRight.PaddingTop0"
+                android:text="@string/LabradorCurrentWidth"/>
+            <TextView
+                style="@style/TableTextView.GravityRight.PaddingTop0"
+                android:text="@string/LabradorCurrentSpeed"/>
 	    </TableRow>
 		<TableRow style="@style/TableRow.Span">
  		   <TextView

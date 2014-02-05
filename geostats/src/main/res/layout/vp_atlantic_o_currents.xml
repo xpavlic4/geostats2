@@ -14,43 +14,47 @@
 	            android:text="@string/NameFlowRate"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/Width"/>
+	            android:text="@string/WidthKm"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
 	            android:text="@string/SpeedCmS"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
+	    <TableRow style="@style/TableRow.Span">
             <TextView 
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/GulfStream"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/GulfStreamFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+            <TableLayout android:stretchColumns="0">
+                <TextView
+                    style="@style/TableTextView.PaddingTop0"
+                    android:text="@string/GulfStreamFlowRate"/>
+            </TableLayout>
+	        <TextView
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/GulfStreamWidth"/>
 	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/GulfStreamSpeed"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
+	    <TableRow style="@style/TableRow.Span">
             <TextView 
                 style="@style/TableTextView.Bold"
                 android:layout_span="3"
                 android:text="@string/BenguelaCurrent"/>
         </TableRow>
 	    <TableRow style="@style/TableRow">
+            <TableLayout android:stretchColumns="0">
+                <TextView
+                    style="@style/TableTextView.PaddingTop0"
+                    android:text="@string/BenguelaCurrentFlowRate"/>
+            </TableLayout>
 	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/BenguelaCurrentFlowRate"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/BenguelaCurrentWidth"/>
 	        <TextView 
-	            style="@style/TableTextView.GravityRight"
+	            style="@style/TableTextView.GravityRight.PaddingTop0"
 	            android:text="@string/BenguelaCurrentSpeed"/>
 	    </TableRow>
 		<TableRow style="@style/TableRow.Span">

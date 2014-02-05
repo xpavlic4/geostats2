@@ -99,8 +99,9 @@
     <string name="WeatherExtremes">Weather Extremes</string>
     <string name="Length">Length</string>
     <string name="Width">Width</string>
-    <string name="NameFlowRate">Name / Flow rate</string>
-    <string name="SpeedCmS">Speed</string>
+    <string name="WidthKm">Width \n(km)</string>
+    <string name="NameFlowRate">Name \nFlow rate (m/s)</string>
+    <string name="SpeedCmS">Speed \n(cm/s)</string>
     
     <string name="PhysicalGeography">Physical geography</string>
     <string name="PoliticalUrbanGeography">Political and Urban geography</string>

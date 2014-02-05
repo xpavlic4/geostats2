@@ -100,7 +100,7 @@
     <style name="TableRow">
         <item name="android:background">@color/colorThBg</item>
         <item name="android:paddingBottom">1dp</item>
-        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingRight">0dp</item>
     </style>
     <style name="TableRow.Span">
         <item name="android:paddingBottom">0dp</item>
@@ -108,10 +108,10 @@
     <style name="TableTextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">fill_parent</item>
-        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
         <item name="android:paddingTop">5dp</item>
-        <item name="android:paddingRight">5dp</item>
-        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
         <item name="android:paddingBottom">5dp</item>
         <item name="android:background">@color/colorTdBg</item>
         <item name="android:textColor">@color/colorDarkGrey</item>
@@ -121,10 +121,13 @@
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">@color/colorBBB</item>
     </style>
-    <style name="TableTextView.PadddingBottom0">
-        <item name="android:paddingBottom">2dp</item>
+    <style name="TableTextView.PaddingBottom0">
+        <item name="android:paddingBottom">0dp</item>
     </style>
-    <style name="TableTextView.PadddingBottom0.Bold">
+    <style name="TableTextView.PaddingTop0">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+    <style name="TableTextView.PaddingBottom0.Bold">
         <item name="android:textStyle">bold</item>
     </style>
     <style name="TableTextView.RowSpan">
@@ -140,6 +143,12 @@
     </style>
     <style name="TableTextView.GravityRight">
         <item name="android:gravity">right</item>
+    </style>
+    <style name="TableTextView.GravityRight.PaddingTop0">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+    <style name="TableTextView.PaddingTop0.PaddingBottom0">
+        <item name="android:paddingBottom">0dp</item>
     </style>
     <style name="TableTextView.GravityRight.RowSpan">
         <item name="android:paddingTop">0dp</item>

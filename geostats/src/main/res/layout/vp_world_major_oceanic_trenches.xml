@@ -30,7 +30,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/MarianaTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -49,7 +49,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/TongaTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -68,7 +68,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/KurilKamchatkaTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -87,7 +87,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/PhilippineTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -106,7 +106,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/KermadecTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -125,7 +125,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/IzuBoninTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -144,7 +144,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/JapanTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -163,7 +163,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/PuertoRicoTrench"/>
 		   			</TableRow>
 		   			<TableRow>
@@ -182,7 +182,7 @@
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
+				          	style="@style/TableTextView.PaddingBottom0"
 				            android:text="@string/PeruChileTrench"/>
 		   			</TableRow>
 		   			<TableRow>
