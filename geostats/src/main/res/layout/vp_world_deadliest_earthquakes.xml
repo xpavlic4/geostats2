@@ -13,7 +13,7 @@
 	        android:text="@string/DeadliestEarthquakes"/>
 	    
 	    <TableLayout style="@style/TableLayout.Shrink"
-	        android:shrinkColumns="0">
+	        android:shrinkColumns="1">
 	        
 		    <TableRow style="@style/TableRow">
 		        <TextView 
@@ -30,6 +30,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
+                    android:singleLine="true"
 		            android:text="@string/Year1976"/>
 			    <TableLayout android:stretchColumns="0">
 		            <TableRow>
@@ -60,7 +61,7 @@
 		   			<TableRow>
 				        <TextView 
 				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/IndonesiaIndianOcean"/>
+				            android:text="@string/Indonesia"/>
 		   			</TableRow>
 		        </TableLayout>
 		        <TextView 

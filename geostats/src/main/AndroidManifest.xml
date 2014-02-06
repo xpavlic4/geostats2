@@ -89,8 +89,8 @@
                 android:value="com.geo.geostats.Branches" />
         </activity>
         <activity android:name=".About"
-            android:theme="@android:style/Theme.Dialog"
-            android:label="@string/About"
+            android:theme="@style/DialogContinents"
+            android:label="@string/app_name"
             android:parentActivityName="com.geo.geostats.Main">
             <intent-filter>
                 <action android:name="com.geo.geostats.ABOUT"/>

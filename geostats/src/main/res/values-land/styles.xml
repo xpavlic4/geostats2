@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ScrollView">
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fillViewport">false</item>
+    </style>
+    <style name="AboutLayout">
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

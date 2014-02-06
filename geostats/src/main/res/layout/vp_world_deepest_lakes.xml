@@ -63,7 +63,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		         <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/CaspianSea"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"

@@ -26,7 +26,7 @@
 		    
 		    <TableRow style="@style/TableRow">
 		        <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/China"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
@@ -107,7 +107,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/Australia"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
@@ -116,7 +116,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/Chile"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
@@ -125,7 +125,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/Mexico"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
@@ -170,7 +170,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/Netherlands"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
@@ -179,7 +179,7 @@
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/UnitedKingdom"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
