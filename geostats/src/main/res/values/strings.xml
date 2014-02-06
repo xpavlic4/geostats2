@@ -15,6 +15,7 @@
     <string name="Year">Year</string>
     <string name="Country">Country</string>
     <string name="Total">Total</string>
+    <string name="TotalDensity">Total / Density</string>
     <string name="TotalSqKm">Total sq km</string>
     <string name="TotalSqM">Total sq m</string>
     <string name="TotalKm">Total km</string>
@@ -60,6 +61,7 @@
     <string name="Magnitude">Magnitude</string>
     <string name="ViewTable"><u>View table</u></string>
     <string name="BasicInfo">Basic info</string>
+    <string name="Bibliography"><u>Bibliography</u></string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>

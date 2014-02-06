@@ -32,7 +32,7 @@
 		          	style="@style/TableTextView"
 		            android:text="@string/Year1960"/>
 		         <TextView 
-		          	style="@style/TableTextView.PaddingBottom0"
+		          	style="@style/TableTextView"
 		            android:text="@string/Chile"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"

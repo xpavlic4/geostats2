@@ -44,8 +44,8 @@ public class FragmentIndicatorsList extends ListFragment {
 			alist[9] = getString(R.string.LargestEarthquakes);
 			alist[10] = getString(R.string.MajorVolcanicEruptions);
 			alist[11] = getString(R.string.WeatherExtremes);
-        
-			setListAdapter(new ArrayAdapter<String>(getActivity(), layout, alist));
+
+            setListAdapter(new ArrayAdapter<String>(getActivity(), layout, alist));
 			
 	      }else if(bag.getString("GEO").equals("G2")){
 	    	
@@ -56,7 +56,7 @@ public class FragmentIndicatorsList extends ListFragment {
 			alist[2] = getString(R.string.CountriesByPopulationDensity);
 			alist[3] = getString(R.string.LargestCities);
 			alist[4] = getString(R.string.LargestUrbanAreas);
-	        
+
 			setListAdapter(new ArrayAdapter<String>(getActivity(), layout, alist));
 			
 	      }else if(bag.getString("GEO").equals("G3")){
@@ -91,7 +91,7 @@ public class FragmentIndicatorsList extends ListFragment {
 			alist[25] = getString(R.string.ZincProduction);
 			alist[26] = getString(R.string.UraniumProduction);
 			alist[27] = getString(R.string.KaolinProduction);
-	        
+
 			setListAdapter(new ArrayAdapter<String>(getActivity(), layout, alist));
 			
 	      }else{
@@ -143,8 +143,9 @@ public class FragmentIndicatorsList extends ListFragment {
 			alist[42] = getString(R.string.ZincProduction);
 			alist[43] = getString(R.string.UraniumProduction);
 			alist[44] = getString(R.string.KaolinProduction);
-        
+
 			setListAdapter(new ArrayAdapter<String>(getActivity(), layout, alist));
+
 	      }
 	   }
 
@@ -165,7 +166,7 @@ public class FragmentIndicatorsList extends ListFragment {
 		      onHeadlineSelectedListener.onArticleSelected(position);
 
 		      // Set the item as checked to be highlighted when in two-pane layout
-		      getListView().setItemChecked(position, true);
+               getListView().setItemChecked(position, true);
 		   }
 
 		   @Override public void onAttach(Activity activity) {
