@@ -22,19 +22,17 @@
     <color name="colorDialogTitleBg">#3d3d3d</color>
     <color name="colorDialogTitleText">@color/colorTdBg</color>
 
-    <style name="Main" parent="Theme.AppCompat">
-        <item name="actionBarStyle">@style/MyActionBar</item>
-    </style>
-    <style name="MainLayout">
+    <style name="Main" parent="@style/Theme.AppCompat">
         <item name="android:background">@drawable/bg_body_pattern</item>
+        <item name="android:padding">8dp</item>
     </style>
 
-    <style name="FullScreen" parent="Theme.AppCompat">
+    <style name="FullScreen" parent="@style/Theme.AppCompat">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.PageIndicatorDefaults" parent="@style/Theme.AppCompat">
+    <style name="Theme.PageIndicatorDefaults" parent="@style/Theme.AppCompat.Light">
         <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
         <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
 
@@ -76,13 +74,15 @@
         <item name="android:shadowDy">0</item>
     </style>
 
-    <style name="RelativeLayoutBody">
-        <item name="android:background">@drawable/bg_body_pattern</item>
-        <item name="android:padding">8dp</item>
-    </style>
     <style name="FrameLayoutBody">
         <item name="android:padding">12dp</item>
         <item name="android:background">@drawable/bg_content</item>
+    </style>
+
+    <style name="FrameLayoutBody.Container">
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
     </style>
 
     <style name="TableLayout">
@@ -177,12 +177,13 @@
     <style name="TextViewTitle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginBottom">6dp</item>
-        <item name="android:background">#000</item>
-        <item name="android:textColor">@color/colorFFF</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">7dp</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorDialogTitleBg</item>
+        <item name="android:textColor">@color/colorDialogTitleText</item>
     </style>
     <style name="ViewDivider">
         <item name="android:layout_width">fill_parent</item>
