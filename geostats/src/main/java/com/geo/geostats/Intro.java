@@ -24,6 +24,7 @@ public class Intro extends Activity {
                     }
 
                     Intent i = new Intent("com.geo.geostats.MAIN");
+                    i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
 
                 }catch(InterruptedException e){

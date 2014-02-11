@@ -21,6 +21,8 @@
     <color name="colorScrollView">@color/colorTdBg</color>
     <color name="colorDialogTitleBg">#3d3d3d</color>
     <color name="colorDialogTitleText">@color/colorTdBg</color>
+    <color name="colorF2F2F2">#f2f2f2</color>
+    <color name="color8E8E8E">#8e8e8e</color>
 
     <style name="Main" parent="@style/Theme.AppCompat">
         <item name="android:background">@drawable/bg_body_pattern</item>
@@ -252,14 +254,25 @@
         <item name="android:scaleType">centerInside</item>
     </style>
     <style name="MainButtons">
-        <item name="android:background">@drawable/bg_main_box</item>
-        <item name="android:layout_width">110dp</item>
-        <item name="android:layout_height">110dp</item>
-        <item name="android:textColor">@color/colorDarkGrey</item>
-    </style>
-    <style name="FragmentButtons">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:shadowColor">@color/colorF2F2F2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MainButtons.Main">
+        <item name="android:width">150dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="FragmentButtons" parent="MainButtons">
+
     </style>
 
 

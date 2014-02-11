@@ -23,7 +23,7 @@ public class Branches extends ActionBarActivity implements View.OnClickListener{
         getSupportActionBar().setHomeButtonEnabled(true);
         
         ActionBar actionbar = getSupportActionBar();
-        actionbar.setTitle(getString(R.string.Branches));
+        actionbar.setTitle(getString(R.string.Topics));
         
         btB1 = (Button)findViewById(R.id.btPhyG);
         btB2 = (Button)findViewById(R.id.btPolUrbG);
@@ -38,18 +38,6 @@ public class Branches extends ActionBarActivity implements View.OnClickListener{
 	public boolean onOptionsItemSelected(MenuItem item){
 		super.onOptionsItemSelected(item);
 		switch(item.getItemId()){
-		case R.id.menu_indicators:
-			
-			Intent i = new Intent("com.geo.geostats.INDICATORS");
-			
-			String name0 = "G0";
-			Bundle bag = new Bundle();
-			bag.putString("GEO", name0);
-			i.putExtras(bag);
-			
-			startActivity(i);
-			break;
-			
 		case android.R.id.home:
 			NavUtils.navigateUpFromSameTask(this);
 	        return true;
@@ -71,7 +59,8 @@ public class Branches extends ActionBarActivity implements View.OnClickListener{
 				
     			bag.putString("GEO", name1);
     			i.putExtras(bag);
-    			
+
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(i);
 			break;
 			
@@ -80,7 +69,8 @@ public class Branches extends ActionBarActivity implements View.OnClickListener{
 
     			bag.putString("GEO", name2);
     			i2.putExtras(bag);
-    			
+
+                i2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(i2);
 			break;
 			
@@ -89,7 +79,8 @@ public class Branches extends ActionBarActivity implements View.OnClickListener{
 
     			bag.putString("GEO", name3);
     			i3.putExtras(bag);
-    			
+
+                i3.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(i3);
 			break;
 		}

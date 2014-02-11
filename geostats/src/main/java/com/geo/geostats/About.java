@@ -39,6 +39,7 @@ public class About extends Activity implements android.view.View.OnClickListener
 
                 case R.id.btRefs:
                     Intent i = new Intent("com.geo.geostats.INFO_REFERENCES");
+                    i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
                     break;
             }
