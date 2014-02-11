@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Main"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-    
-    <ImageButton 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btInfoRef"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:contentDescription="@string/app_name"
-        android:background="@drawable/abc_ic_go"
-        android:layout_alignParentRight="true"/>
-    
-	  <LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-        android:orientation="horizontal"
-		android:gravity="center">
+        android:src="@drawable/intro_splash_land"
+        android:scaleType="centerCrop"/>
 
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:background="@drawable/bg_000">
+        <TableRow
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:gravity="center">
             <Button
+                android:gravity="center"
+                android:id="@+id/btContinents"
                 android:text="@string/Continents"
-                style="@style/MainButtons"
-                android:id="@+id/btContinents"/>
-
+                style="@style/MainButtons.Main"/>
             <Button
-                android:text="@string/Oceans"
-                style="@style/MainButtons"
                 android:id="@+id/btOceans"
-                android:layout_marginLeft="20dp"/>
-
-          <Button
-              android:text="@string/Branches"
-              style="@style/MainButtons"
-              android:id="@+id/btBranches"
-              android:layout_marginLeft="20dp"/>
-
+                android:text="@string/Oceans"
+                android:gravity="center"
+                android:layout_marginLeft="12dp"
+                style="@style/MainButtons.Main"/>
+        </TableRow>
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center">
             <Button
-                android:text="@string/Indicators"
-                style="@style/MainButtons"
+                android:id="@+id/btBranches"
+                android:text="@string/Topics"
+                style="@style/MainButtons.Main"/>
+            <Button
                 android:id="@+id/btIndicators"
-                android:layout_marginLeft="20dp"/>
+                android:text="@string/Indicators"
+                android:layout_marginLeft="12dp"
+                style="@style/MainButtons.Main"/>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <Button
+                android:id="@+id/btInfoRef"
+                android:text="@string/About"
+                android:gravity="center"
+                style="@style/MainButtons.Main"/>
+        </TableRow>
+    </TableLayout>
 
-		</LinearLayout>
+
 </RelativeLayout>
-
-

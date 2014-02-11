@@ -9,12 +9,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class Main extends ActionBarActivity implements android.view.View.OnClickListener {
 
-    Button btWorld, btContinents, btOceans, btBranches;
-    ImageButton btInfoRef;
+    Button btWorld, btContinents, btOceans, btBranches, btInfoRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +24,7 @@ public class Main extends ActionBarActivity implements android.view.View.OnClick
         btContinents = (Button) findViewById(R.id.btContinents);
         btOceans = (Button) findViewById(R.id.btOceans);
         btBranches = (Button) findViewById(R.id.btBranches);
-        btInfoRef = (ImageButton) findViewById(R.id.btInfoRef);
+        btInfoRef = (Button) findViewById(R.id.btInfoRef);
 
         btWorld.setOnClickListener(this);
         btContinents.setOnClickListener(this);
@@ -52,27 +50,31 @@ public class Main extends ActionBarActivity implements android.view.View.OnClick
                 Bundle bag = new Bundle();
                 bag.putString("GEO", name0);
                 in.putExtras(bag);
-
+                in.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(in);
                 break;
 
             case R.id.btBranches:
                 Intent b = new Intent("com.geo.geostats.BRANCHES");
+                b.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(b);
                 break;
 
             case R.id.btContinents:
                 Intent c = new Intent("com.geo.geostats.CONTINENTS");
+                c.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(c);
                 break;
 
             case R.id.btOceans:
                 Intent o = new Intent("com.geo.geostats.OCEANS");
+                o.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(o);
                 break;
 
             case R.id.btInfoRef:
                 Intent i = new Intent("com.geo.geostats.ABOUT");
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
                 break;
 
@@ -94,11 +96,13 @@ public class Main extends ActionBarActivity implements android.view.View.OnClick
         switch(item.getItemId()){
             case R.id.iAbout:
                 Intent a = new Intent("com.geo.geostats.ABOUT");
+                a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(a);
                 break;
 
             case R.id.iRefs:
                 Intent b = new Intent("com.geo.geostats.INFO_REFERENCES");
+                b.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(b);
                 break;
 

@@ -1,6 +1,5 @@
 package com.geo.geostats;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -52,13 +51,7 @@ public class Oceans extends ActionBarActivity{
 	public boolean onOptionsItemSelected(MenuItem item){
 		super.onOptionsItemSelected(item);
 		switch(item.getItemId()){
-		case R.id.menu_continents:
-			
-			Intent i = new Intent("com.geo.geostats.CONTINENTS");
-			startActivity(i);
-			
-			break;
-			
+
 		case android.R.id.home:
 			NavUtils.navigateUpFromSameTask(this);
 	        return true;
