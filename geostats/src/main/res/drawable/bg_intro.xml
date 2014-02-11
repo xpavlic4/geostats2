@@ -7,6 +7,6 @@
     </item>
     <item android:top="175dp">
         <bitmap android:src="@drawable/logo_geostats"
-            android:gravity="top|center" />
+            android:gravity="top|center"/>
     </item>
 </layer-list>

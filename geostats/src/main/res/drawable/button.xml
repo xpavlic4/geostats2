@@ -2,14 +2,19 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:state_pressed="true"
+        android:color="@color/color8E8E8E"
         android:drawable="@drawable/bg_button_over" />
     <item
         android:state_focused="true"
+        android:color="@color/color8E8E8E"
         android:drawable="@drawable/bg_button_over" />
     <item
         android:state_checked="true"
+        android:color="@color/color8E8E8E"
         android:drawable="@drawable/bg_button_over" />
 
-    <item android:drawable="@drawable/bg_button"/>
+    <item
+        android:color="@color/colorDarkGrey"
+        android:drawable="@drawable/bg_button"/>
 
 </selector>
