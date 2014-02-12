@@ -7,7 +7,7 @@
 
     <FrameLayout 
         android:id="@+id/tabs_container"
-        style="@style/FrameLayoutBody"
+        style="@style/FrameLayoutBody.VPI"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

@@ -15,18 +15,15 @@
     
         <Button
             android:id="@+id/btPhyG"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/FragmentButtons"
             android:text="@string/PhysicalGeography"/>
         <Button
             android:id="@+id/btPolUrbG"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/FragmentButtons"
             android:text="@string/PoliticalUrbanGeography"/>
         <Button
             android:id="@+id/btEconG"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/FragmentButtons"
             android:text="@string/EconomicGeography"/>
 
     </LinearLayout>
