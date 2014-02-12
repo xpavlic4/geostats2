@@ -2,7 +2,7 @@
     package="com.geo.geostats">
 
     <uses-sdk
-        android:minSdkVersion="7"
+        android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
     <application android:allowBackup="true"

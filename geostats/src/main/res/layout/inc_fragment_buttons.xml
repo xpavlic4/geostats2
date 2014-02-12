@@ -3,4 +3,8 @@
         style="@style/MainButtons.Sub"
         android:text="@string/BasicInfo"
         android:id="@+id/btDialog10"/>
+    <Button
+        style="@style/MainButtons.Sub"
+        android:text="@string/Maps"
+        android:id="@+id/btDialog11"/>
 </merge>
