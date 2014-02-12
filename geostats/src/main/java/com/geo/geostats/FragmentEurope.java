@@ -43,24 +43,43 @@ public class FragmentEurope extends Fragment {
         //indicator.setCurrentItem(2); skip to a particular tab
 
         Button btD10O = (Button) v.findViewById(R.id.btDialog10);
+        Button btD11O = (Button) v.findViewById(R.id.btDialog11);
         btD10O.setOnClickListener(new OnClickListener() {
                 public void onClick(View v) {
-                    final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
-                    d.setCancelable(true);
-                    d.setContentView(R.layout.dialog_europe);
-                    d.setCanceledOnTouchOutside(true);
-                    tvChart = (TextView)d.findViewById(R.id.chartNo);
-                    tvChart.append(" 1");
-                    Button btClose = (Button) d.findViewById(R.id.btClose);
-                    btClose.setOnClickListener(new OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            d.cancel();
-                        }
-                    });
-                    d.show();
+                final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
+                d.setCancelable(true);
+                d.setContentView(R.layout.dialog_europe);
+                d.setCanceledOnTouchOutside(true);
+                tvChart = (TextView)d.findViewById(R.id.chartNo);
+                tvChart.append(" 1");
+                Button btClose = (Button) d.findViewById(R.id.btClose);
+                btClose.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d.cancel();
+                    }
+                });
+                d.show();
                 }
             });
+        btD11O.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                final Dialog d1 = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
+                d1.setCancelable(true);
+                d1.setContentView(R.layout.dialog_europe_maps);
+                d1.setCanceledOnTouchOutside(true);
+                tvChart = (TextView)d1.findViewById(R.id.imageNo);
+                tvChart.append(" 1");
+                Button btClose = (Button) d1.findViewById(R.id.btClose);
+                btClose.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d1.cancel();
+                    }
+                });
+                d1.show();
+            }
+        });
 
         return v;
 

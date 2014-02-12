@@ -62,6 +62,8 @@
     <string name="Magnitude">Magnitude</string>
     <string name="ViewTable"><u>View table</u></string>
     <string name="BasicInfo">Basic info</string>
+    <string name="Maps">Maps</string>
+    <string name="Image">Image</string>
     <string name="Bibliography"><u>Bibliography</u></string>
     
     <string name="NumberOfCountries">Number of countries</string>
@@ -143,6 +145,7 @@
     <string name="Chart">Chart</string>
     <string name="CapPpp">per capita, PPP ($)</string>
     <string name="ChartNo">Chart No.</string>
+    <string name="ImageNo">Image No.</string>
     <string name="WeatherRecords">Weather records</string>
     <string name="ThousandShortTons">Thousand Short Tons</string>
     <string name="ThousandTonnes">Thousand Tonnes</string>
