@@ -1,5 +1,6 @@
 package com.geo.geostats;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -63,7 +64,15 @@ public class Continents extends ActionBarActivity{
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.home) {
-            NavUtils.navigateUpFromSameTask(this);
+            Intent upIntent = NavUtils.getParentActivityIntent(this);
+            if(NavUtils.shouldUpRecreateTask(this, upIntent)){
+                android.support.v4.app.TaskStackBuilder.create(this)
+                        .addNextIntentWithParentStack(upIntent)
+                        .startActivities();
+            } else {
+                NavUtils.navigateUpTo(this, upIntent);
+            }
+            //NavUtils.navigateUpFromSameTask(this);
             return true;
         }
         return super.onOptionsItemSelected(item);
