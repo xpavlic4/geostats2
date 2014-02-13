@@ -37,6 +37,7 @@ public class FragmentSouthernO extends Fragment{
         indicator.setViewPager(vp);
 
         Button btD10O = (Button) v.findViewById(R.id.btDialog10);
+        Button btD11O = (Button) v.findViewById(R.id.btDialog11);
         btD10O.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final Dialog d = new Dialog(FragmentSouthernO.this.getActivity(), R.style.DialogContinents);
@@ -53,6 +54,24 @@ public class FragmentSouthernO extends Fragment{
                     }
                 });
                 d.show();
+            }
+        });
+        btD11O.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                final Dialog d1 = new Dialog(FragmentSouthernO.this.getActivity(), R.style.DialogContinents);
+                d1.setCancelable(true);
+                d1.setContentView(R.layout.dialog_southern_o_maps);
+                d1.setCanceledOnTouchOutside(true);
+                tvChart = (TextView)d1.findViewById(R.id.imageNo);
+                tvChart.append(" 12");
+                Button btClose = (Button) d1.findViewById(R.id.btClose);
+                btClose.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d1.cancel();
+                    }
+                });
+                d1.show();
             }
         });
 
