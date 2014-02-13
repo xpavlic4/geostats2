@@ -2,6 +2,9 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
@@ -11,11 +14,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
+import com.imagezoom.ImageAttacher;
+import com.imagezoom.ImageAttacher.OnMatrixChangedListener;
+import com.imagezoom.ImageAttacher.OnPhotoTapListener;
 
 import java.util.Locale;
 
@@ -24,6 +32,7 @@ public class FragmentEurope extends Fragment {
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
+    ImageView ivMap;
 	//public final int limit = 0;
 	
 	@Override
@@ -34,6 +43,7 @@ public class FragmentEurope extends Fragment {
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
+
 		
         //vp.setCurrentItem(2); skip to a particular tab
         //vp.setOffscreenPageLimit(limit);
@@ -68,22 +78,75 @@ public class FragmentEurope extends Fragment {
                 d1.setCancelable(true);
                 d1.setContentView(R.layout.dialog_europe_maps);
                 d1.setCanceledOnTouchOutside(true);
+
+                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+                lp.copyFrom(d1.getWindow().getAttributes());
+                lp.height = WindowManager.LayoutParams.MATCH_PARENT;
+
                 tvChart = (TextView)d1.findViewById(R.id.imageNo);
                 tvChart.append(" 1");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
+                Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
+                Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
+                ivMap = (ImageView)d1.findViewById(R.id.ivMap);
+
+                btMap1.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View d1) {
+                        ivMap.setImageResource(R.drawable.map);
+                    }
+                });
+                btMap2.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        ivMap.setImageResource(R.drawable.map2);
+                    }
+                });
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         d1.cancel();
                     }
                 });
+
+                Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                        R.drawable.map);
+                ivMap.setImageBitmap(bimtBitmap);
+                usingSimpleImage(ivMap);
                 d1.show();
+                d1.getWindow().setAttributes(lp);
             }
         });
 
         return v;
 
 	}
+
+    public void usingSimpleImage(ImageView imageView) {
+        ImageAttacher mAttacher = new ImageAttacher(imageView);
+        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
+        MatrixChangeListener mMaListener = new MatrixChangeListener();
+        mAttacher.setOnMatrixChangeListener(mMaListener);
+        PhotoTapListener mPhotoTap = new PhotoTapListener();
+        mAttacher.setOnPhotoTapListener(mPhotoTap);
+    }
+
+    private class PhotoTapListener implements OnPhotoTapListener {
+
+        @Override
+        public void onPhotoTap(View view, float x, float y) {
+        }
+    }
+
+    private class MatrixChangeListener implements OnMatrixChangedListener {
+
+        @Override
+        public void onMatrixChanged(RectF rect) {
+
+        }
+    }
+
 	private class vpAdapter extends PagerAdapter {
 
 		@Override
