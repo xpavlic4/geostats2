@@ -27,7 +27,7 @@
             android:text="@string/Oceans"
             style="@style/MainButtons.Main"/>
         <Button
-            android:id="@+id/btBranches"
+            android:id="@+id/btTopics"
             android:text="@string/Topics"
             style="@style/MainButtons.Main"/>
         <Button

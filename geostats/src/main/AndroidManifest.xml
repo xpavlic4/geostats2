@@ -64,29 +64,29 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.geo.geostats.Main" />
         </activity>
-        <activity android:name=".Branches"
+        <activity android:name=".Topics"
             android:label="@string/app_name"
             android:theme="@style/Theme.PageIndicatorDefaults"
             android:parentActivityName="com.geo.geostats.Main">
             <intent-filter>
-                <action android:name="com.geo.geostats.BRANCHES"/>
+                <action android:name="com.geo.geostats.TOPICS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.geo.geostats.Main" />
         </activity>
-        <activity android:name=".BranchesFragmentManager"
+        <activity android:name=".TopicsFragmentManager"
             android:label="@string/app_name"
             android:theme="@style/Theme.PageIndicatorDefaults"
-            android:parentActivityName="com.geo.geostats.Branches">
+            android:parentActivityName=".Topics">
             <intent-filter>
-                <action android:name="com.geo.geostats.BRANCHES_FM"/>
+                <action android:name="com.geo.geostats.TOPICS_FM"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.geo.geostats.Branches" />
+                android:value="com.geo.geostats.Topics" />
         </activity>
         <activity android:name=".About"
             android:theme="@style/DialogContinents"

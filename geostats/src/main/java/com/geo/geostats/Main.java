@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class Main extends ActionBarActivity implements android.view.View.OnClickListener {
 
-    Button btWorld, btContinents, btOceans, btBranches, btInfoRef;
+    Button btWorld, btContinents, btOceans, btTopics, btInfoRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +23,13 @@ public class Main extends ActionBarActivity implements android.view.View.OnClick
         btWorld = (Button) findViewById(R.id.btIndicators);
         btContinents = (Button) findViewById(R.id.btContinents);
         btOceans = (Button) findViewById(R.id.btOceans);
-        btBranches = (Button) findViewById(R.id.btBranches);
+        btTopics = (Button) findViewById(R.id.btTopics);
         btInfoRef = (Button) findViewById(R.id.btInfoRef);
 
         btWorld.setOnClickListener(this);
         btContinents.setOnClickListener(this);
         btOceans.setOnClickListener(this);
-        btBranches.setOnClickListener(this);
+        btTopics.setOnClickListener(this);
         btInfoRef.setOnClickListener(this);
 
         ActionBar actionbar = getSupportActionBar();
@@ -54,8 +54,8 @@ public class Main extends ActionBarActivity implements android.view.View.OnClick
                 startActivity(in);
                 break;
 
-            case R.id.btBranches:
-                Intent b = new Intent("com.geo.geostats.BRANCHES");
+            case R.id.btTopics:
+                Intent b = new Intent("com.geo.geostats.TOPICS");
                 b.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(b);
                 break;

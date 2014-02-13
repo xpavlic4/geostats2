@@ -60,7 +60,7 @@
     <string name="Channels">Channels</string>
     <string name="Area">Area (sq km)</string>
     <string name="Magnitude">Magnitude</string>
-    <string name="ViewTable"><u>View table</u></string>
+    <string name="ShowTable"><u>Show table</u></string>
     <string name="BasicInfo">Basic info</string>
     <string name="Maps">Maps</string>
     <string name="Image">Image</string>

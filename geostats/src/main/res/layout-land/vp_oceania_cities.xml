@@ -10,7 +10,7 @@
                 android:text="@string/LargestCities"/>
             <Button
                 style="@style/TableTextView.GravityRight.Button"
-                android:text="@string/ViewTable"
+                android:text="@string/ShowTable"
                 android:id="@+id/btDialog2"/>
         </TableRow>
         <TableRow style="@style/TableRow">
@@ -19,7 +19,7 @@
                 android:text="@string/LargestUrbanAreas"/>
             <Button
                 style="@style/TableTextView.GravityRight.Button"
-                android:text="@string/ViewTable"
+                android:text="@string/ShowTable"
                 android:id="@+id/btDialog3"/>
         </TableRow>
         <TableRow style="@style/TableRow">
@@ -28,7 +28,7 @@
                 android:text="@string/Capitals"/>
             <Button
                 style="@style/TableTextView.GravityRight.Button"
-                android:text="@string/ViewTable"
+                android:text="@string/ShowTable"
                 android:id="@+id/btDialog6"/>
         </TableRow>
     </TableLayout>

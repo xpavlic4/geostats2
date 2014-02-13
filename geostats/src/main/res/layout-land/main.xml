@@ -37,7 +37,7 @@
             android:layout_gravity="center"
             android:gravity="center">
             <Button
-                android:id="@+id/btBranches"
+                android:id="@+id/btTopics"
                 android:text="@string/Topics"
                 style="@style/MainButtons.Main"/>
             <Button

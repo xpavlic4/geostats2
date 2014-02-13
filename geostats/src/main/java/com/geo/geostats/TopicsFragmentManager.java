@@ -1,7 +1,6 @@
 package com.geo.geostats;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
@@ -10,14 +9,14 @@ import android.view.MenuItem;
 
 import com.geo.geostats.FragmentIndicatorsList.OnHeadlineSelectedListener;
 
-public class BranchesFragmentManager extends ActionBarActivity implements OnHeadlineSelectedListener {
+public class TopicsFragmentManager extends ActionBarActivity implements OnHeadlineSelectedListener {
 	IndicatorsAbstractNewsView indicatorsAbstractNewsView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.branches_fragment_manager);
+		setContentView(R.layout.topics_fragment_manager);
 		
 		indicatorsAbstractNewsView = new IndicatorsAbstractNewsViewProvider(this).get();
 	    indicatorsAbstractNewsView.onCreate(savedInstanceState);

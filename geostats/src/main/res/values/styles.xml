@@ -91,7 +91,7 @@
 
     <style name="FrameLayoutBody.Container">
         <item name="android:padding">12dp</item>
-        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingTop">0dp</item>
         <item name="android:paddingBottom">7dp</item>
     </style>
     <style name="FrameLayoutBody.VPI">

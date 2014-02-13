@@ -42,7 +42,7 @@
                 android:text="@string/HighestMountains"/>
             <Button
                 style="@style/TableTextView.GravityRight.Button"
-                android:text="@string/ViewTable"
+                android:text="@string/ShowTable"
                 android:id="@+id/btDialog1"/>
         </TableRow>
 

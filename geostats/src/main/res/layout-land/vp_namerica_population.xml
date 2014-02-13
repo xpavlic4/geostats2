@@ -36,7 +36,7 @@
                  android:text="@string/MostPopulatedCountries"/>
 		     <Button 
                   style="@style/TableTextView.GravityRight.Button"
-                  android:text="@string/ViewTable"
+                  android:text="@string/ShowTable"
                   android:id="@+id/btDialog1"/>
 		 </TableRow>
 	</TableLayout>
