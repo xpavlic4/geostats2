@@ -49,7 +49,7 @@
                 android:text="@string/BoundaryKMD"/>
 	        <Button 
 		        style="@style/TableTextView.GravityRight.Button"
-		        android:text="@string/ViewTable"
+		        android:text="@string/ShowTable"
 		        android:id="@+id/btDialog7"/>
 	    </TableRow>
 	     <TableRow style="@style/TableRow">
@@ -58,7 +58,7 @@
                  android:text="@string/BoundaryCC"/>
 	        <Button 
 		        style="@style/TableTextView.GravityRight.Button"
-		        android:text="@string/ViewTable"
+		        android:text="@string/ShowTable"
 		        android:id="@+id/btDialog8"/>
 	    </TableRow>
 	</TableLayout>
