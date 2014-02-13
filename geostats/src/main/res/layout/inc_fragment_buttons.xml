@@ -6,5 +6,6 @@
     <Button
         style="@style/MainButtons.Sub"
         android:text="@string/Maps"
+        android:layout_toRightOf="@+id/btDialog10"
         android:id="@+id/btDialog11"/>
 </merge>
