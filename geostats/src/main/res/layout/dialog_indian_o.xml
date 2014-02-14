@@ -10,18 +10,18 @@
             style="@style/DialogTitle"
             android:text="@string/IndianOcean"
             android:id="@+id/dTitle"/>
-        
+
         <TextView
             style="@style/DialogChartNo"
             android:layout_below="@+id/dTitle"
             android:id="@+id/chartNo"
             android:text="@string/ChartNo"/>
-        
+
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 
 		<include layout="@layout/inc_indian_o_basic"/>
-        
+
 	</RelativeLayout>
 </ScrollView>

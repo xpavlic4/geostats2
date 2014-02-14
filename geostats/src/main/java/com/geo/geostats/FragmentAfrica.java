@@ -2,6 +2,9 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
@@ -11,11 +14,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
+import com.imagezoom.ImageAttacher;
 
 import java.util.Locale;
 
@@ -24,6 +30,7 @@ public class FragmentAfrica extends Fragment{
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
+    ImageView ivMap;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -57,27 +64,82 @@ public class FragmentAfrica extends Fragment{
                 d.show();
             }
         });
-        btD11O.setOnClickListener(new OnClickListener() {
+        btD11O.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final Dialog d1 = new Dialog(FragmentAfrica.this.getActivity(), R.style.DialogContinents);
                 d1.setCancelable(true);
                 d1.setContentView(R.layout.dialog_africa_maps);
                 d1.setCanceledOnTouchOutside(true);
+
+                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+                lp.copyFrom(d1.getWindow().getAttributes());
+                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
+                lp.height = WindowManager.LayoutParams.MATCH_PARENT;
+
                 tvChart = (TextView)d1.findViewById(R.id.imageNo);
                 tvChart.append(" 3");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
-                btClose.setOnClickListener(new OnClickListener() {
+                Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
+                Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
+                ivMap = (ImageView)d1.findViewById(R.id.ivMap);
+
+                btMap1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                                R.drawable.map);
+                        ivMap.setImageBitmap(bimtBitmap);
+                    }
+                });
+                btMap2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                                R.drawable.map2);
+                        ivMap.setImageBitmap(bimtBitmap);
+                    }
+                });
+                btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         d1.cancel();
                     }
                 });
+
+                usingSimpleImage(ivMap);
                 d1.show();
+                d1.getWindow().setAttributes(lp);
             }
         });
 
 		return v;
 	}
+
+    public void usingSimpleImage(ImageView imageView) {
+        ImageAttacher mAttacher = new ImageAttacher(imageView);
+        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
+        MatrixChangeListener mMaListener = new MatrixChangeListener();
+        mAttacher.setOnMatrixChangeListener(mMaListener);
+        PhotoTapListener mPhotoTap = new PhotoTapListener();
+        mAttacher.setOnPhotoTapListener(mPhotoTap);
+    }
+
+    private class PhotoTapListener implements ImageAttacher.OnPhotoTapListener {
+
+        @Override
+        public void onPhotoTap(View view, float x, float y) {
+        }
+    }
+
+    private class MatrixChangeListener implements ImageAttacher.OnMatrixChangedListener {
+
+        @Override
+        public void onMatrixChanged(RectF rect) {
+
+        }
+    }
+
 	private class vpAdapter extends PagerAdapter {
 
 		@Override
