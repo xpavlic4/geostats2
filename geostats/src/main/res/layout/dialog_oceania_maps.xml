@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/ScrollView">
+    style="@style/ScrollView.NoMargin">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -21,12 +21,26 @@
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 
-        <com.geo.geostats.TouchImage
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
+            style="@style/FragmentButtons.SmallPadding"
             android:layout_below="@+id/imageNo"
+            android:text="@string/PhysicalMap"
+            android:id="@+id/btMap1"/>
+
+        <Button
+            style="@style/FragmentButtons.SmallPadding"
+            android:layout_toRightOf="@+id/btMap1"
+            android:layout_below="@+id/imageNo"
+            android:text="@string/PoliticalMap"
+            android:id="@+id/btMap2"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:id="@+id/ivMap"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/btMap1"
             android:src="@drawable/map"
-            android:scaleType="center"
+            android:scaleType="matrix"
             android:contentDescription="@string/Oceania"/>
 
     </RelativeLayout>

@@ -22,18 +22,20 @@
             android:id="@+id/btClose"/>
 
         <Button
-            style="@style/FragmentButtons"
+            style="@style/FragmentButtons.SmallPadding"
             android:layout_below="@+id/imageNo"
+            android:text="@string/PhysicalMap"
             android:id="@+id/btMap1"/>
 
         <Button
-            style="@style/FragmentButtons"
+            style="@style/FragmentButtons.SmallPadding"
             android:layout_toRightOf="@+id/btMap1"
             android:layout_below="@+id/imageNo"
+            android:text="@string/PoliticalMap"
             android:id="@+id/btMap2"/>
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:id="@+id/ivMap"
             android:layout_height="fill_parent"
             android:layout_below="@+id/btMap1"

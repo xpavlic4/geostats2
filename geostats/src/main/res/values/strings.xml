@@ -107,7 +107,9 @@
     <string name="WidthKm">Width \n(km)</string>
     <string name="NameFlowRate">Name \nFlow rate (m/s)</string>
     <string name="SpeedCmS">Speed \n(cm/s)</string>
-    
+    <string name="PhysicalMap">Physical map</string>
+    <string name="PoliticalMap">Political map</string>
+
     <string name="PhysicalGeography">Physical geography</string>
     <string name="PoliticalUrbanGeography">Political and Urban geography</string>
     <string name="EconomicGeography">Economic geography</string>

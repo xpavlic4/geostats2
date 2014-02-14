@@ -81,6 +81,7 @@ public class FragmentEurope extends Fragment {
 
                 WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
                 lp.copyFrom(d1.getWindow().getAttributes());
+                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
 
                 tvChart = (TextView)d1.findViewById(R.id.imageNo);
@@ -92,14 +93,18 @@ public class FragmentEurope extends Fragment {
 
                 btMap1.setOnClickListener(new OnClickListener() {
                     @Override
-                    public void onClick(View d1) {
-                        ivMap.setImageResource(R.drawable.map);
+                    public void onClick(View v) {
+                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                                R.drawable.map);
+                        ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
                 btMap2.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        ivMap.setImageResource(R.drawable.map2);
+                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                                R.drawable.map2);
+                        ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
                 btClose.setOnClickListener(new OnClickListener() {
@@ -109,9 +114,6 @@ public class FragmentEurope extends Fragment {
                     }
                 });
 
-                Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                        R.drawable.map);
-                ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
                 d1.show();
                 d1.getWindow().setAttributes(lp);
