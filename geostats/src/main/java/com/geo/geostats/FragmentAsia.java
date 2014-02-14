@@ -89,7 +89,7 @@ public class FragmentAsia extends Fragment{
                     @Override
                     public void onClick(View v) {
                         Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map);
+                                R.drawable.map_asia_physical);
                         ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
@@ -97,7 +97,7 @@ public class FragmentAsia extends Fragment{
                     @Override
                     public void onClick(View v) {
                         Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map2);
+                                R.drawable.map_middle_east_physical);
                         ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
@@ -119,7 +119,7 @@ public class FragmentAsia extends Fragment{
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
         ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);

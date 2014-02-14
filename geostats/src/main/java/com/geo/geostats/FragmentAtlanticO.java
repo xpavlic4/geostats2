@@ -82,7 +82,7 @@ public class FragmentAtlanticO extends Fragment{
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
                 Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                        R.drawable.map);
+                        R.drawable.map_atlantic_o);
                 ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
 
@@ -103,7 +103,7 @@ public class FragmentAtlanticO extends Fragment{
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MAX_ZOOM = 2.0f; // Double the current Size
         ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);
