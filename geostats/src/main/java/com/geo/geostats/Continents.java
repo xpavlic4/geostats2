@@ -1,6 +1,5 @@
 package com.geo.geostats;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -58,24 +57,16 @@ public class Continents extends ActionBarActivity{
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.home) {
-            Intent upIntent = NavUtils.getParentActivityIntent(this);
-            if(NavUtils.shouldUpRecreateTask(this, upIntent)){
-                android.support.v4.app.TaskStackBuilder.create(this)
-                        .addNextIntentWithParentStack(upIntent)
-                        .startActivities();
-            } else {
-                NavUtils.navigateUpTo(this, upIntent);
-            }
-            //NavUtils.navigateUpFromSameTask(this);
-            return true;
+    public boolean onOptionsItemSelected(MenuItem item){
+        super.onOptionsItemSelected(item);
+        switch(item.getItemId()){
+
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
         }
-        return super.onOptionsItemSelected(item);
+
+        return true;
     }
     
     class MyTabsListener implements ActionBar.TabListener {

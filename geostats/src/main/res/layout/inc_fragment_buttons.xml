@@ -2,6 +2,7 @@
 	<Button
         style="@style/MainButtons.Sub"
         android:text="@string/BasicInfo"
+        android:layout_marginLeft="8dp"
         android:id="@+id/btDialog10"/>
     <Button
         style="@style/MainButtons.Sub"

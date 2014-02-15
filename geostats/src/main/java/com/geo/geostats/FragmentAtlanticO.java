@@ -2,6 +2,7 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.RectF;
@@ -30,7 +31,7 @@ public class FragmentAtlanticO extends Fragment{
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart;
-    ImageView ivMap;
+    ImageView ivMap, ivMapBasic;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -82,7 +83,7 @@ public class FragmentAtlanticO extends Fragment{
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
                 Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                        R.drawable.map);
+                        R.drawable.map_atlantic_o);
                 ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
 
@@ -97,13 +98,20 @@ public class FragmentAtlanticO extends Fragment{
                 d1.getWindow().setAttributes(lp);
             }
         });
+        if(FragmentAtlanticO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        {
+            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setImageResource(R.drawable.map_atlantic_o);
+            ivMapBasic.setContentDescription(getString(R.string.AtlanticOcean));
+        } else {
 
+        }
 		return v;
 	}
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MAX_ZOOM = 2.0f; // Double the current Size
         ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);

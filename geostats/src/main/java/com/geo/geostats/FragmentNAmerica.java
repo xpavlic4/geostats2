@@ -2,6 +2,7 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.RectF;
@@ -26,11 +27,11 @@ import com.imagezoom.ImageAttacher;
 import java.util.Locale;
 
 public class FragmentNAmerica extends Fragment{
-	
-	ViewPager vp;
+
+    ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
-    ImageView ivMap;
+    ImageView ivMap, ivMapBasic;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -83,22 +84,29 @@ public class FragmentNAmerica extends Fragment{
                 Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
+                final BitmapFactory.Options opts = new BitmapFactory.Options();
+                opts.inDither=false; //Disable dithering mode
+                opts.inPurgeable=true; //Tell to gc that whether it needs memory, the Bitmap can be cleared
+                opts.inInputShareable=true; //Which kind of reference will be used to recover the Bitmap data after being clear, when it will be used in the future
+                opts.inTempStorage=new byte[32 * 1024];
+
                 btMap1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map);
+                                R.drawable.map_namerica_physical, opts);
                         ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
                 btMap2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map2);
-                        ivMap.setImageBitmap(bimtBitmap);
+                     Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                                R.drawable.map_camerica_physical, opts);
+                     ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
+
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -111,13 +119,20 @@ public class FragmentNAmerica extends Fragment{
                 d1.getWindow().setAttributes(lp);
             }
         });
+        if(FragmentNAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        {
+            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setImageResource(R.drawable.map_namerica_basic);
+            ivMapBasic.setContentDescription(getString(R.string.NorthAmerica));
+        } else {
 
+        }
 		return v;
 	}
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
         ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);

@@ -2,6 +2,7 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.RectF;
@@ -30,7 +31,7 @@ public class FragmentSAmerica extends Fragment{
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
-    ImageView ivMap;
+    ImageView ivMap, ivMapBasic;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -79,26 +80,8 @@ public class FragmentSAmerica extends Fragment{
                 tvChart = (TextView)d1.findViewById(R.id.imageNo);
                 tvChart.append(" 5");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
-                Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
-                Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
-                btMap1.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
-                btMap2.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map2);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -106,18 +89,28 @@ public class FragmentSAmerica extends Fragment{
                     }
                 });
 
+                Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                        R.drawable.map_samerica_physical);
+                ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
                 d1.show();
                 d1.getWindow().setAttributes(lp);
             }
         });
+        if(FragmentSAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        {
+            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setImageResource(R.drawable.map_samerica_basic);
+            ivMapBasic.setContentDescription(getString(R.string.SouthAmerica));
+        } else {
 
+        }
 		return v;
 	}
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 2.5f; // Double the current Size
+        ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
         ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);

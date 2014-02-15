@@ -13,24 +13,22 @@
             android:text="@string/AtlanticOcean"
             android:id="@+id/dTitle"/>
 
-        <TextView
-            style="@style/DialogChartNo"
-            android:layout_below="@+id/dTitle"
-            android:id="@+id/imageNo"
-            android:text="@string/ImageNo"/>
-
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 
         <ImageView
-            android:layout_width="fill_parent"
             android:id="@+id/ivMap"
-            android:layout_height="fill_parent"
-            android:layout_below="@+id/imageNo"
-            android:src="@drawable/map"
-            android:scaleType="matrix"
+            style="@style/ImageViewMap.Land"
+            android:layout_below="@+id/dTitle"
+            android:src="@drawable/map_atlantic_o"
             android:contentDescription="@string/AtlanticOcean"/>
+
+        <TextView
+            style="@style/DialogChartNo.Inverse"
+            android:layout_below="@+id/dTitle"
+            android:id="@+id/imageNo"
+            android:text="@string/ImageNo"/>
 
     </RelativeLayout>
 </RelativeLayout>
