@@ -79,26 +79,8 @@ public class FragmentSAmerica extends Fragment{
                 tvChart = (TextView)d1.findViewById(R.id.imageNo);
                 tvChart.append(" 5");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
-                Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
-                Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
-                btMap1.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
-                btMap2.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map2);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -106,6 +88,9 @@ public class FragmentSAmerica extends Fragment{
                     }
                 });
 
+                Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                        R.drawable.map_samerica_physical);
+                ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
                 d1.show();
                 d1.getWindow().setAttributes(lp);
@@ -117,7 +102,7 @@ public class FragmentSAmerica extends Fragment{
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 2.0f; // Double the current Size
+        ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
         ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);

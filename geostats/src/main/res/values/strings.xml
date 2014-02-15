@@ -115,8 +115,10 @@
     <string name="EconomicGeography">Economic geography</string>
 
     <string name="CentralAmPhysical">Central Am. - physical</string>
+    <string name="CentralAmer">Central Amer.</string>
     <string name="PoliticalCentralA">Political Central A.</string>
     <string name="MiddleEastPhysical">Middle East - physical</string>
+    <string name="MiddleEast">Middle East</string>
 
     <string name="CoalProduction">Total Primary Coal Production</string>
     <string name="OilProduction">Total Oil Supply</string>

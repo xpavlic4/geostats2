@@ -26,8 +26,8 @@ import com.imagezoom.ImageAttacher;
 import java.util.Locale;
 
 public class FragmentNAmerica extends Fragment{
-	
-	ViewPager vp;
+
+    ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
     ImageView ivMap;
@@ -83,22 +83,29 @@ public class FragmentNAmerica extends Fragment{
                 Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
+                final BitmapFactory.Options opts = new BitmapFactory.Options();
+                opts.inDither=false; //Disable dithering mode
+                opts.inPurgeable=true; //Tell to gc that whether it needs memory, the Bitmap can be cleared
+                opts.inInputShareable=true; //Which kind of reference will be used to recover the Bitmap data after being clear, when it will be used in the future
+                opts.inTempStorage=new byte[32 * 1024];
+
                 btMap1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map_namerica_physical);
+                                R.drawable.map_namerica_physical, opts);
                         ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
                 btMap2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map_camerica_physical);
-                        ivMap.setImageBitmap(bimtBitmap);
+                     Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
+                                R.drawable.map_camerica_physical, opts);
+                     ivMap.setImageBitmap(bimtBitmap);
                     }
                 });
+
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
