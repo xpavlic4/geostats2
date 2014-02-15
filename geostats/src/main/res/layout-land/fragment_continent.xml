@@ -16,9 +16,8 @@
         android:layout_weight="@string/layoutWeightFragmentALand">
 
         <ImageView
-            android:contentDescription="@string/Africa"
-            style="@style/ImageViewMapLand"
-            android:src="@drawable/map"/>
+            style="@style/ImageViewMapBasicLand"
+            android:id="@+id/ivMapBasic"/>
 
         <include layout="@layout/inc_fragment_buttons"/>
 

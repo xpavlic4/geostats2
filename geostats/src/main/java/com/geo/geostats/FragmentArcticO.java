@@ -2,6 +2,7 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.RectF;
@@ -30,7 +31,7 @@ public class FragmentArcticO extends Fragment{
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart;
-    ImageView ivMap;
+    ImageView ivMap, ivMapBasic;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -98,6 +99,14 @@ public class FragmentArcticO extends Fragment{
                 d1.getWindow().setAttributes(lp);
             }
         });
+        if(FragmentArcticO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        {
+            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setImageResource(R.drawable.map_arctic_o);
+            ivMapBasic.setContentDescription(getString(R.string.ArcticOcean));
+        } else {
+
+        }
 		return v;
 	}
 

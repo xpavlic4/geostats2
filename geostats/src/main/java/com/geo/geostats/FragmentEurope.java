@@ -2,6 +2,7 @@ package com.geo.geostats;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.RectF;
@@ -32,7 +33,7 @@ public class FragmentEurope extends Fragment {
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
-    ImageView ivMap;
+    ImageView ivMap, ivMapBasic;
 	//public final int limit = 0;
 	
 	@Override
@@ -105,7 +106,15 @@ public class FragmentEurope extends Fragment {
             }
         });
 
-        return v;
+        if(FragmentEurope.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        {
+            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setImageResource(R.drawable.map_europe_basic);
+            ivMapBasic.setContentDescription(getString(R.string.Europe));
+        } else {
+
+        }
+      return v;
 
 	}
 
