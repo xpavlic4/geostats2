@@ -22,5 +22,10 @@
     <string name="RiiserLarsenSea">Riiser-Larsen Sea</string>
     <string name="RossSea">Ross Sea</string>
     <string name="ScotiaSea">Scotia Sea</string>
+    <string name="PhilippineSea">Philippine Sea</string>
+    <string name="CoralSea">Coral Sea</string>
+    <string name="ArabianSea">Arabian Sea</string>
+    <string name="TasmanSea">Tasman Sea</string>
+    <string name="NorwegianSea">Norwegian Sea</string>
 
 </resources>

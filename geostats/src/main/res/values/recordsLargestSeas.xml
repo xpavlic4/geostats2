@@ -2,36 +2,37 @@
 <resources>
     
     <!-- LARGEST SEAS WORLD -->
-    <string name="LargestSeasWorld01">@string/LargestSeasAtlanticO01</string>
-	<string name="LargestSeasWorld02">@string/LargestSeasPacificO01</string>
-	<string name="LargestSeasWorld03">@string/LargestSeasAtlanticO02</string>
-	<string name="LargestSeasWorld04">@string/LargestSeasAtlanticO03</string>
-	<string name="LargestSeasWorld05">@string/LargestSeasPacificO02</string>
-	<string name="LargestSeasWorld06">@string/LargestSeasIndianO01</string>
-	<string name="LargestSeasWorld07">@string/LargestSeasAtlanticO04</string>
-	<string name="LargestSeasWorld08">@string/LargestSeasPacificO03</string>
-	<string name="LargestSeasWorld09">@string/LargestSeasAtlanticO05</string>
-	<string name="LargestSeasWorld10">@string/LargestSeasPacificO04</string>
+    <string name="LargestSeasWorld01">@string/LargestSeasPacificO01</string>
+	<string name="LargestSeasWorld02">@string/LargestSeasPacificO02</string>
+	<string name="LargestSeasWorld03">@string/LargestSeasIndianO01</string>
+	<string name="LargestSeasWorld04">@string/LargestSeasPacificO03</string>
+	<string name="LargestSeasWorld05">@string/LargestSeasSouthernO01</string>
+	<string name="LargestSeasWorld06">@string/LargestSeasAtlanticO01</string>
+	<string name="LargestSeasWorld07">@string/LargestSeasAtlanticO02</string>
+	<string name="LargestSeasWorld08">@string/LargestSeasPacificO04</string>
+	<string name="LargestSeasWorld09">@string/LargestSeasPacificO05</string>
+	<string name="LargestSeasWorld10">@string/LargestSeasIndianO02</string>
 	
 	<!-- LARGEST SEAS ATLANTIC OCEAN -->
-	<string name="LargestSeasAtlanticO01">9.485.000</string>
-	<string name="LargestSeasAtlanticO02">2.512.000</string>
-	<string name="LargestSeasAtlanticO03">2.510.000</string>
-	<string name="LargestSeasAtlanticO04">1.544.000</string>
-	<string name="LargestSeasAtlanticO05">1.233.000</string>
-	
+	<string name="LargestSeasAtlanticO01">2.754.000</string>
+	<string name="LargestSeasAtlanticO02">2.500.000</string>
+	<string name="LargestSeasAtlanticO03">1.543.000</string>
+    <string name="LargestSeasAtlanticO04">1.383.000</string>
+	<string name="LargestSeasAtlanticO05">819.000</string>
+
 	<!-- LARGEST SEAS PACIFIC OCEAN -->
-	<string name="LargestSeasPacificO01">2.590.000</string>
-	<string name="LargestSeasPacificO02">2.261.000</string>
-	<string name="LargestSeasPacificO03">1.392.000</string>
-	<string name="LargestSeasPacificO04">1.202.000</string>
-	<string name="LargestSeasPacificO05">1.013.000</string>
+	<string name="LargestSeasPacificO01">5.726.000</string>
+	<string name="LargestSeasPacificO02">4.791.000</string>
+	<string name="LargestSeasPacificO03">3.500.000</string>
+	<string name="LargestSeasPacificO04">2.304.000</string>
+	<string name="LargestSeasPacificO05">2.300.000</string>
 	
 	<!-- LARGEST SEAS INDIAN OCEAN -->
-	<string name="LargestSeasIndianO01">2.172.000</string>
-	<string name="LargestSeasIndianO02">453.000</string>
-	<string name="LargestSeasIndianO03">238.000</string>
-	
+	<string name="LargestSeasIndianO01">3.862.000</string>
+	<string name="LargestSeasIndianO02">2.172.000</string>
+	<string name="LargestSeasIndianO03">450.000</string>
+	<string name="LargestSeasIndianO04">239.000</string>
+
 	<!-- LARGEST SEAS ARCTIC OCEAN -->
 	<string name="LargestSeasArcticO01">1.405.000</string>
 	<string name="LargestSeasArcticO02">936.000</string>
