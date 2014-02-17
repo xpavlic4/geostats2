@@ -19,42 +19,42 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BarentsSea"/>
+	            android:text="@string/WeddellSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasArcticO01"/>
+	            android:text="@string/LargestSeasSouthernO01"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/EastSiberianSea"/>
+	            android:text="@string/SomovSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasArcticO02"/>
+	            android:text="@string/LargestSeasSouthernO02"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/KaraSea"/>
+	            android:text="@string/RiiserLarsenSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasArcticO03"/>
+	            android:text="@string/LargestSeasSouthernO03"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/LaptevSea"/>
+	            android:text="@string/RossSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasArcticO04"/>
+	            android:text="@string/LargestSeasSouthernO04"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/ChukchiSea"/>
+	            android:text="@string/ScotiaSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasArcticO05"/>
+	            android:text="@string/LargestSeasSouthernO05"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow.Span">
  		   <TextView

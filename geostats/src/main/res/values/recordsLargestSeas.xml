@@ -39,4 +39,11 @@
 	<string name="LargestSeasArcticO04">650.000</string>
 	<string name="LargestSeasArcticO05">582.000</string>
 
+    <!-- LARGEST SEAS SOUTHERN OCEAN -->
+    <string name="LargestSeasSouthernO01">2.800.000</string>
+    <string name="LargestSeasSouthernO02">1.150.000</string>
+    <string name="LargestSeasSouthernO03">1.138.000</string>
+    <string name="LargestSeasSouthernO04">960.000</string>
+    <string name="LargestSeasSouthernO05">900.000</string>
+
 </resources>
