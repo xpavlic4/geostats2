@@ -18,7 +18,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BayOfBengal"/>
+	            android:text="@string/ArabianSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasIndianO01"/>
@@ -26,7 +26,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/RedSea"/>
+	            android:text="@string/BayOfBengal"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasIndianO02"/>
@@ -34,11 +34,19 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/TheGulf"/>
+	            android:text="@string/RedSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasIndianO03"/>
 	    </TableRow>
+        <TableRow style="@style/TableRow">
+            <TextView
+                style="@style/TableTextView"
+                android:text="@string/TheGulf"/>
+            <TextView
+                style="@style/TableTextView.GravityRight"
+                android:text="@string/LargestSeasIndianO04"/>
+        </TableRow>
 	    <TableRow style="@style/TableRow.Span">
  		   <TextView
 		        android:id="@+id/chartNo"

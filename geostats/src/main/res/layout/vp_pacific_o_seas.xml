@@ -19,7 +19,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/SouthChinaSea"/>
+	            android:text="@string/PhilippineSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasPacificO01"/>
@@ -27,7 +27,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BeringSea"/>
+	            android:text="@string/CoralSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasPacificO02"/>
@@ -35,7 +35,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/SeaofOkhotsk"/>
+	            android:text="@string/SouthChinaSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasPacificO03"/>
@@ -43,7 +43,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/EastChinaSeaandYellowSea"/>
+	            android:text="@string/BeringSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasPacificO04"/>
@@ -51,7 +51,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/SeaOfJapan"/>
+	            android:text="@string/TasmanSea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestSeasPacificO05"/>

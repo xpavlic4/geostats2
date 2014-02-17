@@ -27,7 +27,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/ArcticOcean"/>
+		            android:text="@string/PhilippineSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld01"/>
@@ -35,7 +35,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/SouthChinaSea"/>
+		            android:text="@string/CoralSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld02"/>
@@ -43,7 +43,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/CaribbeanSea"/>
+		            android:text="@string/ArabianSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld03"/>
@@ -51,7 +51,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/MediterraneanSea"/>
+		            android:text="@string/SouthChinaSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld04"/>
@@ -59,7 +59,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/BeringSea"/>
+		            android:text="@string/WeddellSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld05"/>
@@ -67,7 +67,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/BayOfBengal"/>
+		            android:text="@string/CaribbeanSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld06"/>
@@ -75,7 +75,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/GulfOfMexico"/>
+		            android:text="@string/MediterraneanSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld07"/>
@@ -83,7 +83,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/SeaofOkhotsk"/>
+		            android:text="@string/BeringSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld08"/>
@@ -91,7 +91,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/HudsonBay"/>
+		            android:text="@string/TasmanSea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld09"/>
@@ -99,7 +99,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/EastChinaSeaandYellowSea"/>
+		            android:text="@string/BayOfBengal"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestSeasWorld10"/>
