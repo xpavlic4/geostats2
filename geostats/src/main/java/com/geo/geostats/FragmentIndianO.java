@@ -101,7 +101,7 @@ public class FragmentIndianO extends Fragment{
         if(FragmentIndianO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_indian_o);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_indian_o, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.IndianOcean));
         } else {
 

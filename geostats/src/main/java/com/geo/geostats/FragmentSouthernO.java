@@ -100,7 +100,7 @@ public class FragmentSouthernO extends Fragment{
         if(FragmentSouthernO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_southern_o);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_southern_o, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.SouthernOcean));
         } else {
 

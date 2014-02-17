@@ -101,7 +101,7 @@ public class FragmentPacificO extends Fragment{
         if(FragmentPacificO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_pacific_o);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_pacific_o, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.PacificOcean));
         } else {
 
