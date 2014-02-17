@@ -17,5 +17,10 @@
 	<string name="KaraSea">Kara Sea</string>
 	<string name="LaptevSea">Laptev Sea</string>
 	<string name="ChukchiSea">Chukchi Sea</string>
-	
+    <string name="WeddellSea">Weddell Sea</string>
+    <string name="SomovSea">Somov Sea</string>
+    <string name="RiiserLarsenSea">Riiser-Larsen Sea</string>
+    <string name="RossSea">Ross Sea</string>
+    <string name="ScotiaSea">Scotia Sea</string>
+
 </resources>
