@@ -23,7 +23,7 @@
 	<!-- LARGEST SEAS PACIFIC OCEAN -->
 	<string name="LargestSeasPacificO01">5.726.000</string>
 	<string name="LargestSeasPacificO02">4.791.000</string>
-	<string name="LargestSeasPacificO03">3.500.000</string>
+	<string name="LargestSeasPacificO03">3.537.289</string>
 	<string name="LargestSeasPacificO04">2.304.000</string>
 	<string name="LargestSeasPacificO05">2.300.000</string>
 	
@@ -36,8 +36,8 @@
 	<!-- LARGEST SEAS ARCTIC OCEAN -->
 	<string name="LargestSeasArcticO01">1.405.000</string>
 	<string name="LargestSeasArcticO02">936.000</string>
-	<string name="LargestSeasArcticO03">883.000</string>
-	<string name="LargestSeasArcticO04">650.000</string>
+	<string name="LargestSeasArcticO03">880.000</string>
+	<string name="LargestSeasArcticO04">700.000</string>
 	<string name="LargestSeasArcticO05">582.000</string>
 
     <!-- LARGEST SEAS SOUTHERN OCEAN -->

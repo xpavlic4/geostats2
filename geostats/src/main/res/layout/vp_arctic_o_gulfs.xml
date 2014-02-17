@@ -22,7 +22,7 @@
 	            android:text="@string/HudsonBay"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/HudsonBay2Record"/>
+	            android:text="@string/HudsonBayRecord"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow.Span">
  		   <TextView

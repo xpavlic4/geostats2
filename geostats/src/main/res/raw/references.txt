@@ -219,8 +219,7 @@ Times Atlases, Glasgow 2012, 87 p.</p>
 
 <p><b>(74)</b> Atlantic ocean - Basic data: Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
-<p><b>(75)</b> Atlantic ocean - Largest seas: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 87 p.</p>
+<p><b>(75)</b> Atlantic ocean - Largest seas: Various sources:<br>http://bse.sci-lib.com<br>http://www.allthesea.com<br>http://global.britannica.com<br>http://ru.wikipedia.org</p>
 
 <p><b>(76)</b> Atlantic ocean - Gulfs: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 12</p>
 
@@ -230,8 +229,7 @@ Times Atlases, Glasgow 2012, 87 p.</p>
 
 <p><b>(79)</b> Pacific ocean - Basic data: Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
-<p><b>(80)</b> Pacific ocean - Largest seas: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 87 p.</p>
+<p><b>(80)</b> Pacific ocean - Largest seas: Various sources:<br>http://bse.sci-lib.com<br>http://global.britannica.com<br>http://ru.wikipedia.org<br>http://geosfera.info<br>http://oceana.org</p>
 
 <p><b>(81)</b> Pacific ocean - Gulfs: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 11</p>
 
@@ -241,8 +239,7 @@ Times Atlases, Glasgow 2012, 87 p.</p>
 
 <p><b>(84)</b> Indian ocean - Basic data:  Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
-<p><b>(85)</b> Indian ocean - Largest seas: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 87 p.</p>
+<p><b>(85)</b> Indian ocean - Largest seas: Various sources:<br>http://bse.sci-lib.com<br>http://global.britannica.com<br>http://en.wikipedia.org</p>
 
 <p><b>(86)</b> Indian ocean - Gulfs: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
@@ -252,7 +249,7 @@ Times Atlases, Glasgow 2012, 87 p.</p>
 
 <p><b>(89)</b> Arctic ocean - Basic data:  Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html<br>Wikipedia, Litke Deep<br>http://en.wikipedia.org/wiki/Litke_Deep</p>
 
-<p><b>(90)</b> Arctic ocean - Largest seas: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
+<p><b>(90)</b> Arctic ocean - Largest seas: Various sources:<br>http://bse.sci-lib.com<br>http://global.britannica.com<br>http://en.wikipedia.org</p>
 
 <p><b>(91)</b> Arctic ocean - Gulfs: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
@@ -295,8 +292,7 @@ Times Atlases, Glasgow 2012</p>
 
 <p><b>(105)</b> Deepest lakes: Geology.com, Deepest lake in the world<br>http://geology.com/records/deepest-lake.shtml</p>
 
-<p><b>(106)</b> Largest seas: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012</p>
+<p><b>(106)</b> Largest seas: Various sources:<br>http://bse.sci-lib.com<br>http://global.britannica.com<br>http://ru.wikipedia.org<br>http://en.wikipedia.org<br>http://geosfera.info<br>http://www.allthesea.com</p>
 
 <p><b>(107)</b> Major oceanic trenches: The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html<br>Wikipedia, Oceanic trench<br>http://en.wikipedia.org/wiki/Oceanic_trench<br>Russian Marine Expeditionary investigations of The world Ocean, U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Silver Spring, MD, December 2002, 43 p.</p>
 
