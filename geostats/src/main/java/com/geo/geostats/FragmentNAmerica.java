@@ -3,8 +3,6 @@ package com.geo.geostats;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -32,7 +30,7 @@ public class FragmentNAmerica extends Fragment{
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
     ImageView ivMap, ivMapBasic;
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
@@ -80,32 +78,52 @@ public class FragmentNAmerica extends Fragment{
                 tvChart = (TextView)d1.findViewById(R.id.imageNo);
                 tvChart.append(" 4");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
-                Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
-                Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
+                final Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
+                final Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
+                ivMap.setImageBitmap(
+                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
+                btMap1.setSelected(true);
 
-                final BitmapFactory.Options opts = new BitmapFactory.Options();
-                opts.inDither=false; //Disable dithering mode
-                opts.inPurgeable=true; //Tell to gc that whether it needs memory, the Bitmap can be cleared
-                opts.inInputShareable=true; //Which kind of reference will be used to recover the Bitmap data after being clear, when it will be used in the future
-                opts.inTempStorage=new byte[32 * 1024];
+                if(btMap1.isSelected()){
+                    btMap1.setSelected(false);
+                    btMap2.setSelected(true);
+                    btMap2.setClickable(false);
+                    btMap2.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            ivMap.setImageBitmap(
+                                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_camerica_physical, 1000, 1000));
+                            btMap2.setBackgroundResource(R.drawable.bg_button_over);
+                            btMap2.setPadding(12, 8, 12, 8);
+                            btMap2.setTextColor(getResources().getColor(R.color.colorBBB));
+                            btMap1.setBackgroundResource(R.drawable.button);
+                            btMap1.setPadding(12, 8, 12, 8);
+                            btMap1.setTextColor(getResources().getColor(R.color.colorDarkGrey));
 
-                btMap1.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map_namerica_physical, opts);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
-                btMap2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                     Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map_camerica_physical, opts);
-                     ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
+                        }
+                    });
+                }else if(btMap2.isSelected()){
+                    btMap2.setSelected(false);
+                    btMap1.setSelected(true);
+                    btMap1.setClickable(false);
+                    btMap1.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            ivMap.setImageBitmap(
+                                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
+                            btMap1.setBackgroundResource(R.drawable.bg_button_over);
+                            btMap1.setPadding(14, 10, 14, 10);
+                            btMap1.setTextColor(getResources().getColor(R.color.color8E8E8E));
+                            btMap2.setBackgroundResource(R.drawable.button);
+                            btMap2.setPadding(14, 10, 14, 10);
+                            btMap2.setTextColor(getResources().getColor(R.color.colorDarkGrey));
+
+                        }
+                    });
+                }
+
+
 
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -122,7 +140,7 @@ public class FragmentNAmerica extends Fragment{
         if(FragmentNAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_namerica_basic);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_basic, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.NorthAmerica));
         } else {
 
@@ -132,8 +150,14 @@ public class FragmentNAmerica extends Fragment{
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
-        ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
+        if(FragmentNAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        {
+            ImageAttacher.MAX_ZOOM = 4.5f; // Double the current Size
+            ImageAttacher.MIN_ZOOM = 1.0f; // Half the current Size
+        }else{
+            ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
+            ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
+        }
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);
         PhotoTapListener mPhotoTap = new PhotoTapListener();
