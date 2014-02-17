@@ -3,8 +3,6 @@ package com.geo.geostats;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -81,6 +79,8 @@ public class FragmentSAmerica extends Fragment{
                 tvChart.append(" 5");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
+                ivMap.setImageBitmap(
+                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_samerica_physical, 1000, 1000));
 
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
@@ -89,9 +89,6 @@ public class FragmentSAmerica extends Fragment{
                     }
                 });
 
-                Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                        R.drawable.map_samerica_physical);
-                ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
                 d1.show();
                 d1.getWindow().setAttributes(lp);
@@ -100,7 +97,7 @@ public class FragmentSAmerica extends Fragment{
         if(FragmentSAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_samerica_basic);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_samerica_basic, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.SouthAmerica));
         } else {
 

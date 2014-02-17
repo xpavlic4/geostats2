@@ -85,6 +85,8 @@ public class FragmentAsia extends Fragment{
                 Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
                 Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
+                ivMap.setImageBitmap(
+                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_physical, 1000, 1000));
 
                 btMap1.setOnClickListener(new OnClickListener() {
                     @Override
@@ -117,7 +119,7 @@ public class FragmentAsia extends Fragment{
         if(FragmentAsia.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_asia_basic);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_basic, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.Asia));
         } else {
 

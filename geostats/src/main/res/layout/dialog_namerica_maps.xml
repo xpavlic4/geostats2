@@ -38,7 +38,6 @@
             android:id="@+id/ivMap"
             style="@style/ImageViewMap"
             android:layout_below="@+id/btMap1"
-            android:src="@drawable/map_namerica_physical"
             android:contentDescription="@string/NorthAmerica"/>
 
     </RelativeLayout>
