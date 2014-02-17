@@ -262,7 +262,7 @@ Times Atlases, Glasgow 2012, 87 p.</p>
 
 <p><b>(94)</b> Southern ocean - Basic data:  Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
-<p><b>(94a)</b> Southern ocean - Largest seas: Various sources: http://global.britannica.com, http://en.wikipedia.org, http://encyclopedia2.thefreedictionary.com</p>
+<p><b>(94a)</b> Southern ocean - Largest seas: Various sources:<br>http://global.britannica.com<br>http://en.wikipedia.org<br>http://encyclopedia2.thefreedictionary.com</p>
 
 <p><b>(95)</b> Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012</p>

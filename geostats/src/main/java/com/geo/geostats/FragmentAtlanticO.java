@@ -101,7 +101,7 @@ public class FragmentAtlanticO extends Fragment{
         if(FragmentAtlanticO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageResource(R.drawable.map_atlantic_o);
+            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_atlantic_o, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.AtlanticOcean));
         } else {
 
