@@ -3,13 +3,12 @@
 <!-- source: GEOGRAFICKE TABULKY -->
 
 <resources>
-    <string name="GulfOfMexicoRecord">1.543.000</string>
+    <string name="GulfOfMexicoRecord">@string/LargestSeasAtlanticO03</string>
     <string name="GulfOfGuineaRecord">1.533.000</string>
-    <string name="HudsonBayRecord">1.232.000</string>
-    <string name="HudsonBay2Record">520.000</string>
-    <string name="BayOfBengalRecord">2.172.000</string>
+    <string name="HudsonBayRecord">@string/LargestSeasAtlanticO05</string>
+    <string name="BayOfBengalRecord">@string/LargestSeasIndianO02</string>
     <string name="GreatAustralianBightRecord">494.000</string>
-    <string name="TheGulfRecord">239.000</string>
+    <string name="TheGulfRecord">@string/LargestSeasIndianO04</string>
     <string name="GulfOfAlaskaRecord">1.327.000</string>
     <string name="GulfOfCaliforniaRecord">177.000</string>
 </resources>
