@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Continents -->
+    <string name="ChartEuropeBasic">Chart No. 1</string>
+    <string name="ChartEuropeLargestCountries">Chart No. 2</string>
+    <string name="ChartEuropeLargestEUCountries">Chart No. 3</string>
+    <string name="ChartEuropePopulatedCountries">Chart No. 4 &#8211; 2010</string>
+    <string name="ChartEuropePopulatedEUCountries">Chart No. 5 &#8211; 2010</string>
+    <string name="ChartEuropeLargestCities">Chart No. 6</string>
+    <string name="ChartEuropeLargestUrbanAgglomerations">Chart No. 7 &#8211; 2013</string>
+    <string name="ChartEuropeCapitals">Chart No. 8</string>
+    <string name="ChartEuropeHighestMountainsKMD">Chart No. 9</string>
+    <string name="ChartEuropeHighestMountainsCC">Chart No. 10</string>
+    <string name="ChartEuropeLargestIslands">Chart No. 11</string>
+    <string name="ChartEuropeLongestRivers">Chart No. 12</string>
+    <string name="ChartEuropeLargestLakes">Chart No. 13</string>
+    <string name="ChartEuropeWeatherRecords">Chart No. 14</string>
+
+    <string name="ChartAsiaBasic">Chart No. 15</string>
+    <string name="ChartAsiaLargestCountries">Chart No. 16</string>
+    <string name="ChartAsiaPopulatedCountries">Chart No. 17 &#8211; 2010</string>
+    <string name="ChartAsiaLargestCities">Chart No. 18</string>
+    <string name="ChartAsiaLargestUrbanAgglomerations">Chart No. 19 &#8211; 2013</string>
+    <string name="ChartAsiaCapitals">Chart No. 20</string>
+    <string name="ChartAsiaHighestMountains">Chart No. 21</string>
+    <string name="ChartAsiaLargestIslands">Chart No. 22</string>
+    <string name="ChartAsiaLongestRivers">Chart No. 23</string>
+    <string name="ChartAsiaLargestLakes">Chart No. 24</string>
+    <string name="ChartAsiaWeatherRecords">Chart No. 25</string>
+
+    <string name="ChartAfricaBasic">Chart No. 26</string>
+    <string name="ChartAfricaLargestCountries">Chart No. 27</string>
+    <string name="ChartAfricaPopulatedCountries">Chart No. 28 &#8211; 2010</string>
+    <string name="ChartAfricaLargestCities">Chart No. 29</string>
+    <string name="ChartAfricaLargestUrbanAgglomerations">Chart No. 30 &#8211; 2013</string>
+    <string name="ChartAfricaCapitals">Chart No. 31</string>
+    <string name="ChartAfricaHighestMountains">Chart No. 32</string>
+    <string name="ChartAfricaLargestIslands">Chart No. 33</string>
+    <string name="ChartAfricaLongestRivers">Chart No. 34</string>
+    <string name="ChartAfricaLargestLakes">Chart No. 35</string>
+    <string name="ChartAfricaWeatherRecords">Chart No. 36</string>
+
+    <string name="ChartNAmericaBasic">Chart No. 37</string>
+    <string name="ChartNAmericaLargestCountries">Chart No. 38</string>
+    <string name="ChartNAmericaPopulatedCountries">Chart No. 39 &#8211; 2010</string>
+    <string name="ChartNAmericaLargestCities">Chart No. 40</string>
+    <string name="ChartNAmericaLargestUrbanAgglomerations">Chart No. 41 &#8211; 2013</string>
+    <string name="ChartNAmericaCapitals">Chart No. 42</string>
+    <string name="ChartNAmericaHighestMountains">Chart No. 43</string>
+    <string name="ChartNAmericaLargestIslands">Chart No. 44</string>
+    <string name="ChartNAmericaLongestRivers">Chart No. 45</string>
+    <string name="ChartNAmericaLargestLakes">Chart No. 46</string>
+    <string name="ChartNAmericaWeatherRecords">Chart No. 47</string>
+
+    <string name="ChartSAmericaBasic">Chart No. 48</string>
+    <string name="ChartSAmericaLargestCountries">Chart No. 49</string>
+    <string name="ChartSAmericaPopulatedCountries">Chart No. 50 &#8211; 2010</string>
+    <string name="ChartSAmericaLargestCities">Chart No. 51</string>
+    <string name="ChartSAmericaLargestUrbanAgglomerations">Chart No. 52 &#8211; 2013</string>
+    <string name="ChartSAmericaCapitals">Chart No. 53</string>
+    <string name="ChartSAmericaHighestMountains">Chart No. 54</string>
+    <string name="ChartSAmericaLargestIslands">Chart No. 55</string>
+    <string name="ChartSAmericaLongestRivers">Chart No. 56</string>
+    <string name="ChartSAmericaLargestLakes">Chart No. 57</string>
+    <string name="ChartSAmericaWeatherRecords">Chart No. 58</string>
+
+    <string name="ChartOceaniaBasic">Chart No. 59</string>
+    <string name="ChartOceaniaLargestCountries">Chart No. 60</string>
+    <string name="ChartOceaniaPopulatedCountries">Chart No. 61 &#8211; 2010</string>
+    <string name="ChartOceaniaLargestCities">Chart No. 62 &#8211; 2011</string>
+    <string name="ChartOceaniaLargestUrbanAgglomerations">Chart No. 63 &#8211; 2013</string>
+    <string name="ChartOceaniaCapitals">Chart No. 64</string>
+    <string name="ChartOceaniaHighestMountainsAP">Chart No. 65</string>
+    <string name="ChartOceaniaHighestMountainsAC">Chart No. 66</string>
+    <string name="ChartOceaniaLargestIslands">Chart No. 67</string>
+    <string name="ChartOceaniaLongestRivers">Chart No. 68</string>
+    <string name="ChartOceaniaLargestLakes">Chart No. 69</string>
+    <string name="ChartOceaniaWeatherRecords">Chart No. 70</string>
+
+    <string name="ChartAntarcticaBasic">Chart No. 71</string>
+    <string name="ChartAntarcticaHighestMountains">Chart No. 72</string>
+    <string name="ChartAntarcticaWeatherRecords">Chart No. 73</string>
+
+    <!-- Continents -->
+    <string name="ChartAtlanticOBasic">Chart No. 74</string>
+    <string name="ChartAtlanticOSeas">Chart No. 75</string>
+    <string name="ChartAtlanticOGulfs">Chart No. 76</string>
+    <string name="ChartAtlanticOStraits">Chart No. 77</string>
+    <string name="ChartAtlanticOCurrents">Chart No. 78</string>
+
+    <string name="ChartPacificOBasic">Chart No. 79</string>
+    <string name="ChartPacificOSeas">Chart No. 80</string>
+    <string name="ChartPacificOGulfs">Chart No. 81</string>
+    <string name="ChartPacificOStraits">Chart No. 82</string>
+    <string name="ChartPacificOCurrents">Chart No. 83</string>
+
+    <string name="ChartIndianOBasic">Chart No. 84</string>
+    <string name="ChartIndianOSeas">Chart No. 85</string>
+    <string name="ChartIndianOGulfs">Chart No. 86</string>
+    <string name="ChartIndianOStraits">Chart No. 87</string>
+    <string name="ChartIndianOCurrents">Chart No. 88</string>
+
+    <string name="ChartArcticOBasic">Chart No. 89</string>
+    <string name="ChartArcticOSeas">Chart No. 90</string>
+    <string name="ChartArcticOGulfs">Chart No. 91</string>
+    <string name="ChartArcticOStraits">Chart No. 92</string>
+    <string name="ChartArcticOCurrents">Chart No. 93</string>
+
+    <string name="ChartSouthernOBasic">Chart No. 94</string>
+    <string name="ChartSouthernOSeas">Chart No. 94a</string>
+
+    <!-- World -->
+    <string name="ChartWorldLargestCountries">Chart No. 95</string>
+    <string name="ChartWorldMostPopulatedCountries">Chart No. 96 &#8211; 2010</string>
+    <string name="ChartWorldCountriesByPopulationDensity">Chart No. 97 &#8211; 2010</string>
+    <string name="ChartWorldLargestCities">Chart No. 98</string>
+    <string name="ChartWorldLargestUrbanAgglomerations">Chart No. 99 &#8211; 2013</string>
+    <string name="ChartWorldHighestMountains">Chart No. 100</string>
+    <string name="ChartWorldLargestIslands">Chart No. 101</string>
+    <string name="ChartWorldLargestPeninsulas">Chart No. 102</string>
+    <string name="ChartWorldLongestRivers">Chart No. 103</string>
+    <string name="ChartWorldLargestLakes">Chart No. 104</string>
+    <string name="ChartWorldDeepestLakes">Chart No. 105</string>
+    <string name="ChartWorldLargestSeas">Chart No. 106</string>
+    <string name="ChartWorldMajorOceanicTrenches">Chart No. 107</string>
+    <string name="ChartWorldDeadliestEarthquakes">Chart No. 108</string>
+    <string name="ChartWorldLargestEarthquakes">Chart No. 109</string>
+    <string name="ChartWorldMajorVolcanicEruptions19802011">Chart No. 110</string>
+    <string name="ChartWorldWeatherExtremes">Chart No. 111</string>
+    <string name="ChartWorldTotalPrimaryCoalProduction">Chart No. 112 &#8211; 2011</string>
+    <string name="ChartWorldTotalOilSupply">Chart No. 113 &#8211; 2012</string>
+    <string name="ChartWorldNaturalGasProduction">Chart No. 114 &#8211; 2012</string>
+    <string name="ChartWorldElectricityProduction">Chart No. 115 &#8211; 2012</string>
+    <string name="ChartWorldSteelProduction">Chart No. 116 &#8211; 2012</string>
+    <string name="ChartWorldMotorVehicleProduction">Chart No. 117 &#8211; 2012</string>
+    <string name="ChartWorldWheatProduction">Chart No. 118 &#8211; 2010</string>
+    <string name="ChartWorldRiceProduction">Chart No. 119 &#8211; 2010</string>
+    <string name="ChartWorldMeatProduction">Chart No. 120 &#8211; 2010</string>
+    <string name="ChartWorldBeefBuffaloMeatProduction">Chart No. 121 &#8211; 2010</string>
+    <string name="ChartWorldPigMeatProduction">Chart No. 122 &#8211; 2010</string>
+    <string name="ChartWorldSheepGoatMeatProduction">Chart No. 123 &#8211; 2010</string>
+    <string name="ChartWorldMilkProduction">Chart No. 124 &#8211; 2010</string>
+    <string name="ChartWorldCaptureFishProduction">Chart No. 125 &#8211; 2010</string>
+    <string name="ChartWorldRoundwoodProduction">Chart No. 126 &#8211; 2011</string>
+    <string name="ChartWorldGNI">Chart No. 127 &#8211; 2011</string>
+    <string name="ChartWorldGoldProduction">Chart No. 128 &#8211; 2011</string>
+    <string name="ChartWorldSilverProduction">Chart No. 129 &#8211; 2011</string>
+    <string name="ChartWorldDiamondProduction">Chart No. 130 &#8211; 2011</string>
+    <string name="ChartWorldIronOreProduction">Chart No. 131 &#8211; 2011</string>
+    <string name="ChartWorldAluminiumProduction">Chart No. 132 &#8211; 2011</string>
+    <string name="ChartWorldCopperProduction">Chart No. 133 &#8211; 2011</string>
+    <string name="ChartWorldSaltProduction">Chart No. 134 &#8211; 2011</string>
+    <string name="ChartWorldMercuryProduction">Chart No. 135 &#8211; 2011</string>
+    <string name="ChartWorldNickelProduction">Chart No. 136 &#8211; 2011</string>
+    <string name="ChartWorldZincProduction">Chart No. 137 &#8211; 2011</string>
+    <string name="ChartWorldUraniumProduction">Chart No. 138 &#8211; 2011</string>
+    <string name="ChartWorldKaolinProduction">Chart No. 139 &#8211; 2011</string>
+
+    <!-- Maps -->
+    <string name="ImageEuropePhysical">Image No. 1</string>
+    <string name="ImageAsiaPhysical">Image No. 2 and 3</string>
+    <string name="ImageAfricaPhysical">Image No. 4</string>
+    <string name="ImageNAmericaPhysical">Image No. 5 and 6</string>
+    <string name="ImageSAmericaPhysical">Image No. 7</string>
+    <string name="ImageOceaniaPhysical">Image No. 8</string>
+    <string name="ImageAntarcticaPhysical">Image No. 9</string>
+    <string name="ImageAtlanticO">Image No. 10</string>
+    <string name="ImagePacificO">Image No. 11</string>
+    <string name="ImageIndianO">Image No. 12</string>
+    <string name="ImageArcticO">Image No. 13</string>
+    <string name="ImageSouthernO">Image No. 14</string>
+
+
+</resources>

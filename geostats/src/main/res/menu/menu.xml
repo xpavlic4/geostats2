@@ -5,12 +5,10 @@
         android:title="@string/About"
         android:numericShortcut="1"
         android:alphabeticShortcut="a"
-        android:icon="@drawable/abc_ic_search"
         android:id="@+id/iAbout"/>
     <item 
         android:title="@string/References"
         android:numericShortcut="2"
-        android:icon="@drawable/abc_ic_voice_search"
         android:id="@+id/iRefs"/>
 
 </menu>

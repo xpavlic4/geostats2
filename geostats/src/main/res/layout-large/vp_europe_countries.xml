@@ -2,34 +2,37 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
-    
-    <LinearLayout 
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-	    <TextView 
-		 	android:layout_width="wrap_content"
-		 	android:layout_height="wrap_content"
-			android:text="@string/NumberOfCountries"/>
-		<TextView 
-			android:layout_width="wrap_content"
-		 	android:layout_height="wrap_content"
-			android:text="@string/NumberOfCountriesRecordEurope"/>
-		
-	    <TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/LargestCountries"/>
-		
-		<include layout="@layout/inc_europe_countries"/>
-		
-		<TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TableLayout style="@style/TableLayout"
+            android:shrinkColumns="0">
+            <TableRow style="@style/TableRow">
+                <TextView
+                    style="@style/TableTextView"
+                    android:text="@string/NumberOfCountries"/>
+                <TextView
+                    style="@style/TableTextView.GravityRight"
+                    android:text="@string/NumberOfCountriesRecordEurope"/>
+
+            </TableRow>
+            <TableRow style="@style/TableRow.Span">
+                <TextView
+                    android:layout_span="2"
+                    style="@style/TextViewTitle"
+                    android:text="@string/LargestCountries"/>
+            </TableRow>
+        </TableLayout>
+
+        <include layout="@layout/inc_europe_countries"/>
+
+        <TextView
+            style="@style/TextViewTitle"
             android:text="@string/LargestEUCountries"/>
-		
-		<include layout="@layout/inc_europe_eu_countries"/>
-	
+        <include layout="@layout/inc_europe_eu_countries"/>
+
+
     </LinearLayout>
 </ScrollView>

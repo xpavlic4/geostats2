@@ -187,6 +187,6 @@
 		<TextView
 	        android:id="@+id/chartNo"
 	      	style="@style/TableTextView.Italic"
-	        android:text="@string/ChartNo"/>
+	        android:text="@string/ChartWorldCountriesByPopulationDensity"/>
 	</LinearLayout>
 </ScrollView>

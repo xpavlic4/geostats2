@@ -1,9 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:com.geo.geostats="http://schemas.android.com/apk/res-auto">
-	<item
-		android:id="@+id/menu_indicators"
-		android:title="@string/Indicators"
-		android:orderInCategory="1"
-        com.geo.geostats:showAsAction="ifRoom"/>
-
-</menu>

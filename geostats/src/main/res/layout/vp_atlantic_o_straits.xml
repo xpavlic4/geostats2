@@ -90,7 +90,7 @@
 		        android:id="@+id/chartNo"
 		        android:layout_span="3"
 		      	style="@style/TableTextView.Italic"
-		        android:text="@string/ChartNo"/>
+		        android:text="@string/ChartAtlanticOStraits"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

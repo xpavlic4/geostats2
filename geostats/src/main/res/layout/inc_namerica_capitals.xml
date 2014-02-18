@@ -1,6 +1,6 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 	<TableLayout style="@style/TableLayout"
-	    android:layout_below="@+id/chartNo"
+	    android:layout_below="@+id/dTitle"
         android:stretchColumns="0">
         
 	    <TableRow style="@style/TableRow">
@@ -96,6 +96,13 @@
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/HighestCapitalNAmerica"/>
 	    </TableRow>
+        <TableRow style="@style/TableRow.Span">
+            <TextView
+                android:id="@+id/chartNo"
+                android:layout_span="2"
+                style="@style/TableTextView.Italic"
+                android:text="@string/ChartNAmericaCapitals"/>
+        </TableRow>
 
 	</TableLayout>
 </merge>

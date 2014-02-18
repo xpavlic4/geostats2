@@ -1,96 +1,103 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 	<TableLayout style="@style/TableLayout"
- 		android:layout_below="@+id/chartNo"
+ 		android:layout_below="@+id/dTitle"
         android:shrinkColumns="0">
-        
+
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView.Head"
 	            android:text="@string/Name"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.Head"
 	            android:text="@string/Total"/>
 	    </TableRow>
-	    
+
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Germany"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope02"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/France"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope03"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/UnitedKingdom"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope04"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Italy"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope05"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Spain"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope06"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Poland"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope08"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Romania"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope09"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Netherlands"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEurope10"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Greece"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEUEurope09"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
+	        <TextView
 	          	style="@style/TableTextView"
 	            android:text="@string/Belgium"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesEUEurope10"/>
 	    </TableRow>
+        <TableRow style="@style/TableRow.Span">
+            <TextView
+                android:id="@+id/chartNo"
+                android:layout_span="2"
+                style="@style/TableTextView.Italic"
+                android:text="@string/ChartEuropePopulatedEUCountries"/>
+        </TableRow>
 	</TableLayout>
 </merge>

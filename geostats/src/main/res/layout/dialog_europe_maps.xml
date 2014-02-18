@@ -11,12 +11,6 @@
             android:text="@string/Europe"
             android:id="@+id/dTitle"/>
 
-        <TextView
-            style="@style/DialogChartNo"
-            android:layout_below="@+id/dTitle"
-            android:id="@+id/imageNo"
-            android:text="@string/ImageNo"/>
-
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
@@ -24,8 +18,14 @@
         <ImageView
             android:id="@+id/ivMap"
             style="@style/ImageViewMap"
-            android:layout_below="@+id/imageNo"
+            android:layout_below="@+id/dTitle"
             android:contentDescription="@string/Europe"/>
+
+        <TextView
+            style="@style/DialogChartNo.Inverse"
+            android:layout_below="@+id/dTitle"
+            android:id="@+id/imageNo"
+            android:text="@string/ImageEuropePhysical"/>
 
     </RelativeLayout>
 </RelativeLayout>

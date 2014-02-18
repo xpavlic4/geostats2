@@ -3,7 +3,7 @@
 	<!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
     
     <TableLayout style="@style/TableLayout"
-        android:layout_below="@+id/chartNo"
+        android:layout_below="@+id/dTitle"
         android:stretchColumns="0">
         
 	    <TableRow style="@style/TableRow">
@@ -99,6 +99,13 @@
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/HighestCapitalEurope"/>
 	    </TableRow>
+        <TableRow style="@style/TableRow.Span">
+            <TextView
+                android:id="@+id/chartNo"
+                android:layout_span="2"
+                style="@style/TableTextView.Italic"
+                android:text="@string/ChartEuropeCapitals"/>
+        </TableRow>
 
 	</TableLayout>
 </merge>

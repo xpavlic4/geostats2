@@ -11,12 +11,6 @@
             android:text="@string/ArcticOcean"
             android:id="@+id/dTitle"/>
         
-        <TextView
-            style="@style/DialogChartNo"
-            android:layout_below="@+id/dTitle"
-            android:id="@+id/chartNo"
-            android:text="@string/ChartNo"/>
-        
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
