@@ -240,7 +240,6 @@
     <style name="DialogChartNo.Inverse">
         <item name="android:background">@color/colorTransparent</item>
         <item name="android:textColor">@color/colorDarkGrey</item>
-        <item name="android:layout_marginTop">10dp</item>
     </style>
     <style name="DialogTitle">
         <item name="android:layout_width">wrap_content</item>
@@ -248,6 +247,7 @@
         <item name="android:paddingTop">6dp</item>
         <item name="android:paddingLeft">8dp</item>
         <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">6dp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/colorDialogTitleText</item>
     </style>

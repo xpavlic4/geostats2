@@ -18,7 +18,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
-import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
@@ -30,7 +29,6 @@ public class FragmentPacificO extends Fragment{
 
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	TextView tvChart;
     ImageView ivMap, ivMapBasic;
 	
 	@Override
@@ -53,8 +51,6 @@ public class FragmentPacificO extends Fragment{
                 d.setCancelable(true);
                 d.setContentView(R.layout.dialog_pacific_o);
                 d.setCanceledOnTouchOutside(true);
-                tvChart = (TextView)d.findViewById(R.id.chartNo);
-                tvChart.append(" 79");
                 Button btClose = (Button) d.findViewById(R.id.btClose);
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -77,8 +73,6 @@ public class FragmentPacificO extends Fragment{
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
 
-                tvChart = (TextView)d1.findViewById(R.id.imageNo);
-                tvChart.append(" 9");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
@@ -173,23 +167,15 @@ public class FragmentPacificO extends Fragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_pacific_o_seas, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 80");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_pacific_o_gulfs, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 81");
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_pacific_o_straits, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 82");
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_pacific_o_currents, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 83");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

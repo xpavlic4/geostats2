@@ -16,7 +16,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
-import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
@@ -27,7 +26,6 @@ public class FragmentAntarctica extends Fragment{
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	TextView tvChart;
     ImageView ivMap, ivMapBasic;
 	
 	@Override
@@ -50,8 +48,6 @@ public class FragmentAntarctica extends Fragment{
                 d.setCancelable(true);
                 d.setContentView(R.layout.dialog_antarctica);
                 d.setCanceledOnTouchOutside(true);
-                tvChart = (TextView)d.findViewById(R.id.chartNo);
-                tvChart.append(" 71");
                 Button btClose = (Button) d.findViewById(R.id.btClose);
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -74,8 +70,6 @@ public class FragmentAntarctica extends Fragment{
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
 
-                tvChart = (TextView)d1.findViewById(R.id.imageNo);
-                tvChart.append(" 7");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
                 ivMap.setImageBitmap(
@@ -179,8 +173,6 @@ public class FragmentAntarctica extends Fragment{
                             d.setCancelable(true);
                             d.setContentView(R.layout.dialog_antarctica_mountains);
                             d.setCanceledOnTouchOutside(true);
-                            tvChart = (TextView)d.findViewById(R.id.chartNo);
-                            tvChart.append(" 72");
                             Button btClose = (Button) d.findViewById(R.id.btClose);
                             btClose.setOnClickListener(new View.OnClickListener() {
                                 @Override
@@ -198,8 +190,6 @@ public class FragmentAntarctica extends Fragment{
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_antarctica_weather, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 73");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

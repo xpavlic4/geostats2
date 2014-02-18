@@ -45,7 +45,7 @@
 		        android:id="@+id/chartNo"
 		        android:layout_span="2"
 		      	style="@style/TableTextView.Italic"
-		        android:text="@string/ChartNo"/>
+		        android:text="@string/ChartAtlanticOGulfs"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

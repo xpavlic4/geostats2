@@ -28,7 +28,7 @@ public class FragmentOceania extends Fragment{
 
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	TextView tvChart, tvTitle;
+	TextView tvTitle;
     ImageView ivMap, ivMapBasic;
 	
 	@Override
@@ -51,8 +51,6 @@ public class FragmentOceania extends Fragment{
                 d.setCancelable(true);
                 d.setContentView(R.layout.dialog_oceania);
                 d.setCanceledOnTouchOutside(true);
-                tvChart = (TextView)d.findViewById(R.id.chartNo);
-                tvChart.append(" 59");
                 Button btClose = (Button) d.findViewById(R.id.btClose);
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
@@ -75,8 +73,6 @@ public class FragmentOceania extends Fragment{
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
 
-                tvChart = (TextView)d1.findViewById(R.id.imageNo);
-                tvChart.append(" 6");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
                 ivMap.setImageBitmap(
@@ -179,8 +175,6 @@ public class FragmentOceania extends Fragment{
                             d.setCancelable(true);
                             d.setContentView(R.layout.dialog_oceania_countries);
                             d.setCanceledOnTouchOutside(true);
-                            tvChart = (TextView)d.findViewById(R.id.chartNo);
-                            tvChart.append(" 60");
                             Button btClose = (Button) d.findViewById(R.id.btClose);
                             btClose.setOnClickListener(new OnClickListener() {
                                 @Override
@@ -207,8 +201,6 @@ public class FragmentOceania extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_oceania_population);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 61 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -239,8 +231,6 @@ public class FragmentOceania extends Fragment{
 							d.setCanceledOnTouchOutside(true);
 							tvTitle = (TextView)d.findViewById(R.id.dTitle);
 							tvTitle.append("\n" + getString(R.string.LargestCitiesAd1));
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 62 - 2011");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -262,8 +252,6 @@ public class FragmentOceania extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_oceania_urban_areas);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 63 - 2013");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -285,8 +273,6 @@ public class FragmentOceania extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_oceania_capitals);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 64");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -314,8 +300,6 @@ public class FragmentOceania extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_oceania_mountains_ap);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 65");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -337,8 +321,6 @@ public class FragmentOceania extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_oceania_mountains_ac);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 66");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -355,23 +337,15 @@ public class FragmentOceania extends Fragment{
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_oceania_islands, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 67");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_oceania_rivers, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 68");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_oceania_lakes, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 69");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_oceania_weather, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 70");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

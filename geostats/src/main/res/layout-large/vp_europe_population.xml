@@ -34,20 +34,25 @@
 			         style="@style/TableTextView.GravityRight"
 			         android:text="@string/DensitySqKmRecordEurope"/>
 			 </TableRow>
+            <TableRow style="@style/TableRow.Span">
+                <TextView
+                    android:layout_span="2"
+                    style="@style/TextViewTitle"
+                    android:text="@string/MostPopulatedCountries"/>
+            </TableRow>
 		</TableLayout>
-		
-		<TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/MostPopulatedCountries"/>
-		
+
 		<include layout="@layout/inc_europe_population"/>
-		
-		<TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/MostPopulatedEUCountries"/>
-		
+
+        <TableLayout style="@style/TableLayout"
+            android:shrinkColumns="0">
+            <TableRow style="@style/TableRow.Span">
+                <TextView
+                    android:layout_span="2"
+                    style="@style/TextViewTitle"
+                    android:text="@string/MostPopulatedEUCountries"/>
+            </TableRow>
+        </TableLayout>
 		<include layout="@layout/inc_europe_eu_population"/>
 		
 	</LinearLayout>

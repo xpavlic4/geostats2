@@ -32,7 +32,7 @@ public class FragmentAsia extends Fragment{
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	TextView tvChart, tvTitle;
+	TextView tvTitle;
     ImageView ivMap, ivMapBasic;
 	
 	@Override
@@ -55,8 +55,6 @@ public class FragmentAsia extends Fragment{
                 d.setCancelable(true);
                 d.setContentView(R.layout.dialog_asia);
                 d.setCanceledOnTouchOutside(true);
-                tvChart = (TextView)d.findViewById(R.id.chartNo);
-                tvChart.append(" 15");
                 Button btClose = (Button) d.findViewById(R.id.btClose);
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
@@ -79,8 +77,6 @@ public class FragmentAsia extends Fragment{
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
 
-                tvChart = (TextView)d1.findViewById(R.id.imageNo);
-                tvChart.append(" 2");
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
                 Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
@@ -201,8 +197,6 @@ public class FragmentAsia extends Fragment{
                             d.setCancelable(true);
                             d.setContentView(R.layout.dialog_asia_countries);
                             d.setCanceledOnTouchOutside(true);
-                            tvChart = (TextView)d.findViewById(R.id.chartNo);
-                            tvChart.append(" 16");
                             Button btClose = (Button) d.findViewById(R.id.btClose);
                             btClose.setOnClickListener(new OnClickListener() {
                                 @Override
@@ -230,8 +224,6 @@ public class FragmentAsia extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_asia_population);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 17 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -263,8 +255,6 @@ public class FragmentAsia extends Fragment{
 							d.setCanceledOnTouchOutside(true);
 							tvTitle = (TextView)d.findViewById(R.id.dTitle);
 							tvTitle.append("\n" + getString(R.string.LargestCitiesAd1));
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 18");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -286,8 +276,6 @@ public class FragmentAsia extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_asia_urban_areas);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 19 - 2013");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -309,8 +297,6 @@ public class FragmentAsia extends Fragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_asia_capitals);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 20");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -338,8 +324,6 @@ public class FragmentAsia extends Fragment{
                             d.setCancelable(true);
                             d.setContentView(R.layout.dialog_asia_mountains);
                             d.setCanceledOnTouchOutside(true);
-                            tvChart = (TextView)d.findViewById(R.id.chartNo);
-                            tvChart.append(" 21");
                             Button btClose = (Button) d.findViewById(R.id.btClose);
                             btClose.setOnClickListener(new OnClickListener() {
                                 @Override
@@ -357,23 +341,15 @@ public class FragmentAsia extends Fragment{
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_asia_islands, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 22");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_asia_rivers, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 23");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_asia_lakes, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 24");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_asia_weather, null);
-				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 25");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
