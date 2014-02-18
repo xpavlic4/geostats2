@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/ScrollView.NoMargin"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    style="@style/ScrollView.NoMargin">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -13,37 +11,35 @@
             android:text="@string/Asia"
             android:id="@+id/dTitle"/>
 
-        <TextView
-            style="@style/DialogChartNo"
-            android:layout_below="@+id/dTitle"
-            android:id="@+id/imageNo"
-            android:text="@string/ImageNo"/>
-
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 
         <Button
             style="@style/FragmentButtons.SmallPadding"
-            android:layout_below="@+id/imageNo"
+            android:layout_toRightOf="@id/dTitle"
+            android:layout_marginTop="6dp"
             android:text="@string/PhysicalMap"
             android:id="@+id/btMap1"/>
 
         <Button
             style="@style/FragmentButtons.SmallPadding"
-            android:layout_below="@+id/btMap1"
-            android:text="@string/MiddleEast"
+            android:layout_toRightOf="@id/btMap1"
+            android:layout_marginTop="6dp"
+            android:text="@string/MiddleEastPhysical"
             android:id="@+id/btMap2"/>
 
         <ImageView
-            style="@style/ImageViewMap.Land"
             android:id="@+id/ivMap"
-            android:layout_toRightOf="@+id/btMap1"
-            android:layout_below="@+id/dTitle"
-            android:src="@drawable/map_asia_physical"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
+            style="@style/ImageViewMap"
+            android:layout_below="@+id/btMap1"
             android:contentDescription="@string/Asia"/>
+
+        <TextView
+            style="@style/DialogChartNo.Inverse"
+            android:layout_below="@+id/btMap1"
+            android:id="@+id/imageNo"
+            android:text="@string/ImageAsiaPhysical"/>
 
     </RelativeLayout>
 </RelativeLayout>
