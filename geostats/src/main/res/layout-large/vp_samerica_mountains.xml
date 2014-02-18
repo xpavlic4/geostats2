@@ -2,14 +2,15 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
-    
+
     <LinearLayout 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
+    
 		<TableLayout style="@style/TableLayout"
 		          android:shrinkColumns="0">
+		          
 			<TableRow
 		      	style="@style/TableRow.Span">
 		       <TextView 
@@ -20,18 +21,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView.RowSpan"
-		            android:text="@string/PuncakJaya"/>
+		            android:text="@string/CerroAconcagua"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight.RowSpan"
-		            android:text="@string/HighestPointRecordAustralia"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.RowSpan"
-		            android:text="@string/MtKosciuszko"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight.RowSpan"
-		            android:text="@string/HighestPointRecord1Australia"/>
+		            android:text="@string/HighestPointRecordSAmerica"/>
 		    </TableRow>
 		    <TableRow
 		        style="@style/TableRow.Span">
@@ -43,26 +36,19 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView.RowSpan"
-		            android:text="@string/LakeEyre"/>
+		            android:text="@string/LagunaDelCarbon"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight.RowSpan"
-		            android:text="@string/LowestPointRecordAustralia"/>
+		            android:text="@string/LowestPointRecordSAmerica"/>
 		    </TableRow>
-
 		</TableLayout>
 		
 		<TextView
             style="@style/TextViewTitle"
-	        android:text="@string/IndoAustralianPlate"/>
-			
-			<include layout="@layout/inc_oceania_mountains_ap"/>
-			
-			<TextView
-                style="@style/TextViewTitle"
-	            android:text="@string/AustralianContinent"/>
-			
-			<include layout="@layout/inc_oceania_mountains_ac"/>
+            android:text="@string/HighestMountains"/>
 		
+		<include layout="@layout/inc_samerica_mountains"/>
+
 	</LinearLayout>
-		
+
 </ScrollView>

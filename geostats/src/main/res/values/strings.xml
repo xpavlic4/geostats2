@@ -174,5 +174,7 @@
     <string name="layoutWeightFragmentB">8</string>
     <string name="layoutWeightFragmentALand">1.1</string>
     <string name="layoutWeightFragmentBLand">0.9</string>
+    <string name="layoutWeightFragmentALarge">3</string>
+    <string name="layoutWeightFragmentBLarge">7</string>
     
 </resources>

@@ -8,23 +8,20 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         
-         <TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+         <TextView
+            style="@style/TextViewTitle"
             android:text="@string/LargestCities"/>
 		
 		<include layout="@layout/inc_oceania_cities"/>
 		
-		<TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+		<TextView
+            style="@style/TextViewTitle"
             android:text="@string/LargestUrbanAreas"/>
 		
 		<include layout="@layout/inc_oceania_urban_areas"/>
 		
-		<TextView 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+		<TextView
+            style="@style/TextViewTitle"
             android:text="@string/Capitals"/>
 		
 		<include layout="@layout/inc_oceania_capitals"/>
