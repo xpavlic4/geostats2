@@ -11,6 +11,8 @@ import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -92,14 +94,19 @@ public class FragmentAtlanticO extends Fragment{
                 d1.getWindow().setAttributes(lp);
             }
         });
-        if(FragmentAtlanticO.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+        Display disp = getActivity().getWindowManager().getDefaultDisplay();
+        DisplayMetrics metrics = new DisplayMetrics();
+        disp.getMetrics(metrics);
+
+        if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentAtlanticO.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_atlantic_o, 400, 400));
-            ivMapBasic.setContentDescription(getString(R.string.AtlanticOcean));
+            ivMapBasic.setContentDescription(getString(R.string.Europe));
         } else {
 
         }
+
 		return v;
 	}
 

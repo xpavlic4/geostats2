@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="10"
+    android:baselineAligned="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="12dp"
+        android:layout_weight="@string/layoutWeightFragmentALargeLand">
+
+        <ImageView
+            style="@style/ImageViewMapBasicLand"
+            android:id="@+id/ivMapBasic"/>
+
+        <include layout="@layout/inc_fragment_buttons"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="12dp"
+        android:layout_weight="@string/layoutWeightFragmentBLargeLand">
+
+        <include layout="@layout/inc_viewpager"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -54,7 +54,7 @@
     <string name="Islands">Islands</string>
     <string name="Rivers">Rivers</string>
     <string name="Lakes">Lakes</string>
-    <string name="IndicatorsIntroText">Choose from the left side .. blablabla</string>
+    <string name="IndicatorsIntroText">Choose an indicator from the left pane.</string>
     <string name="Deaths">Deaths</string>
     <string name="Bays">Bays</string>
     <string name="Channels">Channels</string>
@@ -176,5 +176,7 @@
     <string name="layoutWeightFragmentBLand">0.9</string>
     <string name="layoutWeightFragmentALarge">3</string>
     <string name="layoutWeightFragmentBLarge">7</string>
+    <string name="layoutWeightFragmentALargeLand">6</string>
+    <string name="layoutWeightFragmentBLargeLand">4</string>
     
 </resources>

@@ -3,18 +3,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:baselineAligned="true"
+    style="@style/Main"
     android:orientation="horizontal">
-    
-    <fragment android:name="com.geo.geostats.FragmentIndicatorsList"
-              android:id="@+id/fList"
-              android:layout_weight="1"
-              android:layout_width="0dp"
-              android:layout_height="match_parent" />
 
-    <fragment android:name="com.geo.geostats.FragmentIndicatorsRecords"
-              android:id="@+id/fRecord"
-              android:layout_weight="2"
-              android:layout_width="0dp"
-              android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        style="@style/FrameLayoutBody.Container">
+
+        <fragment android:name="com.geo.geostats.FragmentIndicatorsList"
+                  android:id="@+id/fList"
+                  android:layout_weight="4"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxWidth="1dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/line"
+            />
+
+        <fragment android:name="com.geo.geostats.FragmentIndicatorsRecords"
+                  android:id="@+id/fRecord"
+                  android:layout_weight="6"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent" />
+
+    </LinearLayout>
 </LinearLayout>

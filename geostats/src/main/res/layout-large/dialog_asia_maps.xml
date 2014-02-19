@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.NoMargin">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/DialogTitle"
+            android:text="@string/Asia"
+            android:id="@+id/dTitle"/>
+
+        <Button
+            style="@style/ButCloseDialog"
+            android:id="@+id/btClose"/>
+
+        <Button
+            style="@style/FragmentButtons.SmallPadding"
+            android:layout_toRightOf="@id/dTitle"
+            android:layout_marginTop="6dp"
+            android:text="@string/PhysicalMap"
+            android:id="@+id/btMap1"/>
+
+        <Button
+            style="@style/FragmentButtons.SmallPadding"
+            android:layout_toRightOf="@id/btMap1"
+            android:layout_marginTop="6dp"
+            android:text="@string/MiddleEastPhysical"
+            android:id="@+id/btMap2"/>
+
+        <ImageView
+            android:id="@+id/ivMap"
+            style="@style/ImageViewMap"
+            android:layout_below="@+id/btMap1"
+            android:contentDescription="@string/Asia"/>
+
+        <TextView
+            style="@style/DialogChartNo.Inverse"
+            android:layout_below="@+id/btMap1"
+            android:id="@+id/imageNo"
+            android:text="@string/ImageAsiaPhysical"/>
+
+    </RelativeLayout>
+</RelativeLayout>
