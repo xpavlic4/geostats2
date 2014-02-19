@@ -9,6 +9,8 @@ import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -133,14 +135,20 @@ public class FragmentNAmerica extends Fragment{
                 d1.getWindow().setAttributes(lp);
             }
         });
-        if(FragmentNAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+
+        Display disp = getActivity().getWindowManager().getDefaultDisplay();
+        DisplayMetrics metrics = new DisplayMetrics();
+        disp.getMetrics(metrics);
+
+        if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentNAmerica.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_basic, 400, 400));
-            ivMapBasic.setContentDescription(getString(R.string.NorthAmerica));
+            ivMapBasic.setContentDescription(getString(R.string.Europe));
         } else {
 
         }
+
 		return v;
 	}
 
