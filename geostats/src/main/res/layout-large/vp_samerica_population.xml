@@ -40,7 +40,7 @@
             style="@style/TextViewTitle"
             android:text="@string/MostPopulatedCountries"/>
 		
-		<include layout="@layout/inc_namerica_population"/>
+		<include layout="@layout/inc_samerica_population"/>
 		
 	</LinearLayout>
 </ScrollView>
