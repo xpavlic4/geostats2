@@ -60,7 +60,7 @@
     <string name="PopulationRecordAustralia">36.000.000</string>
     <string name="LandAreaRecordAustralia">5.9%</string> <!-- WIKI -->
     <string name="SurfaceRecordAustralia">1.7%</string> <!-- GEOGRAFICKE TABULKY -->
-    <string name="NumberOfCountriesRecordAustralia">3</string> <!-- WIKI -->
+    <string name="NumberOfCountriesRecordAustralia">14</string> <!-- WIKI -->
 	<string name="PercentOfPopulationRecordAustralia">0.4%</string> <!-- WIKI -->
     <string name="DensitySqKmRecordAustralia">4.3</string> <!-- UN -->
     <string name="HighestPointRecordAustralia">@string/HighestMountainsAustraliaAP01</string>

@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/AboutLayout">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/AboutLayout">
 
-    <TextView
-        style="@style/DialogTitle"
-        android:text="@string/app_name"
-        android:id="@+id/dTitle"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-    <TextView
-        style="@style/DialogChartNo"
-        android:layout_below="@+id/dTitle"
-        android:id="@+id/chartNo"
-        android:text="@string/app_subname"/>
+        <TextView
+            style="@style/DialogTitle"
+            android:text="@string/app_name"
+            android:id="@+id/dTitle"/>
 
-    <TextView
-        android:id="@+id/tvInfoAbout"
-        android:layout_below="@+id/chartNo"
-        style="@style/TextViewAbout"
-        android:textIsSelectable="true"
-        android:paddingBottom="0dp"
-        android:text=""/>
+        <TextView
+            android:id="@+id/tvInfoAbout"
+            android:layout_below="@+id/dTitle"
+            style="@style/TextViewAbout"
+            android:textIsSelectable="true"
+            android:paddingBottom="0dp"
+            android:text=""/>
 
-    <Button
-        style="@style/ButCloseDialog"
-        android:id="@+id/btClose"/>
-    
-    <Button
-        android:id="@+id/btRefs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Bibliography"
-        android:layout_below="@+id/tvInfoAbout"
-        android:gravity="left"
-        android:padding="12dp"
-        android:layout_marginTop="-24dp"
-        android:background="@drawable/table_button"
-        android:color="@color/colorDarkGrey"/>
-    
-</RelativeLayout>
+        <Button
+            style="@style/ButCloseDialog"
+            android:id="@+id/btClose"/>
+
+        <Button
+            android:id="@+id/btRefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ReferencesU"
+            android:layout_below="@+id/tvInfoAbout"
+            android:gravity="left"
+            android:padding="12dp"
+            android:layout_marginTop="-24dp"
+            android:background="@drawable/table_button"
+            android:color="@color/colorDarkGrey"/>
+
+    </RelativeLayout>
+</ScrollView>

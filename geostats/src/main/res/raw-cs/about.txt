@@ -1,0 +1,7 @@
+<p>GeoStats (Geografické tabulky) je mobilní aplikace, která zobrazuje vybrané geografické statistické údaje v tabulkové podobě. Data jsou uspořádána na úrovních jednotlivých kontinentů, oceánů, geografických disciplín a indikátorů.<br>
+Můžete zde najít např. seznam největších jezer v Africe, nejdelších řek v Jižní Americe, nejlidnatějších státu v Eurozóně, největších zálivů či moří u jednotlivých oceánů, největších světových producentů masa či mléka nebo také seznamy největších producentů zlata ci stříbra.</p>
+<p>Data byla shromažďována z většího počtu oficiálních i neoficiálních zdrojů, které jsou uvedeny na stránce referencí. Věnujte také pozornost časovým údajům (vročením), které jsou uvedeny u některých tabulek. Číselné údaje postupně zastarávají, autor počítá, v případě zájmu uživatelů, s minimální roční aktualizací vybraných údajů.</p>
+
+<p>Aplikace by mohla sloužit jako materiál pro praktická cvičení v hodinách zeměpisu nebo zájemcům o geografii z řad širší veřejnosti.</p>
+
+<p>Autor: David Mrnuštík</p>

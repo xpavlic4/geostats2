@@ -3,8 +3,6 @@ package com.geo.geostats;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -20,6 +18,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -36,6 +35,7 @@ public class FragmentAsia extends Fragment{
 	private vpAdapter miAdapter;
 	TextView tvTitle;
     ImageView ivMap, ivMapBasic;
+    RadioGroup rg;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -78,30 +78,27 @@ public class FragmentAsia extends Fragment{
                 lp.copyFrom(d1.getWindow().getAttributes());
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
-
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
-                Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
-                Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
                 ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_physical, 1000, 1000));
+                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_physical, 1000, 1000));
+                rg = (RadioGroup) d1.findViewById(R.id.rgMap);
+                rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(RadioGroup rg, int checkedId) {
+                        switch(checkedId){
+                            case R.id.rbMap1:
+                                ivMap.setImageBitmap(
+                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_physical, 1000, 1000));
+                                break;
+                            case R.id.rbMap2:
+                                ivMap.setImageBitmap(
+                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_middle_east_physical, 1000, 1000));
+                                break;
+                        }
+                    }
+                });
 
-                btMap1.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map_asia_physical);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
-                btMap2.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                                R.drawable.map_middle_east_physical);
-                        ivMap.setImageBitmap(bimtBitmap);
-                    }
-                });
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {

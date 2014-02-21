@@ -15,28 +15,34 @@
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 
-        <Button
-            style="@style/FragmentButtons.SmallPadding"
-            android:layout_below="@+id/dTitle"
-            android:text="@string/PhysicalMap"
-            android:id="@+id/btMap1"/>
+        <RadioGroup
+            android:layout_below="@id/dTitle"
+            style="@style/RadioGroupMap"
+            android:id="@+id/rgMap">
 
-        <Button
-            style="@style/FragmentButtons.SmallPadding"
-            android:layout_toRightOf="@+id/btMap1"
-            android:layout_below="@+id/dTitle"
-            android:text="@string/MiddleEastPhysical"
-            android:id="@+id/btMap2"/>
+            <RadioButton
+                android:id="@+id/rbMap1"
+                style="@style/RadioButtonMap"
+                android:checked="true"
+                android:text="@string/PhysicalMap"/>
+            <RadioButton
+                style="@style/RadioButtonMap"
+                android:id="@+id/rbMap2"
+                android:layout_marginLeft="8dp"
+                android:singleLine="true"
+                android:text="@string/MiddleEastPhysical"/>
+
+        </RadioGroup>
 
         <ImageView
             android:id="@+id/ivMap"
             style="@style/ImageViewMap"
-            android:layout_below="@+id/btMap1"
+            android:layout_below="@+id/rgMap"
             android:contentDescription="@string/Asia"/>
 
         <TextView
             style="@style/DialogChartNo.Inverse"
-            android:layout_below="@+id/btMap1"
+            android:layout_below="@+id/rgMap"
             android:id="@+id/imageNo"
             android:text="@string/ImageAsiaPhysical"/>
 

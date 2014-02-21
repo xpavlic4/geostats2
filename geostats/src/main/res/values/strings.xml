@@ -47,6 +47,7 @@
     <string name="Continents">Continents</string>
     <string name="About">About</string>
     <string name="References">References</string>
+    <string name="ReferencesU"><u>References</u></string>
     <string name="Countries">Countries</string>
     <string name="Cities">Cities</string>
     <string name="Capitals">Capitals</string>
