@@ -78,7 +78,7 @@ public class FragmentOceania extends Fragment{
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
                 ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_oceania_physical, 1000, 1000));
+                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_oceania_physical, 800, 800));
 
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override

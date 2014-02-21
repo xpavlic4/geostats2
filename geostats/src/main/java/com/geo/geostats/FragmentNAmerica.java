@@ -18,6 +18,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -26,12 +27,13 @@ import com.imagezoom.ImageAttacher;
 
 import java.util.Locale;
 
-public class FragmentNAmerica extends Fragment{
+public class FragmentNAmerica extends Fragment {
 
     ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvTitle;
     ImageView ivMap, ivMapBasic;
+    RadioGroup rg;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -74,54 +76,26 @@ public class FragmentNAmerica extends Fragment{
                 lp.copyFrom(d1.getWindow().getAttributes());
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
-
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
-                final Button btMap1 = (Button) d1.findViewById(R.id.btMap1);
-                final Button btMap2 = (Button) d1.findViewById(R.id.btMap2);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
                 ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
-                btMap1.setSelected(true);
-
-                if(btMap1.isSelected()){
-                    btMap1.setSelected(false);
-                    btMap2.setSelected(true);
-                    btMap2.setClickable(false);
-                    btMap2.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            ivMap.setImageBitmap(
-                                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_camerica_physical, 1000, 1000));
-                            btMap2.setBackgroundResource(R.drawable.bg_button_over);
-                            btMap2.setPadding(12, 8, 12, 8);
-                            btMap2.setTextColor(getResources().getColor(R.color.colorBBB));
-                            btMap1.setBackgroundResource(R.drawable.button);
-                            btMap1.setPadding(12, 8, 12, 8);
-                            btMap1.setTextColor(getResources().getColor(R.color.colorDarkGrey));
-
+                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
+                rg = (RadioGroup) d1.findViewById(R.id.rgMap);
+                rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(RadioGroup rg, int checkedId) {
+                        switch(checkedId){
+                            case R.id.rbMap1:
+                                ivMap.setImageBitmap(
+                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
+                                break;
+                            case R.id.rbMap2:
+                                ivMap.setImageBitmap(
+                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_camerica_physical, 800, 800));
+                                break;
                         }
-                    });
-                }else if(btMap2.isSelected()){
-                    btMap2.setSelected(false);
-                    btMap1.setSelected(true);
-                    btMap1.setClickable(false);
-                    btMap1.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            ivMap.setImageBitmap(
-                                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
-                            btMap1.setBackgroundResource(R.drawable.bg_button_over);
-                            btMap1.setPadding(14, 10, 14, 10);
-                            btMap1.setTextColor(getResources().getColor(R.color.color8E8E8E));
-                            btMap2.setBackgroundResource(R.drawable.button);
-                            btMap2.setPadding(14, 10, 14, 10);
-                            btMap2.setTextColor(getResources().getColor(R.color.colorDarkGrey));
-
-                        }
-                    });
-                }
-
-
+                    }
+                });
 
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -154,14 +128,8 @@ public class FragmentNAmerica extends Fragment{
 
     public void usingSimpleImage(ImageView imageView) {
         ImageAttacher mAttacher = new ImageAttacher(imageView);
-        if(FragmentNAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
-        {
-            ImageAttacher.MAX_ZOOM = 4.5f; // Double the current Size
-            ImageAttacher.MIN_ZOOM = 1.0f; // Half the current Size
-        }else{
-            ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
-            ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
-        }
+        ImageAttacher.MAX_ZOOM = 3.5f; // Double the current Size
+        ImageAttacher.MIN_ZOOM = 0.8f; // Half the current Size
         MatrixChangeListener mMaListener = new MatrixChangeListener();
         mAttacher.setOnMatrixChangeListener(mMaListener);
         PhotoTapListener mPhotoTap = new PhotoTapListener();

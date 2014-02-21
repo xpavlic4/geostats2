@@ -1,2 +1,4 @@
-<p>Show user geographical statistics from social (demography of countries), physical (rivers, mountains, ..), meteorological (rain, hurricane, ..) areas, stats of extraction of mineral resources on Earth, ..</p>
+<p>The GeoStats is an app that shows several geographical data. This app gives ....
+
+Show user geographical statistics from social (demography of countries), physical (rivers, mountains, ..), meteorological (rain, hurricane, ..) areas, stats of extraction of mineral resources on Earth, ..</p>
 <p>Created by: David Mrnustik</p>
