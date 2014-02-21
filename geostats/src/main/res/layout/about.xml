@@ -27,7 +27,7 @@
             android:id="@+id/btRefs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Bibliography"
+            android:text="@string/ReferencesU"
             android:layout_below="@+id/tvInfoAbout"
             android:gravity="left"
             android:padding="12dp"

@@ -1,7 +1,6 @@
 <p>The GeoStats (Geographical statistical tables) is an app that shows geographical data in tabular form. Data are arranged at the continents, oceans, geographical branches and indicators levels.<br>
 You can find records such as the largest lakes in Africa, the longest rivers in South America, the most populated countries in the Eurozone, the largest bays or seas of the oceans, the world's largest meat or milk producers or  largest gold and silver producers.</p>
-<p>Data were collected either from official and unofficial sources, which are listed in reference page.<br>
-Please note the time period that are listed in some tables. Data becomes progressively outdated, data would be updated once per year due to users interest.</p>
+<p>Data were collected either from official and unofficial sources, which are listed in reference page. Please note the time period that are listed in some tables. Data becomes progressively outdated, data would be updated once per year depends on user's interest in application.</p>
 
 <p>App would be used either like as a study material in geography classes or by public users who are interested in geography.</p>
 
