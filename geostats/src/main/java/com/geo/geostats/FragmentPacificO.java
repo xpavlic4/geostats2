@@ -102,7 +102,7 @@ public class FragmentPacificO extends Fragment{
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_pacific_o, 400, 400));
-            ivMapBasic.setContentDescription(getString(R.string.Europe));
+            ivMapBasic.setContentDescription(getString(R.string.PacificOcean));
         } else {
 
         }

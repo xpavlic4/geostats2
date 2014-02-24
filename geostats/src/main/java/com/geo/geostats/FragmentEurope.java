@@ -103,7 +103,7 @@ public class FragmentEurope extends Fragment {
             }
         });
 
-        Display disp = getActivity().getWindowManager().getDefaultDisplay();
+        Display disp = FragmentEurope.this.getActivity().getWindowManager().getDefaultDisplay();
         DisplayMetrics metrics = new DisplayMetrics();
         disp.getMetrics(metrics);
 
