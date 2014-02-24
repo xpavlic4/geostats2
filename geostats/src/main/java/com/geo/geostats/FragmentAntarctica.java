@@ -98,7 +98,7 @@ public class FragmentAntarctica extends Fragment{
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_antarctica_basic, 400, 400));
-            ivMapBasic.setContentDescription(getString(R.string.Europe));
+            ivMapBasic.setContentDescription(getString(R.string.Antarctica));
         } else {
 
         }
