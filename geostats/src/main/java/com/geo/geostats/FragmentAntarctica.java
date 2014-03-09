@@ -93,10 +93,12 @@ public class FragmentAntarctica extends Fragment{
         Display disp = getActivity().getWindowManager().getDefaultDisplay();
         DisplayMetrics metrics = new DisplayMetrics();
         disp.getMetrics(metrics);
+        ImageView ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+        ivMapBasic.setVisibility(View.INVISIBLE);
 
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentAntarctica.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
-            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setVisibility(View.VISIBLE);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_antarctica_basic, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.Antarctica));
         } else {

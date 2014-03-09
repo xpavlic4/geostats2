@@ -5,15 +5,19 @@
     android:weightSum="10"
     android:orientation="vertical">
     
-    <LinearLayout 
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:padding="12dp"
         android:layout_weight="@string/layoutWeightFragmentA">
 
+        <ImageView
+            style="@style/ImageViewMapBasicLand"
+            android:id="@+id/ivMapBasic"/>
+
 	    <include layout="@layout/inc_fragment_buttons"/>
         
-	</LinearLayout>
+	</RelativeLayout>
 	<LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="0dp"

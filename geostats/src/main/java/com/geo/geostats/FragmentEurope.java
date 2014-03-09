@@ -35,7 +35,7 @@ public class FragmentEurope extends Fragment {
 	TextView tvTitle;
     ImageView ivMap, ivMapBasic;
 	//public final int limit = 0;
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
@@ -106,13 +106,15 @@ public class FragmentEurope extends Fragment {
         Display disp = FragmentEurope.this.getActivity().getWindowManager().getDefaultDisplay();
         DisplayMetrics metrics = new DisplayMetrics();
         disp.getMetrics(metrics);
+        ImageView ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+        ivMapBasic.setVisibility(View.INVISIBLE);
 
         //Log.e("com.geo.geostats:Width", Integer.toString(metrics.widthPixels));
         //Log.e("com.geo.geostats:Height", Integer.toString(metrics.heightPixels));
 
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentEurope.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
-            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setVisibility(View.VISIBLE);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_europe_basic, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.Europe));
         } else {
