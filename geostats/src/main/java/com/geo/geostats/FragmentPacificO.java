@@ -97,10 +97,12 @@ public class FragmentPacificO extends Fragment{
         Display disp = getActivity().getWindowManager().getDefaultDisplay();
         DisplayMetrics metrics = new DisplayMetrics();
         disp.getMetrics(metrics);
+        ImageView ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+        ivMapBasic.setVisibility(View.INVISIBLE);
 
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentPacificO.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
-            ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
+            ivMapBasic.setVisibility(View.VISIBLE);
             ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_pacific_o, 400, 400));
             ivMapBasic.setContentDescription(getString(R.string.PacificOcean));
         } else {
