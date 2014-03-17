@@ -23,6 +23,7 @@ import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
@@ -77,8 +78,7 @@ public class FragmentSAmerica extends Fragment{
 
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_samerica_physical, 1000, 1000));
+                Picasso.with(FragmentSAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_samerica_physical).resize(1166, 1500).into(ivMap);
 
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
@@ -95,8 +95,8 @@ public class FragmentSAmerica extends Fragment{
         if(FragmentSAmerica.this.getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic = (ImageView) v.findViewById(R.id.ivMapBasic);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_samerica_basic, 400, 400));
-            ivMapBasic.setContentDescription(getString(R.string.SouthAmerica));
+            Picasso.with(FragmentSAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_samerica_basic).into(ivMapBasic);
+             ivMapBasic.setContentDescription(getString(R.string.SouthAmerica));
         } else {
 
         }
