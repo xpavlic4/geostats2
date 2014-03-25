@@ -3,8 +3,6 @@ package com.geo.geostats;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -23,6 +21,7 @@ import android.widget.ScrollView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
@@ -77,9 +76,7 @@ public class FragmentSouthernO extends Fragment{
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
 
-                Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                        R.drawable.map_southern_o);
-                ivMap.setImageBitmap(bimtBitmap);
+                Picasso.with(FragmentSouthernO.this.getActivity().getApplicationContext()).load(R.drawable.map_southern_o).into(ivMap);
 
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -102,7 +99,7 @@ public class FragmentSouthernO extends Fragment{
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentSouthernO.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_southern_o, 400, 400));
+            Picasso.with(FragmentSouthernO.this.getActivity().getApplicationContext()).load(R.drawable.map_southern_o).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.SouthernOcean));
         } else {
 

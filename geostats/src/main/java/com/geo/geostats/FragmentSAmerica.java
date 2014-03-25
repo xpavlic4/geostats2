@@ -110,7 +110,8 @@ public class FragmentSAmerica extends Fragment{
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentSAmerica.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_samerica_basic, 400, 400));
+            //ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_samerica_basic, 400, 400));
+            Picasso.with(FragmentSAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_samerica_basic).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.SouthAmerica));
         } else {
 
