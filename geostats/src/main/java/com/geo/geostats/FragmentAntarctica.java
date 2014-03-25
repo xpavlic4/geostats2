@@ -21,6 +21,7 @@ import android.widget.ScrollView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
@@ -74,8 +75,7 @@ public class FragmentAntarctica extends Fragment{
 
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_antarctica_political, 1000, 1000));
+                Picasso.with(FragmentAntarctica.this.getActivity().getApplicationContext()).load(R.drawable.map_antarctica_political).resize(1206, 1500).into(ivMap);
 
                 btClose.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -99,7 +99,7 @@ public class FragmentAntarctica extends Fragment{
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentAntarctica.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_antarctica_basic, 400, 400));
+            Picasso.with(FragmentAntarctica.this.getActivity().getApplicationContext()).load(R.drawable.map_antarctica_basic).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.Antarctica));
         } else {
 

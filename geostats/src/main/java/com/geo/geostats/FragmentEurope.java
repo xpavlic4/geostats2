@@ -25,6 +25,7 @@ import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
 import com.imagezoom.ImageAttacher.OnMatrixChangedListener;
 import com.imagezoom.ImageAttacher.OnPhotoTapListener;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
@@ -84,8 +85,7 @@ public class FragmentEurope extends Fragment {
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_europe_physical, 1000, 1000));
+                Picasso.with(FragmentEurope.this.getActivity().getApplicationContext()).load(R.drawable.map_europe_physical).resize(1169, 1500).into(ivMap);
 
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
@@ -94,9 +94,6 @@ public class FragmentEurope extends Fragment {
                     }
                 });
 
-                //Bitmap bimtBitmap = BitmapFactory.decodeResource(getResources(),
-                //        R.drawable.map_europe_physical);
-                //ivMap.setImageBitmap(bimtBitmap);
                 usingSimpleImage(ivMap);
                 d1.show();
                 d1.getWindow().setAttributes(lp);
@@ -115,7 +112,7 @@ public class FragmentEurope extends Fragment {
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentEurope.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_europe_basic, 400, 400));
+            Picasso.with(FragmentEurope.this.getActivity().getApplicationContext()).load(R.drawable.map_europe_basic).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.Europe));
         } else {
 

@@ -26,6 +26,7 @@ import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
 import com.imagezoom.ImageAttacher.OnMatrixChangedListener;
 import com.imagezoom.ImageAttacher.OnPhotoTapListener;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
@@ -80,20 +81,17 @@ public class FragmentAsia extends Fragment{
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                ivMap.setImageBitmap(
-                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_physical, 1000, 1000));
+                Picasso.with(FragmentAsia.this.getActivity().getApplicationContext()).load(R.drawable.map_asia_physical).resize(1166, 1500).into(ivMap);
                 rg = (RadioGroup) d1.findViewById(R.id.rgMap);
                 rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                     @Override
                     public void onCheckedChanged(RadioGroup rg, int checkedId) {
                         switch(checkedId){
                             case R.id.rbMap1:
-                                ivMap.setImageBitmap(
-                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_physical, 1000, 1000));
+                                Picasso.with(FragmentAsia.this.getActivity().getApplicationContext()).load(R.drawable.map_asia_physical).resize(1166, 1500).into(ivMap);
                                 break;
                             case R.id.rbMap2:
-                                ivMap.setImageBitmap(
-                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_middle_east_physical, 1000, 1000));
+                                Picasso.with(FragmentAsia.this.getActivity().getApplicationContext()).load(R.drawable.map_middle_east_physical).resize(1278, 1500).into(ivMap);
                                 break;
                         }
                     }
@@ -120,7 +118,7 @@ public class FragmentAsia extends Fragment{
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentAsia.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_asia_basic, 400, 400));
+            Picasso.with(FragmentAsia.this.getActivity().getApplicationContext()).load(R.drawable.map_asia_basic).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.Asia));
         } else {
 

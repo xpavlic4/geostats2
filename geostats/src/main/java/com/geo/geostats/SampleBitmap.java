@@ -43,4 +43,5 @@ public class SampleBitmap {
         options.inJustDecodeBounds = false;
         return BitmapFactory.decodeResource(res, resId, options);
     }
+
 }

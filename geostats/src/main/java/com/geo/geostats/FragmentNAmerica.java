@@ -24,14 +24,15 @@ import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
 public class FragmentNAmerica extends Fragment {
 
     ViewPager vp;
-	private vpAdapter miAdapter;
-	TextView tvTitle;
+    private vpAdapter miAdapter;
+    TextView tvTitle;
     ImageView ivMap, ivMapBasic;
     RadioGroup rg;
 
@@ -78,20 +79,18 @@ public class FragmentNAmerica extends Fragment {
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                ivMap.setImageBitmap(
-                    com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
+                Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_physical).resize(1169, 1500).into(ivMap);
                 rg = (RadioGroup) d1.findViewById(R.id.rgMap);
+
                 rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                     @Override
                     public void onCheckedChanged(RadioGroup rg, int checkedId) {
                         switch(checkedId){
                             case R.id.rbMap1:
-                                ivMap.setImageBitmap(
-                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_physical, 1000, 1000));
+                                Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_physical).resize(1169, 1500).into(ivMap);
                                 break;
                             case R.id.rbMap2:
-                                ivMap.setImageBitmap(
-                                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_camerica_physical, 800, 800));
+                                Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_camerica_physical).resize(1500,1124).into(ivMap);
                                 break;
                         }
                     }
@@ -101,6 +100,7 @@ public class FragmentNAmerica extends Fragment {
                     @Override
                     public void onClick(View v) {
                         d1.cancel();
+
                     }
                 });
 
@@ -119,13 +119,14 @@ public class FragmentNAmerica extends Fragment {
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentNAmerica.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_namerica_basic, 400, 400));
+            Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_basic).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.NorthAmerica));
         } else {
 
         }
 
 		return v;
+
 	}
 
     public void usingSimpleImage(ImageView imageView) {

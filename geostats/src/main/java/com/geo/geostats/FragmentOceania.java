@@ -23,21 +23,22 @@ import android.widget.TextView;
 
 import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
-public class FragmentOceania extends Fragment{
+public class FragmentOceania extends Fragment {
 
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvTitle;
     ImageView ivMap, ivMapBasic;
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
 		View v = inflater.inflate(R.layout.fragment_continent, container, false);
-		
+
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
@@ -69,16 +70,13 @@ public class FragmentOceania extends Fragment{
                 d1.setCancelable(true);
                 d1.setContentView(R.layout.dialog_oceania_maps);
                 d1.setCanceledOnTouchOutside(true);
-
                 WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
                 lp.copyFrom(d1.getWindow().getAttributes());
                 lp.width = WindowManager.LayoutParams.MATCH_PARENT;
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
-
                 Button btClose = (Button) d1.findViewById(R.id.btClose);
                 ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                ivMap.setImageBitmap(
-                        com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_oceania_physical, 800, 800));
+                Picasso.with(FragmentOceania.this.getActivity().getApplicationContext()).load(R.drawable.map_oceania_physical).resize(1600, 1066).into(ivMap);
 
                 btClose.setOnClickListener(new OnClickListener() {
                     @Override
@@ -101,7 +99,7 @@ public class FragmentOceania extends Fragment{
         if((metrics.widthPixels >= 600 && metrics.heightPixels >= 1000) || FragmentOceania.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
         {
             ivMapBasic.setVisibility(View.VISIBLE);
-            ivMapBasic.setImageBitmap(com.geo.geostats.SampleBitmap.decodeSampledBitmapFromResource(getResources(), R.drawable.map_oceania_basic, 400, 400));
+            Picasso.with(FragmentOceania.this.getActivity().getApplicationContext()).load(R.drawable.map_oceania_basic).into(ivMapBasic);
             ivMapBasic.setContentDescription(getString(R.string.Oceania));
         } else {
 
