@@ -10,7 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class About extends Activity implements android.view.View.OnClickListener {
+import com.ubikod.capptain.android.sdk.activity.CapptainActivity;
+
+public class About extends CapptainActivity implements android.view.View.OnClickListener {
 
     TextView tv;
 	@Override

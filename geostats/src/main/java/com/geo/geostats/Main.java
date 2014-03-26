@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class Main extends ActionBarActivity implements android.view.View.OnClickListener {
+public class Main extends GeostatsActivity implements android.view.View.OnClickListener {
 
     Button btWorld, btContinents, btOceans, btTopics, btInfoRef;
 

@@ -8,10 +8,13 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
 import com.geo.geostats.FragmentIndicatorsList.OnHeadlineSelectedListener;
+import com.ubikod.capptain.android.sdk.CapptainAgent;
+import com.ubikod.capptain.android.sdk.CapptainAgentUtils;
 
-public class TopicsFragmentManager extends ActionBarActivity implements OnHeadlineSelectedListener {
+public class TopicsFragmentManager extends GeostatsActivity implements OnHeadlineSelectedListener {
 	IndicatorsAbstractNewsView indicatorsAbstractNewsView;
-	
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub

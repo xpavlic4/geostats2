@@ -12,7 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Topics extends ActionBarActivity {
+public class Topics extends GeostatsActivity {
 
     ListView list;
 

@@ -10,7 +10,7 @@ import android.text.util.Linkify;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class InfoReferences extends ActionBarActivity {
+public class InfoReferences extends GeostatsActivity {
 
 	TextView tv;
 	@Override

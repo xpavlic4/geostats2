@@ -9,7 +9,7 @@ import android.view.MenuItem;
 
 import com.geo.geostats.FragmentIndicatorsList.OnHeadlineSelectedListener;
 
-public class Indicators extends ActionBarActivity implements OnHeadlineSelectedListener {
+public class Indicators extends GeostatsActivity implements OnHeadlineSelectedListener {
 	IndicatorsAbstractNewsView indicatorsAbstractNewsView;
 	
 	@Override public void onCreate(Bundle savedInstanceState) {
