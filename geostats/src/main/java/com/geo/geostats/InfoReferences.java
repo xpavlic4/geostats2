@@ -4,7 +4,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
 import android.text.Html;
 import android.text.util.Linkify;
 import android.view.MenuItem;
@@ -39,7 +38,7 @@ public class InfoReferences extends GeostatsActivity {
 		
 		switch(item.getItemId()){
 		case android.R.id.home:
-			NavUtils.navigateUpFromSameTask(this);
+            NavUtils.navigateUpFromSameTask(this);
 	        return true;
 		}	
 

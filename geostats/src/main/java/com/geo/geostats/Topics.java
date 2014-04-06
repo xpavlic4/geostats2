@@ -5,7 +5,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -79,8 +80,21 @@ public class Topics extends GeostatsActivity {
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
+            case R.id.iRefs:
+                Intent b = new Intent("com.geo.geostats.INFO_REFERENCES");
+                b.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(b);
+                break;
         }
 
+        return true;
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // TODO Auto-generated method stub
+        super.onCreateOptionsMenu(menu);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_references, menu);
         return true;
     }
 
