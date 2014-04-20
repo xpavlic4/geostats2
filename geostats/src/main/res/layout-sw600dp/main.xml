@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/intro_splash"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bg_000">
+        <Button
+            android:id="@+id/btContinents"
+            android:text="@string/Continents"
+            style="@style/MainButtons.Main.1200"/>
+        <Button
+            android:id="@+id/btOceans"
+            android:text="@string/Oceans"
+            style="@style/MainButtons.Main.1200"/>
+        <Button
+            android:id="@+id/btTopics"
+            android:text="@string/Topics"
+            style="@style/MainButtons.Main.1200"/>
+        <Button
+            android:id="@+id/btIndicators"
+            android:text="@string/Indicators"
+            style="@style/MainButtons.Main.1200"/>
+        <Button
+            android:id="@+id/btInfoRef"
+            android:text="@string/About"
+            style="@style/MainButtons.Main.1200"/>
+    </LinearLayout>
+
+</RelativeLayout>

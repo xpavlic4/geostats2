@@ -312,6 +312,13 @@
         <item name="android:layout_marginTop">6dp</item>
         <item name="android:layout_marginBottom">6dp</item>
     </style>
+    <style name="MainButtons.Main.1200">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingTop">32dp</item>
+        <item name="android:paddingBottom">32dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:width">300dp</item>
+    </style>
    <style name="MainButtons.Sub">
        <item name="android:paddingTop">8dp</item>
        <item name="android:paddingBottom">8dp</item>
