@@ -5,3 +5,4 @@ You can find records such as the largest lakes in Africa, the longest rivers in 
 <p>App would be used either like as a study material in geography classes or by public users who are interested in geography.</p>
 
 <p>Created by: David Mrnustik</p>
+<p><a href="mailto:geostats@laurinka.com">geostats@laurinka.com</a></p>
