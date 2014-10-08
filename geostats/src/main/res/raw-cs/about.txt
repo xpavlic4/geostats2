@@ -5,3 +5,4 @@ Můžete zde najít např. seznam největších jezer v Africe, nejdelších ře
 <p>Aplikace by mohla sloužit jako materiál pro praktická cvičení v hodinách zeměpisu nebo zájemcům o geografii z řad širší veřejnosti.</p>
 
 <p>Autor: David Mrnuštík</p>
+<p><a href="mailto:geostats@laurinka.com">geostats@laurinka.com</a></p>
