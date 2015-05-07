@@ -2,11 +2,10 @@
 Times Atlases, Glasgow 2012, 85 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
-<p><b>(2)</b> Europe - Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 166 p.</p>
+<p><b>(2)</b> Europe - Largest countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1</p>
 
-<p><b>(3)</b> Europe - Largest EU countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 166 p.<br>The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+<p><b>(3)</b> Europe - Largest EU countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
 http://wdi.worldbank.org/table/1.1</p>
 
 <p><b>(4)</b> Europe - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
@@ -45,8 +44,8 @@ Times Atlases, Glasgow 2012, 164 p.</p>
 Times Atlases, Glasgow 2012, 84 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
-<p><b>(16)</b> Asia - Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 130 p.</p>
+<p><b>(16)</b> Asia - Largest countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1</p>
 
 <p><b>(17)</b> Asia - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
@@ -78,8 +77,8 @@ Times Atlases, Glasgow 2012, 128 p.</p>
 Times Atlases, Glasgow 2012, 85 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
-<p><b>(27)</b> Africa - Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 190 p.</p>
+<p><b>(27)</b> Africa - Largest countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1</p>
 
 <p><b>(28)</b> Africa - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
@@ -111,8 +110,8 @@ Times Atlases, Glasgow 2012, 188 p.</p>
 Times Atlases, Glasgow 2012, 86 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
-<p><b>(38)</b> North America - Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 200 p.</p>
+<p><b>(38)</b> North America - Largest countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1</p>
 
 <p><b>(39)</b> North America - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
@@ -144,8 +143,8 @@ Times Atlases, Glasgow 2012, 198 p.</p>
 Times Atlases, Glasgow 2012, 86 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
-<p><b>(49)</b> South America - Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 228 p.</p>
+<p><b>(49)</b> South America - Largest countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1</p>
 
 <p><b>(50)</b> South America - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
@@ -177,8 +176,8 @@ Times Atlases, Glasgow 2012, 226 p.</p>
 Times Atlases, Glasgow 2012, 84 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
-<p><b>(60)</b> Oceania - Largest countries: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 116 p.</p>
+<p><b>(60)</b> Oceania - Largest countries: The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1<br>The World Factbook 2015. Washington, DC: Central Intelligence Agency, 2015<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
 <p><b>(61)</b> Oceania - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
