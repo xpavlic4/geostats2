@@ -51,10 +51,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Dehli"/>
+	            android:text="@string/Seoul"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2007"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAsia04"/>
@@ -62,7 +62,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Seoul"/>
+	            android:text="@string/Dehli"/>
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/Year2007"/>

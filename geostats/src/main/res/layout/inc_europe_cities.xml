@@ -21,7 +21,7 @@
 	            android:text="@string/Moscow"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2012"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope01"/>
@@ -43,7 +43,7 @@
 	            android:text="@string/SaintPetersburg"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2012"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope03"/>
@@ -54,7 +54,7 @@
 	            android:text="@string/Berlin"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope04"/>
@@ -65,7 +65,7 @@
 	            android:text="@string/Madrid"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2009"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope05"/>
@@ -76,7 +76,7 @@
 	            android:text="@string/Kiev"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2003"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope06"/>
@@ -87,7 +87,7 @@
 	            android:text="@string/Roma"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2009"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope07"/>
@@ -98,7 +98,7 @@
 	            android:text="@string/Paris"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2009"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope08"/>
@@ -109,7 +109,7 @@
 	            android:text="@string/Bucuresti"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2009"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope09"/>
@@ -120,7 +120,7 @@
 	            android:text="@string/Minsk"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesEurope10"/>
