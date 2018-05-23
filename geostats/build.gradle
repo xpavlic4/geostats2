@@ -24,9 +24,9 @@ android {
 }
 
 dependencies {
-    implementation 'com.viewpagerindicator:library:2.4.1'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
-    implementation project(':viewpagerindicator')
+    //    implementation project(':viewpagerindicator')
+    api 'com.inkapplications.viewpageindicator:library:2.4.3'
 }
