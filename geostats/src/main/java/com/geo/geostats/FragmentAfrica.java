@@ -21,9 +21,9 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.geo.viewpagerindicator.TabPageIndicator;
 import com.imagezoom.ImageAttacher;
 import com.squareup.picasso.Picasso;
-import com.viewpagerindicator.TabPageIndicator;
 
 import java.util.Locale;
 
