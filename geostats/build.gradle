@@ -27,9 +27,8 @@ dependencies {
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
-    //    implementation project(':viewpagerindicator')
-    api 'com.inkapplications.viewpageindicator:library:2.4.3'
     api 'com.google.firebase:firebase-core:16.0.0'
+    api project(path: ':viewpagerindicator', configuration: 'default')
 }
 
 apply plugin: 'com.google.gms.google-services'
