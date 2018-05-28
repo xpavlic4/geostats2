@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "435584946894",
+    "firebase_url": "https://golfmit-6930d.firebaseio.com",
+    "project_id": "golfmit-6930d",
+    "storage_bucket": "golfmit-6930d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435584946894:android:6de810f2501da2d0",
+        "android_client_info": {
+          "package_name": "com.geo.geostats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435584946894-odo8l2nc27laa9ibujsaodol9srude0k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "435584946894-odo8l2nc27laa9ibujsaodol9srude0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0r_xa89VUXnphYPobR-gKBO9OC6zzA78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
