@@ -257,7 +257,7 @@ public class TabPageIndicator extends HorizontalScrollView implements PageIndica
         mListener = listener;
     }
 
-    private class TabView extends TextView {
+    private class TabView extends android.support.v7.widget.AppCompatTextView {
         private int mIndex;
 
         public TabView(Context context) {

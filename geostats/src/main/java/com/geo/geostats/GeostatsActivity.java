@@ -1,6 +1,6 @@
 package com.geo.geostats;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import com.ubikod.capptain.android.sdk.CapptainAgent;
 import com.ubikod.capptain.android.sdk.CapptainAgentUtils;
@@ -10,7 +10,7 @@ import com.ubikod.capptain.android.sdk.CapptainAgentUtils;
  * <p/>
  * E.g. Capptain support
  */
-public class GeostatsActivity extends ActionBarActivity {
+public class GeostatsActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
