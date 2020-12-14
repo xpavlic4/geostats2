@@ -10,7 +10,7 @@
 	        <TextView 
 	          	style="@style/TableTextView.Head"
 	            android:text="@string/SourceYear"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.Head"
 	            android:text="@string/Total"/>
 	    </TableRow>
@@ -132,7 +132,10 @@
 	            android:text="@string/LondonAd1"/>
 	    </TableRow>
         <TableRow style="@style/TableRow.Span">
-            <TextView
+			<TextView
+				style="@style/TableTextView.Head"
+				android:text="@string/Name" />
+			<TextView
                 android:id="@+id/chartNo"
                 android:layout_span="3"
                 style="@style/TableTextView.Italic"

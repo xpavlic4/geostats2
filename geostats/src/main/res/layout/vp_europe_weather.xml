@@ -49,10 +49,10 @@
 	           android:text="@string/GreatestPrec"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/CrkvicaBosniaHercegovina"/>
-	        <TextView 
+			<TextView
+				style="@style/TableTextView.RowSpan"
+				android:text="@string/CrkvicaBosniaHercegovina" />
+			<TextView
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/PrepGreatestEurope"/>
 	    </TableRow>

@@ -24,11 +24,11 @@ android {
 
 dependencies {
 //    implementation 'com.android.support:support-v4:28.0.0'
-//    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
     api 'com.google.firebase:firebase-core:17.5.0'
-//    api project(path: ':viewpagerindicator', configuration: 'default')
+    api project(path: ':viewpagerindicator', configuration: 'default')
 }
 
 //apply plugin: 'com.google.gms.google-services'

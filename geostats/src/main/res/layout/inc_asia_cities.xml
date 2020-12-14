@@ -55,10 +55,10 @@
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/Year2014"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAsia04"/>
-	    </TableRow>
+			<TextView
+				style="@style/TableTextView.GravityRight"
+				android:text="@string/LargestCitiesAsia04" />
+		</TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"

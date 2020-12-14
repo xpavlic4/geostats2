@@ -1,6 +1,6 @@
 package com.geo.geostats;
 
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 
 
 public class IndicatorsAbstractNewsViewProvider {

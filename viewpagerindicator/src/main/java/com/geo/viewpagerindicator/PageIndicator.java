@@ -15,7 +15,7 @@ package com.geo.viewpagerindicator;/*
  * limitations under the License.
  */
 
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * A com.geo.viewpagerindicator.PageIndicator is responsible to show an visual indicator on the total views

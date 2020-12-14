@@ -7,10 +7,10 @@
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/TotalLandArea"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/TotalLandAreaRecordAntarctica"/>
-	    </TableRow>
+			<TextView
+				style="@style/TableTextView.GravityRight"
+				android:text="@string/TotalLandAreaRecordAntarctica" />
+		</TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
