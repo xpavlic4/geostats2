@@ -2,7 +2,8 @@ package com.geo.geostats;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
+import androidx.appcompat.app.ActionBar;
+
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -19,11 +20,11 @@ public class Main extends GeostatsActivity implements android.view.View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        btWorld = (Button) findViewById(R.id.btIndicators);
-        btContinents = (Button) findViewById(R.id.btContinents);
-        btOceans = (Button) findViewById(R.id.btOceans);
-        btTopics = (Button) findViewById(R.id.btTopics);
-        btInfoRef = (Button) findViewById(R.id.btInfoRef);
+        btWorld = findViewById(R.id.btIndicators);
+        btContinents = findViewById(R.id.btContinents);
+        btOceans = findViewById(R.id.btOceans);
+        btTopics = findViewById(R.id.btTopics);
+        btInfoRef = findViewById(R.id.btInfoRef);
 
         btWorld.setOnClickListener(this);
         btContinents.setOnClickListener(this);
@@ -32,7 +33,9 @@ public class Main extends GeostatsActivity implements android.view.View.OnClickL
         btInfoRef.setOnClickListener(this);
 
         ActionBar actionbar = getSupportActionBar();
-        actionbar.setLogo(getResources().getDrawable(R.drawable.logo_main));
+        actionbar.setDisplayShowHomeEnabled(true);
+        actionbar.setLogo(R.drawable.logo_main);
+        actionbar.setDisplayUseLogoEnabled(true);
         actionbar.setDisplayShowTitleEnabled(false);
 
 
@@ -108,9 +111,4 @@ public class Main extends GeostatsActivity implements android.view.View.OnClickL
         }
         return false;
     }
-
-
-
-
-
 }

@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         />
     
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpager"
         android:paddingTop="4dp"
         android:paddingLeft="12dp"

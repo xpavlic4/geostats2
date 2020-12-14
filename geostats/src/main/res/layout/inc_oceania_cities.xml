@@ -141,10 +141,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TableLayout android:stretchColumns="0">
 		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PaddingBottom0"
-				            android:text="@string/CityOfGreaterGeelong"/>
-		   			</TableRow>
+						<TextView
+							style="@style/TableTextView.PaddingBottom0"
+							android:text="@string/CityOfGreaterGeelong" />
+					</TableRow>
 		   			<TableRow>
 				        <TextView 
 				          	style="@style/TableTextView.RowSpan.Italic"
