@@ -89,10 +89,10 @@
 	    </TableRow>
 	    
 	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Thimphu"/>
-	        <TextView 
+			<TextView
+				style="@style/TableTextView.RowSpan"
+				android:text="@string/Thimphu" />
+			<TextView
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/HighestCapitalAsia"/>
 	    </TableRow>

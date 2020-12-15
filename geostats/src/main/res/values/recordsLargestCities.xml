@@ -28,16 +28,16 @@
 
 	
 	<!-- LARGEST CITIES EUROPE -->
-	<string name="LargestCitiesEurope01">11.503.501</string>
+	<string name="LargestCitiesEurope01">11.918.057</string> <!-- UNdata 2013 -->
 	<string name="LargestCitiesEurope02">8.278.251</string>
-	<string name="LargestCitiesEurope03">4.879.566</string>
-	<string name="LargestCitiesEurope04">3.460.725</string>
-	<string name="LargestCitiesEurope05">2.938.723</string>
-	<string name="LargestCitiesEurope06">2.566.953</string>
-	<string name="LargestCitiesEurope07">2.546.804</string>
-	<string name="LargestCitiesEurope08">2.125.851</string>
-	<string name="LargestCitiesEurope09">1.926.334</string>
-	<string name="LargestCitiesEurope10">1.836.808</string>
+	<string name="LargestCitiesEurope03">4.990.602</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesEurope04">3.375.222</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesEurope05">3.220.387</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesEurope06">2.803.716</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesEurope07">2.626.553</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesEurope08">2.243.833</string> <!-- UNdata 2014 -->
+	<string name="LargestCitiesEurope09">1.912.515</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesEurope10">1.893.063</string> <!-- UNdata 2013 -->
 
 	<string name="LondonAd1">@string/ValueUrbanAgglomeration</string>
 	
@@ -45,8 +45,8 @@
 	<string name="LargestCitiesAsia01">14.348.535</string>
 	<string name="LargestCitiesAsia02">11.978.450</string>
 	<string name="LargestCitiesAsia03">11.509.595</string>
-	<string name="LargestCitiesAsia04">9.879.172</string>
-	<string name="LargestCitiesAsia05">9.820.171</string>
+	<string name="LargestCitiesAsia04">10.007.651</string>
+	<string name="LargestCitiesAsia05">9.879.172</string>
 	<string name="LargestCitiesAsia06">9.691.901</string>
 	<string name="LargestCitiesAsia07">9.607.787</string>
 	<string name="LargestCitiesAsia08">9.339.023</string>
@@ -64,7 +64,7 @@
 	<string name="LargestCitiesAfrica03">5.195.247</string>
 	<string name="LargestCitiesAfrica04">4.030.582</string>
 	<string name="LargestCitiesAfrica05">3.133.518</string>
-	<string name="LargestCitiesAfrica06">2.221.817</string>
+	<string name="LargestCitiesAfrica06">2.572.581</string> <!-- UNdata 2006 -->
 	<string name="LargestCitiesAfrica07">2.166.554</string>
 	<string name="LargestCitiesAfrica08">1.929.079</string>
 	<string name="LargestCitiesAfrica09">1.907.479</string>
@@ -72,27 +72,27 @@
 	
 	<!-- LARGEST CITIES NORTH AMERICA -->
 	<string name="LargestCitiesNAmerica01">8.851.080</string>
-	<string name="LargestCitiesNAmerica02">8.391.881</string>
-	<string name="LargestCitiesNAmerica03">3.844.829</string>
-	<string name="LargestCitiesNAmerica04">2.896.016</string>
-	<string name="LargestCitiesNAmerica05">2.503.280</string>
-	<string name="LargestCitiesNAmerica06">2.257.926</string>
-	<string name="LargestCitiesNAmerica07">2.201.610</string>
+	<string name="LargestCitiesNAmerica02">8.336.697</string> <!-- UNdata 2014 -->
+	<string name="LargestCitiesNAmerica03">3.857.799</string> <!-- UNdata 2014 -->
+	<string name="LargestCitiesNAmerica04">2.714.856</string> <!-- UNdata 2014 -->
+	<string name="LargestCitiesNAmerica05">2.615.060</string> <!-- UNdata 2013 -->
+	<string name="LargestCitiesNAmerica06">2.160.821</string> <!-- UNdata 2014 -->
+	<string name="LargestCitiesNAmerica07">2.105.291</string> <!-- UNdata 2014 -->
 	<string name="LargestCitiesNAmerica08">1.655.015</string>
-	<string name="LargestCitiesNAmerica09">1.620.695</string>
+	<string name="LargestCitiesNAmerica09">1.649.520</string> <!-- UNdata 2013 -->
 	<string name="LargestCitiesNAmerica10">1.600.894</string>
 	
 	<!-- LARGEST CITIES SOUTH AMERICA -->
 	<string name="LargestCitiesSAmerica01">11.253.503</string>
 	<string name="LargestCitiesSAmerica02">8.472.935</string>
-	<string name="LargestCitiesSAmerica03">6.840.116</string>
+	<string name="LargestCitiesSAmerica03">6.763.325</string> <!-- UNdata 2008 -->
 	<string name="LargestCitiesSAmerica04">6.320.446</string>
-	<string name="LargestCitiesSAmerica05">5.105.860</string>
+	<string name="LargestCitiesSAmerica05">5.128.041</string> <!-- UNdata 2014 -->
 	<string name="LargestCitiesSAmerica06">2.890.151</string>
 	<string name="LargestCitiesSAmerica07">2.674.923</string>
 	<string name="LargestCitiesSAmerica08">2.481.272</string>
-	<string name="LargestCitiesSAmerica09">2.375.151</string>
-	<string name="LargestCitiesSAmerica10">2.278.691</string>
+	<string name="LargestCitiesSAmerica09">2.291.158</string> <!-- UNdata update 2012 -->
+	<string name="LargestCitiesSAmerica10">2.183.557</string> <!-- UNdata update 2008  -->
 	
 	<!-- LARGEST CITIES AUSTRALIA -->
 	<string name="LargestCitiesAustralia01">1.041.839</string>

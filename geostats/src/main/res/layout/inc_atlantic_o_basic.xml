@@ -8,7 +8,7 @@
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/TotalArea"/>
-	        <TextView 
+	        <TextView
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/TotalAreaRecordAtlanticO"/>
 	    </TableRow>

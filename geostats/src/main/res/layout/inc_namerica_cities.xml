@@ -32,7 +32,7 @@
 	            android:text="@string/NewYork"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica02"/>
@@ -43,7 +43,7 @@
 	            android:text="@string/LosAngeles"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2005"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica03"/>
@@ -54,7 +54,7 @@
 	            android:text="@string/Chicago"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2002"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica04"/>
@@ -65,7 +65,7 @@
 	            android:text="@string/Toronto"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica05"/>
@@ -77,7 +77,7 @@
 	            android:text="@string/Houston"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica06"/>
@@ -88,7 +88,7 @@
 	            android:text="@string/LaHabana"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2009"/>
+	            android:text="@string/Year2014"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica07"/>
@@ -111,7 +111,7 @@
 	            android:text="@string/Montreal"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2013"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica09"/>
@@ -123,7 +123,7 @@
 	            android:text="@string/Irapuato"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2007"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesNAmerica10"/>

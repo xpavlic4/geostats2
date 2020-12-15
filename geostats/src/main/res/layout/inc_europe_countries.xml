@@ -55,7 +55,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Germany"/>
+	            android:text="@string/Norway"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCountriesEurope06"/>
@@ -63,7 +63,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Finland"/>
+	            android:text="@string/Germany"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCountriesEurope07"/>
@@ -71,7 +71,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Norway"/>
+	            android:text="@string/Finland"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCountriesEurope08"/>

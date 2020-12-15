@@ -11,7 +11,7 @@ import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TouchImage extends android.support.v7.widget.AppCompatImageView {
+public class TouchImage extends androidx.appcompat.widget.AppCompatImageView {
     Matrix matrix;
 
     // We can be in one of these 3 states

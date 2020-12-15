@@ -2,8 +2,8 @@
 <resources>
     <!-- Continents -->
     <string name="ChartEuropeBasic">Chart No. 1</string>
-    <string name="ChartEuropeLargestCountries">Chart No. 2</string>
-    <string name="ChartEuropeLargestEUCountries">Chart No. 3</string>
+    <string name="ChartEuropeLargestCountries">Chart No. 2 &#8211; 2013</string>
+    <string name="ChartEuropeLargestEUCountries">Chart No. 3 &#8211; 2013</string>
     <string name="ChartEuropePopulatedCountries">Chart No. 4 &#8211; 2010</string>
     <string name="ChartEuropePopulatedEUCountries">Chart No. 5 &#8211; 2010</string>
     <string name="ChartEuropeLargestCities">Chart No. 6</string>
@@ -17,7 +17,7 @@
     <string name="ChartEuropeWeatherRecords">Chart No. 14</string>
 
     <string name="ChartAsiaBasic">Chart No. 15</string>
-    <string name="ChartAsiaLargestCountries">Chart No. 16</string>
+    <string name="ChartAsiaLargestCountries">Chart No. 16 &#8211; 2013</string>
     <string name="ChartAsiaPopulatedCountries">Chart No. 17 &#8211; 2010</string>
     <string name="ChartAsiaLargestCities">Chart No. 18</string>
     <string name="ChartAsiaLargestUrbanAgglomerations">Chart No. 19 &#8211; 2013</string>
@@ -29,7 +29,7 @@
     <string name="ChartAsiaWeatherRecords">Chart No. 25</string>
 
     <string name="ChartAfricaBasic">Chart No. 26</string>
-    <string name="ChartAfricaLargestCountries">Chart No. 27</string>
+    <string name="ChartAfricaLargestCountries">Chart No. 27 &#8211; 2013</string>
     <string name="ChartAfricaPopulatedCountries">Chart No. 28 &#8211; 2010</string>
     <string name="ChartAfricaLargestCities">Chart No. 29</string>
     <string name="ChartAfricaLargestUrbanAgglomerations">Chart No. 30 &#8211; 2013</string>
@@ -41,7 +41,7 @@
     <string name="ChartAfricaWeatherRecords">Chart No. 36</string>
 
     <string name="ChartNAmericaBasic">Chart No. 37</string>
-    <string name="ChartNAmericaLargestCountries">Chart No. 38</string>
+    <string name="ChartNAmericaLargestCountries">Chart No. 38 &#8211; 2013</string>
     <string name="ChartNAmericaPopulatedCountries">Chart No. 39 &#8211; 2010</string>
     <string name="ChartNAmericaLargestCities">Chart No. 40</string>
     <string name="ChartNAmericaLargestUrbanAgglomerations">Chart No. 41 &#8211; 2013</string>
@@ -53,7 +53,7 @@
     <string name="ChartNAmericaWeatherRecords">Chart No. 47</string>
 
     <string name="ChartSAmericaBasic">Chart No. 48</string>
-    <string name="ChartSAmericaLargestCountries">Chart No. 49</string>
+    <string name="ChartSAmericaLargestCountries">Chart No. 49 &#8211; 2013</string>
     <string name="ChartSAmericaPopulatedCountries">Chart No. 50 &#8211; 2010</string>
     <string name="ChartSAmericaLargestCities">Chart No. 51</string>
     <string name="ChartSAmericaLargestUrbanAgglomerations">Chart No. 52 &#8211; 2013</string>
@@ -65,7 +65,7 @@
     <string name="ChartSAmericaWeatherRecords">Chart No. 58</string>
 
     <string name="ChartOceaniaBasic">Chart No. 59</string>
-    <string name="ChartOceaniaLargestCountries">Chart No. 60</string>
+    <string name="ChartOceaniaLargestCountries">Chart No. 60 &#8211; 2013</string>
     <string name="ChartOceaniaPopulatedCountries">Chart No. 61 &#8211; 2010</string>
     <string name="ChartOceaniaLargestCities">Chart No. 62 &#8211; 2011</string>
     <string name="ChartOceaniaLargestUrbanAgglomerations">Chart No. 63 &#8211; 2013</string>

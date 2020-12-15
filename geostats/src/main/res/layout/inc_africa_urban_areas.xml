@@ -47,10 +47,10 @@
 	            android:text="@string/LargestUrbanAreasAfrica03Density"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.PaddingBottom0"
-	            android:text="@string/JohannesburgEastRand"/>
-		    <TextView 
+			<TextView
+				style="@style/TableTextView.PaddingBottom0"
+				android:text="@string/JohannesburgEastRand" />
+			<TextView
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAfrica04"/>
 		    <TextView 
@@ -69,10 +69,10 @@
 	            android:text="@string/LargestUrbanAreasAfrica05Density"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-			<TextView 
-	          	style="@style/TableTextView.PaddingBottom0"
-	            android:text="@string/Khartoum"/>
-		    <TextView 
+			<TextView
+				style="@style/TableTextView.PaddingBottom0"
+				android:text="@string/Khartoum" />
+			<TextView
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAfrica06"/>
 		    <TextView 

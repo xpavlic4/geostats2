@@ -76,7 +76,7 @@
 	            android:text="@string/Giza"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year1996"/>
+	            android:text="@string/Year2011"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAfrica06"/>

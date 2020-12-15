@@ -1,6 +1,6 @@
 package com.geo.geostats;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.ubikod.capptain.android.sdk.CapptainAgent;
 import com.ubikod.capptain.android.sdk.CapptainAgentUtils;
