@@ -1,1 +1,1 @@
-include ':geostats', ':viewpagerindicator'
+include ':geostats'

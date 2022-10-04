@@ -1,10 +1,10 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
     dependencies {
-		classpath 'com.android.tools.build:gradle:4.1.3'
+		classpath 'com.android.tools.build:gradle:7.3.0'
     }
 }
 apply plugin: 'com.android.library'
@@ -14,12 +14,10 @@ repositories {
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 32
     defaultConfig {
         minSdkVersion 28
-        targetSdkVersion 28
-        versionCode 5
-        versionName '1.3'
+        targetSdkVersion 32
     }
     buildTypes {
         release {
@@ -32,5 +30,5 @@ android {
 }
 
 dependencies {
-    api 'androidx.appcompat:appcompat:1.2.0'
+    api 'androidx.appcompat:appcompat:1.5.1'
 }

@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 32
 
     defaultConfig {
         minSdkVersion 28
-        targetSdkVersion 28
+        targetSdkVersion 32
         versionCode 7
         versionName '1.5'
     }
@@ -24,11 +24,11 @@ android {
 
 dependencies {
 //    implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
-    api 'com.google.firebase:firebase-core:18.0.2'
-    api project(path: ':viewpagerindicator', configuration: 'default')
+    api 'com.google.firebase:firebase-core:21.1.1'
+
 }
 
 //apply plugin: 'com.google.gms.google-services'
