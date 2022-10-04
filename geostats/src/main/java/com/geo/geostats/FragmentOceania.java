@@ -6,9 +6,6 @@ import android.content.res.Configuration;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.LayoutInflater;
@@ -21,7 +18,10 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.geo.viewpagerindicator.TabPageIndicator;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.imagezoom.ImageAttacher;
 import com.squareup.picasso.Picasso;
 
@@ -43,8 +43,8 @@ public class FragmentOceania extends Fragment {
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
         
-        TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
-        indicator.setViewPager(vp);
+//        TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
+//        indicator.setViewPager(vp);
 
         Button btD10O = (Button) v.findViewById(R.id.btDialog10);
         Button btD11O = (Button) v.findViewById(R.id.btDialog11);

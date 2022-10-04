@@ -6,9 +6,6 @@ import android.content.res.Configuration;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.LayoutInflater;
@@ -21,7 +18,10 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.geo.viewpagerindicator.TabPageIndicator;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.imagezoom.ImageAttacher;
 import com.imagezoom.ImageAttacher.OnMatrixChangedListener;
 import com.imagezoom.ImageAttacher.OnPhotoTapListener;
@@ -50,8 +50,8 @@ public class FragmentEurope extends Fragment {
         //vp.setCurrentItem(2); skip to a particular tab
         //vp.setOffscreenPageLimit(limit);
 		
-        TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
-        indicator.setViewPager(vp);
+//        TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
+//        indicator.setViewPager(vp);
         //indicator.setCurrentItem(2); skip to a particular tab
 
         Button btD10O = (Button) v.findViewById(R.id.btDialog10);

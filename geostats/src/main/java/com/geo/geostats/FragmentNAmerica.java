@@ -6,9 +6,6 @@ import android.content.res.Configuration;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.LayoutInflater;
@@ -22,7 +19,10 @@ import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.geo.viewpagerindicator.TabPageIndicator;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.imagezoom.ImageAttacher;
 import com.squareup.picasso.Picasso;
 
@@ -45,70 +45,55 @@ public class FragmentNAmerica extends Fragment {
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
 
-        TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
-        indicator.setViewPager(vp);
+//        TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
+//        indicator.setViewPager(vp);
 
         Button btD10O = (Button) v.findViewById(R.id.btDialog10);
         Button btD11O = (Button) v.findViewById(R.id.btDialog11);
-        btD10O.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                final Dialog d = new Dialog(FragmentNAmerica.this.getActivity(), R.style.DialogContinents);
-                d.setCancelable(true);
-                d.setContentView(R.layout.dialog_namerica);
-                d.setCanceledOnTouchOutside(true);
-                Button btClose = (Button) d.findViewById(R.id.btClose);
-                btClose.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        d.cancel();
-                    }
-                });
-                d.show();
-            }
-        });
-        btD11O.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                final Dialog d1 = new Dialog(FragmentNAmerica.this.getActivity(), R.style.DialogContinents);
-                d1.setCancelable(true);
-                d1.setContentView(R.layout.dialog_namerica_maps);
-                d1.setCanceledOnTouchOutside(true);
+        btD10O.setOnClickListener(v1 -> {
+			final Dialog d = new Dialog(FragmentNAmerica.this.getActivity(), R.style.DialogContinents);
+			d.setCancelable(true);
+			d.setContentView(R.layout.dialog_namerica);
+			d.setCanceledOnTouchOutside(true);
+			Button btClose = (Button) d.findViewById(R.id.btClose);
+			btClose.setOnClickListener(v11 -> d.cancel());
+			d.show();
+		});
+        btD11O.setOnClickListener(v12 -> {
+			final Dialog d1 = new Dialog(FragmentNAmerica.this.getActivity(), R.style.DialogContinents);
+			d1.setCancelable(true);
+			d1.setContentView(R.layout.dialog_namerica_maps);
+			d1.setCanceledOnTouchOutside(true);
 
-                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-                lp.copyFrom(d1.getWindow().getAttributes());
-                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-                lp.height = WindowManager.LayoutParams.MATCH_PARENT;
-                Button btClose = (Button) d1.findViewById(R.id.btClose);
-                ivMap = (ImageView)d1.findViewById(R.id.ivMap);
-                Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_physical).resize(1169, 1500).into(ivMap);
-                rg = (RadioGroup) d1.findViewById(R.id.rgMap);
+			WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+			lp.copyFrom(d1.getWindow().getAttributes());
+			lp.width = WindowManager.LayoutParams.MATCH_PARENT;
+			lp.height = WindowManager.LayoutParams.MATCH_PARENT;
+			Button btClose = (Button) d1.findViewById(R.id.btClose);
+			ivMap = (ImageView)d1.findViewById(R.id.ivMap);
+			Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_physical).resize(1169, 1500).into(ivMap);
+			rg = (RadioGroup) d1.findViewById(R.id.rgMap);
 
-                rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(RadioGroup rg, int checkedId) {
-                        switch(checkedId){
-                            case R.id.rbMap1:
-                                Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_physical).resize(1169, 1500).into(ivMap);
-                                break;
-                            case R.id.rbMap2:
-                                Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_camerica_physical).resize(1500,1124).into(ivMap);
-                                break;
-                        }
-                    }
-                });
+			rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+				@Override
+				public void onCheckedChanged(RadioGroup rg, int checkedId) {
+					switch(checkedId){
+						case R.id.rbMap1:
+							Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_namerica_physical).resize(1169, 1500).into(ivMap);
+							break;
+						case R.id.rbMap2:
+							Picasso.with(FragmentNAmerica.this.getActivity().getApplicationContext()).load(R.drawable.map_camerica_physical).resize(1500,1124).into(ivMap);
+							break;
+					}
+				}
+			});
 
-                btClose.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        d1.cancel();
+			btClose.setOnClickListener(v121 -> d1.cancel());
 
-                    }
-                });
-
-                usingSimpleImage(ivMap);
-                d1.show();
-                d1.getWindow().setAttributes(lp);
-            }
-        });
+			usingSimpleImage(ivMap);
+			d1.show();
+			d1.getWindow().setAttributes(lp);
+		});
 
         Display disp = getActivity().getWindowManager().getDefaultDisplay();
         DisplayMetrics metrics = new DisplayMetrics();
