@@ -6,8 +6,8 @@ android {
     defaultConfig {
         minSdkVersion 28
         targetSdkVersion 32
-        versionCode 7
-        versionName '1.5'
+        versionCode 8
+        versionName '1.6'
     }
     buildTypes {
         release {
@@ -15,10 +15,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-
-    lintOptions {
+    lint {
         abortOnError false
     }
+    namespace 'com.geo.geostats'
+
 
 }
 
