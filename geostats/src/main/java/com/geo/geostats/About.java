@@ -1,5 +1,6 @@
 package com.geo.geostats;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,9 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.ubikod.capptain.android.sdk.activity.CapptainActivity;
 
-public class About extends CapptainActivity implements android.view.View.OnClickListener {
+public class About extends Activity implements android.view.View.OnClickListener {
 
     TextView tv;
 	@Override

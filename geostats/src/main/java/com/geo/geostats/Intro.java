@@ -1,12 +1,12 @@
 package com.geo.geostats;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.ubikod.capptain.android.sdk.activity.CapptainActivity;
 
 
-public class Intro extends CapptainActivity {
+public class Intro extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
